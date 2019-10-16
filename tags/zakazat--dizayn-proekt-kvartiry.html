@@ -28,6 +28,9 @@
     <meta name="msapplication-TileImage" content="../img/favicon/ms-icon-144x144.png">
     <meta name="theme-color" content="#fff">
 
+	<!--modernizr-->
+	<script src="../js/vendors/modernizr-custom.js"></script>
+
 </head>
 <body>
     <!--[if lt IE 8]>
@@ -59,249 +62,255 @@
 			</div>
 		</header>	
 		<div class="main">
-			<div class="stories" style="display: none;">
+			<div class="stories">
 				<div class="container">
-					<div class="stories__slider" id="js-stories-slider">
-						<div>
-							<div class="stories__slide js-stories-popup-open" title="дизайн проект Москва">
-								<a href="./dizayn-proekt-moskva.html">
-									<div class="stories__slide-pic"><img src="../img/og/dizayn-proekt-Moskva.png" alt="дизайн проект Москва" /></div>
-									<div class="stories__slide-txt">дизайн проект Москва</div>
-								</a>
+					<div class="stories__slider-wrap">
+						<div class="stories__slider" id="js-stories-slider">
+							<div class="swiper-wrapper">
+								<div class="swiper-slide">
+									<div class="stories__slide" title="дизайн проект Москва">
+										<a href="./dizayn-proekt-moskva.html">
+											<div class="stories__slide-pic" style="background-image: url(../img/og/dizayn-proekt-Moskva.png);"></div>
+											<div class="stories__slide-txt">дизайн проект Москва</div>
+										</a>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="stories__slide" title="дизайнер интерьера Москва">
+										<a href="./dizayner-inter-era-moskva.html">
+											<div class="stories__slide-pic" style="background-image: url(../img/og/dizayner-inter-era-Moskva.png);"></div>
+											<div class="stories__slide-txt">дизайнер интерьера Москва</div>
+										</a>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="stories__slide" title="дизайн проект квартиры">
+										<a href="./dizayn-proekt-kvartiry.html">
+											<div class="stories__slide-pic" style="background-image: url(../img/og/dizayn-proekt-kvartiry.png);"></div>
+											<div class="stories__slide-txt">дизайн проект квартиры</div>
+										</a>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="stories__slide" title="дизайнер интерьера спб">
+										<a href="./dizayner-inter-era-spb.html">
+											<div class="stories__slide-pic" style="background-image: url(../img/og/dizayner-inter-era-spb.png);"></div>
+											<div class="stories__slide-txt">дизайнер интерьера спб</div>
+										</a>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="stories__slide" title="дизайн квартиры Москва">
+										<a href="./dizayn-kvartiry-moskva.html">
+											<div class="stories__slide-pic" style="background-image: url(../img/og/dizayn-kvartiry-Moskva.png);"></div>
+											<div class="stories__slide-txt">дизайн квартиры Москва</div>
+										</a>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="stories__slide" title="заказать дизайн проект">
+										<a href="./zakazat--dizayn-proekt.html">
+											<div class="stories__slide-pic" style="background-image: url(../img/og/zakazat--dizayn-proekt.png);"></div>
+											<div class="stories__slide-txt">заказать дизайн проект</div>
+										</a>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="stories__slide" title="дизайн проекты">
+										<a href="./dizayn-proekty.html">
+											<div class="stories__slide-pic" style="background-image: url(../img/og/dizayn-proekty.png);"></div>
+											<div class="stories__slide-txt">дизайн проекты</div>
+										</a>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="stories__slide" title="дизайн интерьера спб">
+										<a href="./dizayn-inter-era-spb.html">
+											<div class="stories__slide-pic" style="background-image: url(../img/og/dizayn-inter-era-spb.png);"></div>
+											<div class="stories__slide-txt">дизайн интерьера спб</div>
+										</a>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="stories__slide" title="дизайн проект спб">
+										<a href="./dizayn-proekt-spb.html">
+											<div class="stories__slide-pic" style="background-image: url(../img/og/dizayn-proekt-spb.png);"></div>
+											<div class="stories__slide-txt">дизайн проект спб</div>
+										</a>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="stories__slide" title="дизайн квартиры спб">
+										<a href="./dizayn-kvartiry-spb.html">
+											<div class="stories__slide-pic" style="background-image: url(../img/og/dizayn-kvartiry-spb.png);"></div>
+											<div class="stories__slide-txt">дизайн квартиры спб</div>
+										</a>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="stories__slide" title="дизайн квартиры студии">
+										<a href="./dizayn-kvartiry-studii.html">
+											<div class="stories__slide-pic" style="background-image: url(../img/og/dizayn-kvartiry-studii.png);"></div>
+											<div class="stories__slide-txt">дизайн квартиры студии</div>
+										</a>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="stories__slide" title="заказать дизайн интерьера">
+										<a href="./zakazat--dizayn-inter-era.html">
+											<div class="stories__slide-pic" style="background-image: url(../img/og/zakazat--dizayn-inter-era.png);"></div>
+											<div class="stories__slide-txt">заказать дизайн интерьера</div>
+										</a>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="stories__slide" title="заказать дизайн дома">
+										<a href="./zakazat--dizayn-doma.html">
+											<div class="stories__slide-pic" style="background-image: url(../img/og/zakazat--dizayn-doma.png);"></div>
+											<div class="stories__slide-txt">заказать дизайн дома</div>
+										</a>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="stories__slide" title="обустройство квартиры">
+										<a href="./obustroystvo-kvartiry.html">
+											<div class="stories__slide-pic" style="background-image: url(../img/og/obustroystvo-kvartiry.png);"></div>
+											<div class="stories__slide-txt">обустройство квартиры</div>
+										</a>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="stories__slide" title="дизайн квартиры в Москве">
+										<a href="./dizayn-kvartiry-v-moskve.html">
+											<div class="stories__slide-pic" style="background-image: url(../img/og/dizayn-kvartiry-v-Moskve.png);"></div>
+											<div class="stories__slide-txt">дизайн квартиры в Москве</div>
+										</a>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="stories__slide" title="заказать дизайн проект Москва">
+										<a href="./zakazat--dizayn-proekt-moskva.html">
+											<div class="stories__slide-pic" style="background-image: url(../img/og/zakazat--dizayn-proekt-Moskva.png);"></div>
+											<div class="stories__slide-txt">заказать дизайн проект Москва</div>
+										</a>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="stories__slide" title="заказать дизайн квартиры">
+										<a href="./zakazat--dizayn-kvartiry.html">
+											<div class="stories__slide-pic" style="background-image: url(../img/og/zakazat--dizayn-kvartiry.png);"></div>
+											<div class="stories__slide-txt">заказать дизайн квартиры</div>
+										</a>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="stories__slide" title="дизайн квартиры питер">
+										<a href="./dizayn-kvartiry-piter.html">
+											<div class="stories__slide-pic" style="background-image: url(../img/og/dizayn-kvartiry-piter.png);"></div>
+											<div class="stories__slide-txt">дизайн квартиры питер</div>
+										</a>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="stories__slide" title="дизайн квартиры фото">
+										<a href="./dizayn-kvartiry-foto.html">
+											<div class="stories__slide-pic" style="background-image: url(../img/og/dizayn-kvartiry-foto.png);"></div>
+											<div class="stories__slide-txt">дизайн квартиры фото</div>
+										</a>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="stories__slide" title="дизайн проекты квартир">
+										<a href="./dizayn-proekty-kvartir.html">
+											<div class="stories__slide-pic" style="background-image: url(../img/og/dizayn-proekty-kvartir.png);"></div>
+											<div class="stories__slide-txt">дизайн проекты квартир</div>
+										</a>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="stories__slide" title="заказать дизайн проект квартиры">
+										<a href="./zakazat--dizayn-proekt-kvartiry.html">
+											<div class="stories__slide-pic" style="background-image: url(../img/og/zakazat--dizayn-proekt-kvartiry.png);"></div>
+											<div class="stories__slide-txt">заказать дизайн проект квартиры</div>
+										</a>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="stories__slide" title="дизайн квартиры недорого">
+										<a href="./dizayn-kvartiry-nedorogo.html">
+											<div class="stories__slide-pic" style="background-image: url(../img/og/dizayn-kvartiry-nedorogo.png);"></div>
+											<div class="stories__slide-txt">дизайн квартиры недорого</div>
+										</a>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="stories__slide" title="дизайн проект">
+										<a href="./dizayn-proekt.html">
+											<div class="stories__slide-pic" style="background-image: url(../img/og/dizayn-proekt.png);"></div>
+											<div class="stories__slide-txt">дизайн проект</div>
+										</a>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="stories__slide" title="заказать дизайн Москва">
+										<a href="./zakazat--dizayn-moskva.html">
+											<div class="stories__slide-pic" style="background-image: url(../img/og/zakazat--dizayn-Moskva.png);"></div>
+											<div class="stories__slide-txt">заказать дизайн Москва</div>
+										</a>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="stories__slide" title="заказать дизайн проект спб">
+										<a href="./zakazat--dizayn-proekt-spb.html">
+											<div class="stories__slide-pic" style="background-image: url(../img/og/zakazat--dizayn-proekt-spb.png);"></div>
+											<div class="stories__slide-txt">заказать дизайн проект спб</div>
+										</a>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="stories__slide" title="homes home weet">
+										<a href="./homes-home-weet.html">
+											<div class="stories__slide-pic" style="background-image: url(../img/og/homes-home-weet.png);"></div>
+											<div class="stories__slide-txt">homes home weet</div>
+										</a>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="stories__slide" title="interior">
+										<a href="./interior.html">
+											<div class="stories__slide-pic" style="background-image: url(../img/og/interior.png);"></div>
+											<div class="stories__slide-txt">interior</div>
+										</a>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="stories__slide" title="home design">
+										<a href="./home-design.html">
+											<div class="stories__slide-pic" style="background-image: url(../img/og/home-design.png);"></div>
+											<div class="stories__slide-txt">home design</div>
+										</a>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="stories__slide" title="дизайнер интерьера">
+										<a href="./dizayner-inter-era.html">
+											<div class="stories__slide-pic" style="background-image: url(../img/og/dizayner-inter-era.png);"></div>
+											<div class="stories__slide-txt">дизайнер интерьера</div>
+										</a>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="stories__slide" title="home">
+										<a href="./home.html">
+											<div class="stories__slide-pic" style="background-image: url(../img/og/home.png);"></div>
+											<div class="stories__slide-txt">home</div>
+										</a>
+									</div>
+								</div>
 							</div>
 						</div>
-						<div>
-							<div class="stories__slide js-stories-popup-open" title="дизайнер интерьера Москва">
-								<a href="./dizayner-inter-era-moskva.html">
-									<div class="stories__slide-pic"><img src="../img/og/dizayner-inter-era-Moskva.png" alt="дизайнер интерьера Москва" /></div>
-									<div class="stories__slide-txt">дизайнер интерьера Москва</div>
-								</a>
-							</div>
-						</div>
-						<div>
-							<div class="stories__slide js-stories-popup-open" title="дизайн проект квартиры">
-								<a href="./dizayn-proekt-kvartiry.html">
-									<div class="stories__slide-pic"><img src="../img/og/dizayn-proekt-kvartiry.png" alt="дизайн проект квартиры" /></div>
-									<div class="stories__slide-txt">дизайн проект квартиры</div>
-								</a>
-							</div>
-						</div>
-						<div>
-							<div class="stories__slide js-stories-popup-open" title="дизайнер интерьера спб">
-								<a href="./dizayner-inter-era-spb.html">
-									<div class="stories__slide-pic"><img src="../img/og/dizayner-inter-era-spb.png" alt="дизайнер интерьера спб" /></div>
-									<div class="stories__slide-txt">дизайнер интерьера спб</div>
-								</a>
-							</div>
-						</div>
-						<div>
-							<div class="stories__slide js-stories-popup-open" title="дизайн квартиры Москва">
-								<a href="./dizayn-kvartiry-moskva.html">
-									<div class="stories__slide-pic"><img src="../img/og/dizayn-kvartiry-Moskva.png" alt="дизайн квартиры Москва" /></div>
-									<div class="stories__slide-txt">дизайн квартиры Москва</div>
-								</a>
-							</div>
-						</div>
-						<div>
-							<div class="stories__slide js-stories-popup-open" title="заказать дизайн проект">
-								<a href="./zakazat--dizayn-proekt.html">
-									<div class="stories__slide-pic"><img src="../img/og/zakazat--dizayn-proekt.png" alt="заказать дизайн проект" /></div>
-									<div class="stories__slide-txt">заказать дизайн проект</div>
-								</a>
-							</div>
-						</div>
-						<div>
-							<div class="stories__slide js-stories-popup-open" title="дизайн проекты">
-								<a href="./dizayn-proekty.html">
-									<div class="stories__slide-pic"><img src="../img/og/dizayn-proekty.png" alt="дизайн проекты" /></div>
-									<div class="stories__slide-txt">дизайн проекты</div>
-								</a>
-							</div>
-						</div>
-						<div>
-							<div class="stories__slide js-stories-popup-open" title="дизайн интерьера спб">
-								<a href="./dizayn-inter-era-spb.html">
-									<div class="stories__slide-pic"><img src="../img/og/dizayn-inter-era-spb.png" alt="дизайн интерьера спб" /></div>
-									<div class="stories__slide-txt">дизайн интерьера спб</div>
-								</a>
-							</div>
-						</div>
-						<div>
-							<div class="stories__slide js-stories-popup-open" title="дизайн проект спб">
-								<a href="./dizayn-proekt-spb.html">
-									<div class="stories__slide-pic"><img src="../img/og/dizayn-proekt-spb.png" alt="дизайн проект спб" /></div>
-									<div class="stories__slide-txt">дизайн проект спб</div>
-								</a>
-							</div>
-						</div>
-						<div>
-							<div class="stories__slide js-stories-popup-open" title="дизайн квартиры спб">
-								<a href="./dizayn-kvartiry-spb.html">
-									<div class="stories__slide-pic"><img src="../img/og/dizayn-kvartiry-spb.png" alt="дизайн квартиры спб" /></div>
-									<div class="stories__slide-txt">дизайн квартиры спб</div>
-								</a>
-							</div>
-						</div>
-						<div>
-							<div class="stories__slide js-stories-popup-open" title="дизайн квартиры студии">
-								<a href="./dizayn-kvartiry-studii.html">
-									<div class="stories__slide-pic"><img src="../img/og/dizayn-kvartiry-studii.png" alt="дизайн квартиры студии" /></div>
-									<div class="stories__slide-txt">дизайн квартиры студии</div>
-								</a>
-							</div>
-						</div>
-						<div>
-							<div class="stories__slide js-stories-popup-open" title="заказать дизайн интерьера">
-								<a href="./zakazat--dizayn-inter-era.html">
-									<div class="stories__slide-pic"><img src="../img/og/zakazat--dizayn-inter-era.png" alt="заказать дизайн интерьера" /></div>
-									<div class="stories__slide-txt">заказать дизайн интерьера</div>
-								</a>
-							</div>
-						</div>
-						<div>
-							<div class="stories__slide js-stories-popup-open" title="заказать дизайн дома">
-								<a href="./zakazat--dizayn-doma.html">
-									<div class="stories__slide-pic"><img src="../img/og/zakazat--dizayn-doma.png" alt="заказать дизайн дома" /></div>
-									<div class="stories__slide-txt">заказать дизайн дома</div>
-								</a>
-							</div>
-						</div>
-						<div>
-							<div class="stories__slide js-stories-popup-open" title="обустройство квартиры">
-								<a href="./obustroystvo-kvartiry.html">
-									<div class="stories__slide-pic"><img src="../img/og/obustroystvo-kvartiry.png" alt="обустройство квартиры" /></div>
-									<div class="stories__slide-txt">обустройство квартиры</div>
-								</a>
-							</div>
-						</div>
-						<div>
-							<div class="stories__slide js-stories-popup-open" title="дизайн квартиры в Москве">
-								<a href="./dizayn-kvartiry-v-moskve.html">
-									<div class="stories__slide-pic"><img src="../img/og/dizayn-kvartiry-v-Moskve.png" alt="дизайн квартиры в Москве" /></div>
-									<div class="stories__slide-txt">дизайн квартиры в Москве</div>
-								</a>
-							</div>
-						</div>
-						<div>
-							<div class="stories__slide js-stories-popup-open" title="заказать дизайн проект Москва">
-								<a href="./zakazat--dizayn-proekt-moskva.html">
-									<div class="stories__slide-pic"><img src="../img/og/zakazat--dizayn-proekt-Moskva.png" alt="заказать дизайн проект Москва" /></div>
-									<div class="stories__slide-txt">заказать дизайн проект Москва</div>
-								</a>
-							</div>
-						</div>
-						<div>
-							<div class="stories__slide js-stories-popup-open" title="заказать дизайн квартиры">
-								<a href="./zakazat--dizayn-kvartiry.html">
-									<div class="stories__slide-pic"><img src="../img/og/zakazat--dizayn-kvartiry.png" alt="заказать дизайн квартиры" /></div>
-									<div class="stories__slide-txt">заказать дизайн квартиры</div>
-								</a>
-							</div>
-						</div>
-						<div>
-							<div class="stories__slide js-stories-popup-open" title="дизайн квартиры питер">
-								<a href="./dizayn-kvartiry-piter.html">
-									<div class="stories__slide-pic"><img src="../img/og/dizayn-kvartiry-piter.png" alt="дизайн квартиры питер" /></div>
-									<div class="stories__slide-txt">дизайн квартиры питер</div>
-								</a>
-							</div>
-						</div>
-						<div>
-							<div class="stories__slide js-stories-popup-open" title="дизайн квартиры фото">
-								<a href="./dizayn-kvartiry-foto.html">
-									<div class="stories__slide-pic"><img src="../img/og/dizayn-kvartiry-foto.png" alt="дизайн квартиры фото" /></div>
-									<div class="stories__slide-txt">дизайн квартиры фото</div>
-								</a>
-							</div>
-						</div>
-						<div>
-							<div class="stories__slide js-stories-popup-open" title="дизайн проекты квартир">
-								<a href="./dizayn-proekty-kvartir.html">
-									<div class="stories__slide-pic"><img src="../img/og/dizayn-proekty-kvartir.png" alt="дизайн проекты квартир" /></div>
-									<div class="stories__slide-txt">дизайн проекты квартир</div>
-								</a>
-							</div>
-						</div>
-						<div>
-							<div class="stories__slide js-stories-popup-open" title="заказать дизайн проект квартиры">
-								<a href="./zakazat--dizayn-proekt-kvartiry.html">
-									<div class="stories__slide-pic"><img src="../img/og/zakazat--dizayn-proekt-kvartiry.png" alt="заказать дизайн проект квартиры" /></div>
-									<div class="stories__slide-txt">заказать дизайн проект квартиры</div>
-								</a>
-							</div>
-						</div>
-						<div>
-							<div class="stories__slide js-stories-popup-open" title="дизайн квартиры недорого">
-								<a href="./dizayn-kvartiry-nedorogo.html">
-									<div class="stories__slide-pic"><img src="../img/og/dizayn-kvartiry-nedorogo.png" alt="дизайн квартиры недорого" /></div>
-									<div class="stories__slide-txt">дизайн квартиры недорого</div>
-								</a>
-							</div>
-						</div>
-						<div>
-							<div class="stories__slide js-stories-popup-open" title="заказать дизайн Москва">
-								<a href="./zakazat--dizayn-moskva.html">
-									<div class="stories__slide-pic"><img src="../img/og/zakazat--dizayn-Moskva.png" alt="заказать дизайн Москва" /></div>
-									<div class="stories__slide-txt">заказать дизайн Москва</div>
-								</a>
-							</div>
-						</div>
-						<div>
-							<div class="stories__slide js-stories-popup-open" title="заказать дизайн проект спб">
-								<a href="./zakazat--dizayn-proekt-spb.html">
-									<div class="stories__slide-pic"><img src="../img/og/zakazat--dizayn-proekt-spb.png" alt="заказать дизайн проект спб" /></div>
-									<div class="stories__slide-txt">заказать дизайн проект спб</div>
-								</a>
-							</div>
-						</div>
-						<div>
-							<div class="stories__slide js-stories-popup-open" title="дизайн проект">
-								<a href="./dizayn-proekt.html">
-									<div class="stories__slide-pic"><img src="../img/og/dizayn-proekt.png" alt="дизайн проект" /></div>
-									<div class="stories__slide-txt">дизайн проект</div>
-								</a>
-							</div>
-						</div>
-						<div>
-							<div class="stories__slide js-stories-popup-open" title="homes home weet">
-								<a href="./homes-home-weet.html">
-									<div class="stories__slide-pic"><img src="../img/og/homes-home-weet.png" alt="homes home weet" /></div>
-									<div class="stories__slide-txt">homes home weet</div>
-								</a>
-							</div>
-						</div>
-						<div>
-							<div class="stories__slide js-stories-popup-open" title="interior">
-								<a href="./interior.html">
-									<div class="stories__slide-pic"><img src="../img/og/interior.png" alt="interior" /></div>
-									<div class="stories__slide-txt">interior</div>
-								</a>
-							</div>
-						</div>
-						<div>
-							<div class="stories__slide js-stories-popup-open" title="home design">
-								<a href="./home-design.html">
-									<div class="stories__slide-pic"><img src="../img/og/home-design.png" alt="home design" /></div>
-									<div class="stories__slide-txt">home design</div>
-								</a>
-							</div>
-						</div>
-						<div>
-							<div class="stories__slide js-stories-popup-open" title="дизайнер интерьера">
-								<a href="./dizayner-inter-era.html">
-									<div class="stories__slide-pic"><img src="../img/og/dizayner-inter-era.png" alt="дизайнер интерьера" /></div>
-									<div class="stories__slide-txt">дизайнер интерьера</div>
-								</a>
-							</div>
-						</div>
-						<div>
-							<div class="stories__slide js-stories-popup-open" title="home">
-								<a href="./home.html">
-									<div class="stories__slide-pic"><img src="../img/og/home.png" alt="home" /></div>
-									<div class="stories__slide-txt">home</div>
-								</a>
-							</div>
-						</div>
+						<div class="stories__arrow stories__arrow--prev" id="js-stories-prev"></div>
+						<div class="stories__arrow stories__arrow--next" id="js-stories-next"></div>
 					</div>
 				</div>
 			</div>
@@ -321,7 +330,7 @@
 									<div class="tag__item-datas">
 										<div class="tag__item-datas-item"><i class="fa fa-map-marker" aria-hidden="true"></i>Чкаловская</div>
 										<div class="tag__item-datas-item"><i class="fa fa-clock-o" aria-hidden="true"></i><time datetime="2019-10-07">07 October 2019</time></div>
-										<div class="tag__item-datas-item"><i class="fa fa-comment-o" aria-hidden="true"></i>3</div> <div class="tag__item-datas-item"><i class="fa fa-heart" aria-hidden="true"></i>150</div>
+										<div class="tag__item-datas-item"><i class="fa fa-comment-o" aria-hidden="true"></i>3</div> <div class="tag__item-datas-item"><i class="fa fa-heart" aria-hidden="true"></i>152</div>
 									</div>
 									<div class="tag__item-txt">
 										<h2>Мы очень любим классический стиль!</h2>
@@ -360,7 +369,7 @@
 								</div>
 							</a>
 							<a href="../posts/./svoya-komnata---mechta-lyubogo-malysha.html" class="tag__item">
-								<div class="tag__item-img"><img src="https://scontent-arn2-2.cdninstagram.com/vp/11a512173fb237414a9544a0a0670059/5E385C2D/t51.2885-15/e35/59677689_717226672053592_5848029619729604821_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=104" alt=""></div>
+								<div class="tag__item-img"><img src="https://scontent-arn2-2.cdninstagram.com/vp/4bd983a6861489969170e42d86e48073/5E5FE92D/t51.2885-15/e35/59677689_717226672053592_5848029619729604821_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=104" alt=""></div>
 								<div class="tag__item-desc">
 									<div class="tag__item-datas">
 										<div class="tag__item-datas-item"><i class="fa fa-map-marker" aria-hidden="true"></i>Митино</div>
@@ -420,7 +429,7 @@
 								</div>
 							</a>
 							<a href="../posts/./druz-ya-1.html" class="tag__item">
-								<div class="tag__item-img"><img src="https://scontent-arn2-2.cdninstagram.com/vp/28649b395b996cb33dd967fe95dd8f58/5E38BA6C/t51.2885-15/e35/60553828_587287298435535_4139635478963496968_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=103" alt=""></div>
+								<div class="tag__item-img"><img src="https://scontent-arn2-2.cdninstagram.com/vp/2067645c35c992e5a900c2b7c61755d2/5E60476C/t51.2885-15/e35/60553828_587287298435535_4139635478963496968_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=103" alt=""></div>
 								<div class="tag__item-desc">
 									<div class="tag__item-datas">
 										<div class="tag__item-datas-item"><i class="fa fa-map-marker" aria-hidden="true"></i>Moscow, Russia</div>
@@ -435,7 +444,7 @@
 								</div>
 							</a>
 							<a href="../posts/./stil--loft-x-eto-sochetanie-starogo-i-novogox-utonchennogo-i-narochito-grubogo.html" class="tag__item">
-								<div class="tag__item-img"><img src="https://scontent-arn2-2.cdninstagram.com/vp/81d6b12c1cc3e3f09f33cd50dd07071b/5E373A8C/t51.2885-15/e35/65666849_2359104694413682_6115897657150244826_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=110" alt=""></div>
+								<div class="tag__item-img"><img src="https://scontent-arn2-2.cdninstagram.com/vp/1509f54a7d89c7a9c858b3ad4f05ed98/5E5EC78C/t51.2885-15/e35/65666849_2359104694413682_6115897657150244826_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=110" alt=""></div>
 								<div class="tag__item-desc">
 									<div class="tag__item-datas">
 										<div class="tag__item-datas-item"><i class="fa fa-map-marker" aria-hidden="true"></i>Korolëv</div>
@@ -495,7 +504,7 @@
 								</div>
 							</a>
 							<a href="../posts/./xxx-house-box-znaetx-chto-o-stil-noy-i-funktsional-noy-kukhne-mechtaet-lyubaya-khozyayka.html" class="tag__item">
-								<div class="tag__item-img"><img src="https://scontent-arn2-2.cdninstagram.com/vp/b2405daf45eb545bd266f2a5c82a8bfb/5E3846FF/t51.2885-15/e35/61256995_2047360038891351_8639533300254887583_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=103" alt=""></div>
+								<div class="tag__item-img"><img src="https://scontent-arn2-2.cdninstagram.com/vp/a200f17637e30c8cc27173ef679af7bd/5E5FD3FF/t51.2885-15/e35/61256995_2047360038891351_8639533300254887583_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=103" alt=""></div>
 								<div class="tag__item-desc">
 									<div class="tag__item-datas">
 										<div class="tag__item-datas-item"><i class="fa fa-map-marker" aria-hidden="true"></i>Murino, Leningradskaya Oblast', Russia</div>
@@ -526,7 +535,7 @@
 								</div>
 							</a>
 							<a href="../posts/./spal-nya-v-stile-vintazhx-sozdannaya-dizaynerami-studii-house-box-xx.html" class="tag__item">
-								<div class="tag__item-img"><img src="https://scontent-arn2-2.cdninstagram.com/vp/a7013f213cc095faa5e11f927d1d90c2/5E1D3674/t51.2885-15/e35/57395893_2045335952427537_4028948558693990243_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=109" alt=""></div>
+								<div class="tag__item-img"><img src="https://scontent-arn2-2.cdninstagram.com/vp/fb30641407ef922b8d243c97e58dbb35/5E44C374/t51.2885-15/e35/57395893_2045335952427537_4028948558693990243_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=109" alt=""></div>
 								<div class="tag__item-desc">
 									<div class="tag__item-datas">
 										<div class="tag__item-datas-item"><i class="fa fa-map-marker" aria-hidden="true"></i>Московские ворота</div>
@@ -571,7 +580,7 @@
 								</div>
 							</a>
 							<a href="../posts/./x-pochemu-house-box.html" class="tag__item">
-								<div class="tag__item-img"><img src="https://scontent-arn2-2.cdninstagram.com/vp/ca5abd72669103a6da806d6b0adf308a/5E38AF09/t51.2885-15/e35/64312870_135238481002975_5720417874410557928_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=107" alt=""></div>
+								<div class="tag__item-img"><img src="https://scontent-arn2-2.cdninstagram.com/vp/4da3520825fbeb79f47d6469563c78e1/5E603C09/t51.2885-15/e35/64312870_135238481002975_5720417874410557928_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=107" alt=""></div>
 								<div class="tag__item-desc">
 									<div class="tag__item-datas">
 										<div class="tag__item-datas-item"><i class="fa fa-map-marker" aria-hidden="true"></i>Ozerki, Sankt-Peterburg, Russia</div>
@@ -586,7 +595,7 @@
 								</div>
 							</a>
 							<a href="../posts/./na-izobrazhenii---proekt-vannoy-komnaty-v-stile-sovremennyyx-sozdannyy-dizaynerami-studii-house-boxx.html" class="tag__item">
-								<div class="tag__item-img"><img src="https://scontent-arn2-2.cdninstagram.com/vp/0db7973f8c5bd3eecde02b53fe35438f/5E38C74B/t51.2885-15/e35/61048355_453732258767778_986756186479347319_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=106" alt=""></div>
+								<div class="tag__item-img"><img src="https://scontent-arn2-2.cdninstagram.com/vp/49fbd17ead78cf69957f84541b90ac0a/5E60544B/t51.2885-15/e35/61048355_453732258767778_986756186479347319_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=106" alt=""></div>
 								<div class="tag__item-desc">
 									<div class="tag__item-datas">
 										<div class="tag__item-datas-item"><i class="fa fa-map-marker" aria-hidden="true"></i>Levoberezhny District, Moscow</div>
@@ -706,7 +715,7 @@
 								</div>
 							</a>
 							<a href="../posts/./seychas-v-trende-svetlye-inter-ery-x.html" class="tag__item">
-								<div class="tag__item-img"><img src="https://scontent-arn2-2.cdninstagram.com/vp/0aa8f56733c379881a69b8706ad275b6/5E1CA038/t51.2885-15/e35/64352920_101920624393765_9067528993163950210_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=101" alt=""></div>
+								<div class="tag__item-img"><img src="https://scontent-arn2-2.cdninstagram.com/vp/4c16a015fe86205b99d33e6728dd7757/5E442D38/t51.2885-15/e35/64352920_101920624393765_9067528993163950210_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=101" alt=""></div>
 								<div class="tag__item-desc">
 									<div class="tag__item-datas">
 										<div class="tag__item-datas-item"><i class="fa fa-map-marker" aria-hidden="true"></i>ЖК «Эталон-Сити»</div>
@@ -751,7 +760,7 @@
 								</div>
 							</a>
 							<a href="../posts/./x-dlya-vashego-udobstva-kazhdyy-dizayn-proekt-ot-studii-house-box-razrabatyvaetsya-v-neskol-kikh-tsvetovykh.html" class="tag__item">
-								<div class="tag__item-img"><img src="https://scontent-arn2-2.cdninstagram.com/vp/50d98055262d74b8dff525381fd81787/5E1D6CE8/t51.2885-15/e35/60843839_208015243505445_8327130869420731804_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=109" alt=""></div>
+								<div class="tag__item-img"><img src="https://scontent-arn2-2.cdninstagram.com/vp/69e3f1e9d8e6e290784418aed18884d1/5E44F9E8/t51.2885-15/e35/60843839_208015243505445_8327130869420731804_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=109" alt=""></div>
 								<div class="tag__item-desc">
 									<div class="tag__item-datas">
 										<div class="tag__item-datas-item"><i class="fa fa-clock-o" aria-hidden="true"></i><time datetime="2019-06-05">05 June 2019</time></div>
@@ -824,7 +833,7 @@
 								</div>
 							</a>
 							<a href="../posts/./x-interesuet-dizayn-proekt-kvartiry.html" class="tag__item">
-								<div class="tag__item-img"><img src="https://scontent-arn2-2.cdninstagram.com/vp/b36880108db44bfd62414a8b37a4b27f/5E1AAF9D/t51.2885-15/e35/64982043_369632217027367_3968689287852908598_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=107" alt=""></div>
+								<div class="tag__item-img"><img src="https://scontent-arn2-2.cdninstagram.com/vp/a71dc065b5a04ed671f8c687aee1e3c3/5E423C9D/t51.2885-15/e35/64982043_369632217027367_3968689287852908598_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=107" alt=""></div>
 								<div class="tag__item-desc">
 									<div class="tag__item-datas">
 										<div class="tag__item-datas-item"><i class="fa fa-map-marker" aria-hidden="true"></i>Tagansky District</div>
@@ -884,7 +893,7 @@
 								</div>
 							</a>
 							<a href="../posts/./studiya-house-box-napominaetx-chto-kazhdyy-predmet-inter-era-na-vizualizatsiyakh---ne-prosto-krasivaya-kart.html" class="tag__item">
-								<div class="tag__item-img"><img src="https://scontent-arn2-2.cdninstagram.com/vp/08f9a333f6ba2f8555e2b55fc5cda17b/5E1AC661/t51.2885-15/e35/62120555_143787426702517_8636709898344862874_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=101" alt=""></div>
+								<div class="tag__item-img"><img src="https://scontent-arn2-2.cdninstagram.com/vp/16298aafecef8adfc987cb063ba1905f/5E425361/t51.2885-15/e35/62120555_143787426702517_8636709898344862874_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=101" alt=""></div>
 								<div class="tag__item-desc">
 									<div class="tag__item-datas">
 										<div class="tag__item-datas-item"><i class="fa fa-map-marker" aria-hidden="true"></i>Moscow</div>
@@ -944,7 +953,7 @@
 								</div>
 							</a>
 							<a href="../posts/./my-ochen--lyubim-klassicheskiy-stil--1.html" class="tag__item">
-								<div class="tag__item-img"><img src="https://scontent-arn2-2.cdninstagram.com/vp/bad49a1eb61bb7f8219c9779f61c03eb/5E1BFB90/t51.2885-15/e35/60874832_564923887368316_5016374867308820015_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=104" alt=""></div>
+								<div class="tag__item-img"><img src="https://scontent-arn2-2.cdninstagram.com/vp/f2624cb0b853372f080f4b0e5a4e084f/5E438890/t51.2885-15/e35/60874832_564923887368316_5016374867308820015_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=104" alt=""></div>
 								<div class="tag__item-desc">
 									<div class="tag__item-datas">
 										<div class="tag__item-datas-item"><i class="fa fa-map-marker" aria-hidden="true"></i>МЕГА Дыбенко</div>
@@ -1005,7 +1014,7 @@
 								</div>
 							</a>
 							<a href="../posts/./mechtaete-o-krasivom-i-izyskannom-inter-ere.html" class="tag__item">
-								<div class="tag__item-img"><img src="https://scontent-arn2-2.cdninstagram.com/vp/f19a9f41c5ace06ff697bbf12a80c51d/5E1ADE77/t51.2885-15/e35/57400198_359847347967144_122798530902595346_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=100" alt=""></div>
+								<div class="tag__item-img"><img src="https://scontent-arn2-2.cdninstagram.com/vp/3228b64699a0adda17914658ee839b4b/5E426B77/t51.2885-15/e35/57400198_359847347967144_122798530902595346_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=100" alt=""></div>
 								<div class="tag__item-desc">
 									<div class="tag__item-datas">
 										<div class="tag__item-datas-item"><i class="fa fa-map-marker" aria-hidden="true"></i>Жилой квартал LIFE-Лесная</div>
@@ -1123,7 +1132,7 @@
 								</div>
 							</a>
 							<a href="../posts/./dorogie-druz-ya-1.html" class="tag__item">
-								<div class="tag__item-img"><img src="https://scontent-arn2-2.cdninstagram.com/vp/aa02adb605cee212bfd85150549f8501/5E37381F/t51.2885-15/e35/66720227_2316670251917882_2814830061073085384_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=102" alt=""></div>
+								<div class="tag__item-img"><img src="https://scontent-arn2-2.cdninstagram.com/vp/4d2f08075c0485fbea6741cf64f5b236/5E5EC51F/t51.2885-15/e35/66720227_2316670251917882_2814830061073085384_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=102" alt=""></div>
 								<div class="tag__item-desc">
 									<div class="tag__item-datas">
 										<div class="tag__item-datas-item"><i class="fa fa-clock-o" aria-hidden="true"></i><time datetime="2019-08-19">19 August 2019</time></div>
@@ -1166,7 +1175,7 @@
 								</div>
 							</a>
 							<a href="../posts/./mechtaete-zhit--v-krasivoy-obstanovke.html" class="tag__item">
-								<div class="tag__item-img"><img src="https://scontent-arn2-2.cdninstagram.com/vp/a9be22d84c4208ae8fca53d7cb5fa608/5E1D448A/t51.2885-15/e35/70720647_540632033409943_6025202320789056557_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=107" alt=""></div>
+								<div class="tag__item-img"><img src="https://scontent-arn2-2.cdninstagram.com/vp/21cdcacdc1df854dfd59c606de37f167/5E44D18A/t51.2885-15/e35/70720647_540632033409943_6025202320789056557_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=107" alt=""></div>
 								<div class="tag__item-desc">
 									<div class="tag__item-datas">
 										<div class="tag__item-datas-item"><i class="fa fa-map-marker" aria-hidden="true"></i>Атмосфера</div>
@@ -1238,7 +1247,7 @@
 								</div>
 							</a>
 							<a href="../posts/./studiya-house-box-predlagaet-novyy-produkt-na-rynke-dizayna-inter-erov.html" class="tag__item">
-								<div class="tag__item-img"><img src="https://scontent-arn2-2.cdninstagram.com/vp/4b67f2df689b587c43f9ee2525faedf6/5E386C24/t51.2885-15/e35/69294756_2416647708389575_1506906983489533408_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=107" alt=""></div>
+								<div class="tag__item-img"><img src="https://scontent-arn2-2.cdninstagram.com/vp/766f844aeee7b97a7acfc297119511e7/5E5FF924/t51.2885-15/e35/69294756_2416647708389575_1506906983489533408_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=107" alt=""></div>
 								<div class="tag__item-desc">
 									<div class="tag__item-datas">
 										<div class="tag__item-datas-item"><i class="fa fa-map-marker" aria-hidden="true"></i>Москва</div>
@@ -1253,7 +1262,7 @@
 								</div>
 							</a>
 							<a href="../posts/./vybirayte-ponravivshiysya-stil-x-delayte-zakaz-i-za-10-dney-my-sozdadim-vash-inter-er.html" class="tag__item">
-								<div class="tag__item-img"><img src="https://scontent-arn2-2.cdninstagram.com/vp/c9d35d7f1125c2b5056bdddb86e0319b/5E1A3806/t51.2885-15/e35/57232507_518448258686980_402217263661873054_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=104" alt=""></div>
+								<div class="tag__item-img"><img src="https://scontent-arn2-2.cdninstagram.com/vp/6019e86aaa7ed89e6771c358b1a92197/5E41C506/t51.2885-15/e35/57232507_518448258686980_402217263661873054_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=104" alt=""></div>
 								<div class="tag__item-desc">
 									<div class="tag__item-datas">
 										<div class="tag__item-datas-item"><i class="fa fa-map-marker" aria-hidden="true"></i>Ломоносовский район</div>
@@ -1282,7 +1291,7 @@
 								</div>
 							</a>
 							<a href="../posts/./interesuet-dizayn-proekt-kvartiry-5.html" class="tag__item">
-								<div class="tag__item-img"><img src="https://scontent-arn2-2.cdninstagram.com/vp/fc91a7567f2f12a5dcaf580a15409f0d/5E390CF8/t51.2885-15/e35/60280181_2304579039765505_2067335281554737046_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=101" alt=""></div>
+								<div class="tag__item-img"><img src="https://scontent-arn2-2.cdninstagram.com/vp/09369283474dc64d5fe4f439dcad21af/5E6099F8/t51.2885-15/e35/60280181_2304579039765505_2067335281554737046_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=101" alt=""></div>
 								<div class="tag__item-desc">
 									<div class="tag__item-datas">
 										<div class="tag__item-datas-item"><i class="fa fa-map-marker" aria-hidden="true"></i>Лесопарк "Новый Оккервиль"</div>
@@ -1336,11 +1345,12 @@
 			</div>
 		</div>			
 	</div>
+	<!--swiper-->
+	<script src="../js/vendors/swiper.min.js"></script>
 	<!--jQuery-->
 	<script src="../js/vendors/jquery.min.js"></script>
-	<script src="../js/vendors/jquery.loadScroll.js"></script>
-	<!--device-->
-	<script src="../js/vendors/slick.min.js"></script>
+	<!--lazyloadxt-->
+	<script src="../js/vendors/jquery.lazyloadxt.js"></script>
 	<!--init-->
 	<script src="../js/jquery.init.js"></script>
 	<!--my scripts-->
