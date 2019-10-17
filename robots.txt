@@ -1,2 +1,2 @@
 ﻿User-agent: *
-Sitemap: http://housebox-design.itsinsta.site//sitemap.xml
+Sitemap: https://housebox-design.itsinsta.site//sitemap.xml
