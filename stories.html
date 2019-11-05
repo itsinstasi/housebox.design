@@ -80,13 +80,15 @@
 				<div class="main-sec__wrap">
 					<div class="main-sec__txt">
 						<p>&nbsp;</p>
-						<form action="#" method="get" class="search">
+						<div class="search">
 							<input type="search" class="input search__input" placeholder="Story">
-							<button class="btn search__btn" type="submit" title="Сохранить"><i class="fa fa-edit" aria-hidden="true"></i></button>
+							<button id="btn_save" class="btn search__btn" type="submit" title="Сохранить"><i class="fa fa-edit" aria-hidden="true"></i></button>
+							<p>&nbsp;</p>
+							<button id="btn_delete" class="btn search__btn" type="submit" title="Удалить"><i class="fa fa-remove" aria-hidden="true"></i></button>
 							<p>&nbsp;
 								<div id="choosen">0</div> / <div id="total">0</div>
 							</p>
-						</form>
+						</div>
 					</div>
 				</div>
 			</div>
@@ -101,7 +103,7 @@
 								<div class="stories__slide" title="дизайн проект Москва">
 									<label class="stories__slide__check">
 										<input type="checkbox" />
-										<div class="stories__slide-pic" style="background-image: url(./img/og/dizayn-proekt-Moskva.png);"></div>
+										<div class="stories__slide-pic" style="background-image: url(https://scontent-arn2-2.cdninstagram.com/vp/d65ab6d91015d106ebaba33a20efbf64/5E59315F/t51.2885-15/e35/71887655_1476190209196587_2816393045949914117_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=103);"></div>
 										<div class="stories__slide-txt">дизайн проект Москва</div>
 									</label>
 								</div>
@@ -110,7 +112,7 @@
 								<div class="stories__slide" title="дизайнер интерьера Москва">
 									<label class="stories__slide__check">
 										<input type="checkbox" />
-										<div class="stories__slide-pic" style="background-image: url(./img/og/dizayner-inter-era-Moskva.png);"></div>
+										<div class="stories__slide-pic" style="background-image: url(https://scontent-arn2-2.cdninstagram.com/vp/d65ab6d91015d106ebaba33a20efbf64/5E59315F/t51.2885-15/e35/71887655_1476190209196587_2816393045949914117_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=103);"></div>
 										<div class="stories__slide-txt">дизайнер интерьера Москва</div>
 									</label>
 								</div>
@@ -119,7 +121,7 @@
 								<div class="stories__slide" title="дизайн проект квартиры">
 									<label class="stories__slide__check">
 										<input type="checkbox" />
-										<div class="stories__slide-pic" style="background-image: url(./img/og/dizayn-proekt-kvartiry.png);"></div>
+										<div class="stories__slide-pic" style="background-image: url(https://scontent-arn2-2.cdninstagram.com/vp/d65ab6d91015d106ebaba33a20efbf64/5E59315F/t51.2885-15/e35/71887655_1476190209196587_2816393045949914117_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=103);"></div>
 										<div class="stories__slide-txt">дизайн проект квартиры</div>
 									</label>
 								</div>
@@ -128,7 +130,7 @@
 								<div class="stories__slide" title="дизайнер интерьера спб">
 									<label class="stories__slide__check">
 										<input type="checkbox" />
-										<div class="stories__slide-pic" style="background-image: url(./img/og/dizayner-inter-era-spb.png);"></div>
+										<div class="stories__slide-pic" style="background-image: url(https://scontent-arn2-2.cdninstagram.com/vp/d65ab6d91015d106ebaba33a20efbf64/5E59315F/t51.2885-15/e35/71887655_1476190209196587_2816393045949914117_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=103);"></div>
 										<div class="stories__slide-txt">дизайнер интерьера спб</div>
 									</label>
 								</div>
@@ -137,7 +139,7 @@
 								<div class="stories__slide" title="дизайн квартиры Москва">
 									<label class="stories__slide__check">
 										<input type="checkbox" />
-										<div class="stories__slide-pic" style="background-image: url(./img/og/dizayn-kvartiry-Moskva.png);"></div>
+										<div class="stories__slide-pic" style="background-image: url(https://scontent-arn2-2.cdninstagram.com/vp/d65ab6d91015d106ebaba33a20efbf64/5E59315F/t51.2885-15/e35/71887655_1476190209196587_2816393045949914117_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=103);"></div>
 										<div class="stories__slide-txt">дизайн квартиры Москва</div>
 									</label>
 								</div>
@@ -146,17 +148,8 @@
 								<div class="stories__slide" title="дизайн интерьера спб">
 									<label class="stories__slide__check">
 										<input type="checkbox" />
-										<div class="stories__slide-pic" style="background-image: url(./img/og/dizayn-inter-era-spb.png);"></div>
+										<div class="stories__slide-pic" style="background-image: url(https://scontent-arn2-2.cdninstagram.com/vp/61db9b633ca3b39c5b9d86ee115c2a84/5DC3090F/t51.2885-15/e35/71192937_763498064099078_3082891289840399258_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=102);"></div>
 										<div class="stories__slide-txt">дизайн интерьера спб</div>
-									</label>
-								</div>
-							</div>
-							<div class="swiper-slide">
-								<div class="stories__slide" title="дизайн проекты">
-									<label class="stories__slide__check">
-										<input type="checkbox" />
-										<div class="stories__slide-pic" style="background-image: url(./img/og/dizayn-proekty.png);"></div>
-										<div class="stories__slide-txt">дизайн проекты</div>
 									</label>
 								</div>
 							</div>
@@ -164,8 +157,17 @@
 								<div class="stories__slide" title="заказать дизайн проект">
 									<label class="stories__slide__check">
 										<input type="checkbox" />
-										<div class="stories__slide-pic" style="background-image: url(./img/og/zakazat--dizayn-proekt.png);"></div>
+										<div class="stories__slide-pic" style="background-image: url(https://scontent-arn2-2.cdninstagram.com/vp/d65ab6d91015d106ebaba33a20efbf64/5E59315F/t51.2885-15/e35/71887655_1476190209196587_2816393045949914117_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=103);"></div>
 										<div class="stories__slide-txt">заказать дизайн проект</div>
+									</label>
+								</div>
+							</div>
+							<div class="swiper-slide">
+								<div class="stories__slide" title="дизайн проекты">
+									<label class="stories__slide__check">
+										<input type="checkbox" />
+										<div class="stories__slide-pic" style="background-image: url(https://scontent-arn2-2.cdninstagram.com/vp/d65ab6d91015d106ebaba33a20efbf64/5E59315F/t51.2885-15/e35/71887655_1476190209196587_2816393045949914117_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=103);"></div>
+										<div class="stories__slide-txt">дизайн проекты</div>
 									</label>
 								</div>
 							</div>
@@ -173,7 +175,7 @@
 								<div class="stories__slide" title="дизайн проект спб">
 									<label class="stories__slide__check">
 										<input type="checkbox" />
-										<div class="stories__slide-pic" style="background-image: url(./img/og/dizayn-proekt-spb.png);"></div>
+										<div class="stories__slide-pic" style="background-image: url(https://scontent-arn2-2.cdninstagram.com/vp/cf6380e73dafdb0e799a4c311c27231e/5E63EC6A/t51.2885-15/e35/71192940_2282168928761683_6861707294195562539_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=107);"></div>
 										<div class="stories__slide-txt">дизайн проект спб</div>
 									</label>
 								</div>
@@ -182,7 +184,7 @@
 								<div class="stories__slide" title="дизайн квартиры спб">
 									<label class="stories__slide__check">
 										<input type="checkbox" />
-										<div class="stories__slide-pic" style="background-image: url(./img/og/dizayn-kvartiry-spb.png);"></div>
+										<div class="stories__slide-pic" style="background-image: url(https://scontent-arn2-2.cdninstagram.com/vp/cf6380e73dafdb0e799a4c311c27231e/5E63EC6A/t51.2885-15/e35/71192940_2282168928761683_6861707294195562539_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=107);"></div>
 										<div class="stories__slide-txt">дизайн квартиры спб</div>
 									</label>
 								</div>
@@ -191,7 +193,7 @@
 								<div class="stories__slide" title="дизайн квартиры студии">
 									<label class="stories__slide__check">
 										<input type="checkbox" />
-										<div class="stories__slide-pic" style="background-image: url(./img/og/dizayn-kvartiry-studii.png);"></div>
+										<div class="stories__slide-pic" style="background-image: url(https://scontent-arn2-2.cdninstagram.com/vp/cf6380e73dafdb0e799a4c311c27231e/5E63EC6A/t51.2885-15/e35/71192940_2282168928761683_6861707294195562539_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=107);"></div>
 										<div class="stories__slide-txt">дизайн квартиры студии</div>
 									</label>
 								</div>
@@ -200,7 +202,7 @@
 								<div class="stories__slide" title="заказать дизайн интерьера">
 									<label class="stories__slide__check">
 										<input type="checkbox" />
-										<div class="stories__slide-pic" style="background-image: url(./img/og/zakazat--dizayn-inter-era.png);"></div>
+										<div class="stories__slide-pic" style="background-image: url(https://scontent-arn2-2.cdninstagram.com/vp/cf6380e73dafdb0e799a4c311c27231e/5E63EC6A/t51.2885-15/e35/71192940_2282168928761683_6861707294195562539_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=107);"></div>
 										<div class="stories__slide-txt">заказать дизайн интерьера</div>
 									</label>
 								</div>
@@ -209,7 +211,7 @@
 								<div class="stories__slide" title="заказать дизайн дома">
 									<label class="stories__slide__check">
 										<input type="checkbox" />
-										<div class="stories__slide-pic" style="background-image: url(./img/og/zakazat--dizayn-doma.png);"></div>
+										<div class="stories__slide-pic" style="background-image: url(https://scontent-arn2-2.cdninstagram.com/vp/cf6380e73dafdb0e799a4c311c27231e/5E63EC6A/t51.2885-15/e35/71192940_2282168928761683_6861707294195562539_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=107);"></div>
 										<div class="stories__slide-txt">заказать дизайн дома</div>
 									</label>
 								</div>
@@ -218,7 +220,7 @@
 								<div class="stories__slide" title="обустройство квартиры">
 									<label class="stories__slide__check">
 										<input type="checkbox" />
-										<div class="stories__slide-pic" style="background-image: url(./img/og/obustroystvo-kvartiry.png);"></div>
+										<div class="stories__slide-pic" style="background-image: url(https://scontent-arn2-2.cdninstagram.com/vp/cf6380e73dafdb0e799a4c311c27231e/5E63EC6A/t51.2885-15/e35/71192940_2282168928761683_6861707294195562539_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=107);"></div>
 										<div class="stories__slide-txt">обустройство квартиры</div>
 									</label>
 								</div>
@@ -227,7 +229,7 @@
 								<div class="stories__slide" title="дизайн квартиры в Москве">
 									<label class="stories__slide__check">
 										<input type="checkbox" />
-										<div class="stories__slide-pic" style="background-image: url(./img/og/dizayn-kvartiry-v-Moskve.png);"></div>
+										<div class="stories__slide-pic" style="background-image: url(https://scontent-arn2-2.cdninstagram.com/vp/cf6380e73dafdb0e799a4c311c27231e/5E63EC6A/t51.2885-15/e35/71192940_2282168928761683_6861707294195562539_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=107);"></div>
 										<div class="stories__slide-txt">дизайн квартиры в Москве</div>
 									</label>
 								</div>
@@ -236,7 +238,7 @@
 								<div class="stories__slide" title="заказать дизайн проект Москва">
 									<label class="stories__slide__check">
 										<input type="checkbox" />
-										<div class="stories__slide-pic" style="background-image: url(./img/og/zakazat--dizayn-proekt-Moskva.png);"></div>
+										<div class="stories__slide-pic" style="background-image: url(https://scontent-arn2-2.cdninstagram.com/vp/cf6380e73dafdb0e799a4c311c27231e/5E63EC6A/t51.2885-15/e35/71192940_2282168928761683_6861707294195562539_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=107);"></div>
 										<div class="stories__slide-txt">заказать дизайн проект Москва</div>
 									</label>
 								</div>
@@ -245,7 +247,7 @@
 								<div class="stories__slide" title="заказать дизайн квартиры">
 									<label class="stories__slide__check">
 										<input type="checkbox" />
-										<div class="stories__slide-pic" style="background-image: url(./img/og/zakazat--dizayn-kvartiry.png);"></div>
+										<div class="stories__slide-pic" style="background-image: url(https://scontent-arn2-2.cdninstagram.com/vp/cf6380e73dafdb0e799a4c311c27231e/5E63EC6A/t51.2885-15/e35/71192940_2282168928761683_6861707294195562539_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=107);"></div>
 										<div class="stories__slide-txt">заказать дизайн квартиры</div>
 									</label>
 								</div>
@@ -254,7 +256,7 @@
 								<div class="stories__slide" title="дизайн квартиры питер">
 									<label class="stories__slide__check">
 										<input type="checkbox" />
-										<div class="stories__slide-pic" style="background-image: url(./img/og/dizayn-kvartiry-piter.png);"></div>
+										<div class="stories__slide-pic" style="background-image: url(https://scontent-arn2-2.cdninstagram.com/vp/cf6380e73dafdb0e799a4c311c27231e/5E63EC6A/t51.2885-15/e35/71192940_2282168928761683_6861707294195562539_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=107);"></div>
 										<div class="stories__slide-txt">дизайн квартиры питер</div>
 									</label>
 								</div>
@@ -263,7 +265,7 @@
 								<div class="stories__slide" title="дизайн квартиры фото">
 									<label class="stories__slide__check">
 										<input type="checkbox" />
-										<div class="stories__slide-pic" style="background-image: url(./img/og/dizayn-kvartiry-foto.png);"></div>
+										<div class="stories__slide-pic" style="background-image: url(https://scontent-arn2-2.cdninstagram.com/vp/cf6380e73dafdb0e799a4c311c27231e/5E63EC6A/t51.2885-15/e35/71192940_2282168928761683_6861707294195562539_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=107);"></div>
 										<div class="stories__slide-txt">дизайн квартиры фото</div>
 									</label>
 								</div>
@@ -272,8 +274,17 @@
 								<div class="stories__slide" title="дизайн проекты квартир">
 									<label class="stories__slide__check">
 										<input type="checkbox" />
-										<div class="stories__slide-pic" style="background-image: url(./img/og/dizayn-proekty-kvartir.png);"></div>
+										<div class="stories__slide-pic" style="background-image: url(https://scontent-arn2-2.cdninstagram.com/vp/cf6380e73dafdb0e799a4c311c27231e/5E63EC6A/t51.2885-15/e35/71192940_2282168928761683_6861707294195562539_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=107);"></div>
 										<div class="stories__slide-txt">дизайн проекты квартир</div>
+									</label>
+								</div>
+							</div>
+							<div class="swiper-slide">
+								<div class="stories__slide" title="дизайн проект">
+									<label class="stories__slide__check">
+										<input type="checkbox" />
+										<div class="stories__slide-pic" style="background-image: url(https://scontent-arn2-2.cdninstagram.com/vp/ab0c84a8947d0cbe8c690fdbb48535bc/5E611198/t51.2885-15/e35/75595309_244592073179407_8563348107094225737_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=107);"></div>
+										<div class="stories__slide-txt">дизайн проект</div>
 									</label>
 								</div>
 							</div>
@@ -281,7 +292,7 @@
 								<div class="stories__slide" title="заказать дизайн проект квартиры">
 									<label class="stories__slide__check">
 										<input type="checkbox" />
-										<div class="stories__slide-pic" style="background-image: url(./img/og/zakazat--dizayn-proekt-kvartiry.png);"></div>
+										<div class="stories__slide-pic" style="background-image: url(https://scontent-arn2-2.cdninstagram.com/vp/cf6380e73dafdb0e799a4c311c27231e/5E63EC6A/t51.2885-15/e35/71192940_2282168928761683_6861707294195562539_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=107);"></div>
 										<div class="stories__slide-txt">заказать дизайн проект квартиры</div>
 									</label>
 								</div>
@@ -290,17 +301,17 @@
 								<div class="stories__slide" title="дизайн квартиры недорого">
 									<label class="stories__slide__check">
 										<input type="checkbox" />
-										<div class="stories__slide-pic" style="background-image: url(./img/og/dizayn-kvartiry-nedorogo.png);"></div>
+										<div class="stories__slide-pic" style="background-image: url(https://scontent-arn2-2.cdninstagram.com/vp/cf6380e73dafdb0e799a4c311c27231e/5E63EC6A/t51.2885-15/e35/71192940_2282168928761683_6861707294195562539_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=107);"></div>
 										<div class="stories__slide-txt">дизайн квартиры недорого</div>
 									</label>
 								</div>
 							</div>
 							<div class="swiper-slide">
-								<div class="stories__slide" title="дизайн проект">
+								<div class="stories__slide" title="homes home weet">
 									<label class="stories__slide__check">
 										<input type="checkbox" />
-										<div class="stories__slide-pic" style="background-image: url(./img/og/dizayn-proekt.png);"></div>
-										<div class="stories__slide-txt">дизайн проект</div>
+										<div class="stories__slide-pic" style="background-image: url(https://scontent-arn2-2.cdninstagram.com/vp/93d72eba9e43320ad4969d46faf9df2b/5DC40365/t51.2885-15/e35/s1080x1080/74656401_266056260985328_3582319420699940372_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=108);"></div>
+										<div class="stories__slide-txt">homes home weet</div>
 									</label>
 								</div>
 							</div>
@@ -308,7 +319,7 @@
 								<div class="stories__slide" title="заказать дизайн Москва">
 									<label class="stories__slide__check">
 										<input type="checkbox" />
-										<div class="stories__slide-pic" style="background-image: url(./img/og/zakazat--dizayn-Moskva.png);"></div>
+										<div class="stories__slide-pic" style="background-image: url(https://scontent-arn2-2.cdninstagram.com/vp/cf6380e73dafdb0e799a4c311c27231e/5E63EC6A/t51.2885-15/e35/71192940_2282168928761683_6861707294195562539_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=107);"></div>
 										<div class="stories__slide-txt">заказать дизайн Москва</div>
 									</label>
 								</div>
@@ -317,17 +328,8 @@
 								<div class="stories__slide" title="заказать дизайн проект спб">
 									<label class="stories__slide__check">
 										<input type="checkbox" />
-										<div class="stories__slide-pic" style="background-image: url(./img/og/zakazat--dizayn-proekt-spb.png);"></div>
+										<div class="stories__slide-pic" style="background-image: url(https://scontent-arn2-2.cdninstagram.com/vp/cf6380e73dafdb0e799a4c311c27231e/5E63EC6A/t51.2885-15/e35/71192940_2282168928761683_6861707294195562539_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=107);"></div>
 										<div class="stories__slide-txt">заказать дизайн проект спб</div>
-									</label>
-								</div>
-							</div>
-							<div class="swiper-slide">
-								<div class="stories__slide" title="homes home weet">
-									<label class="stories__slide__check">
-										<input type="checkbox" />
-										<div class="stories__slide-pic" style="background-image: url(./img/og/homes-home-weet.png);"></div>
-										<div class="stories__slide-txt">homes home weet</div>
 									</label>
 								</div>
 							</div>
@@ -335,7 +337,7 @@
 								<div class="stories__slide" title="home design">
 									<label class="stories__slide__check">
 										<input type="checkbox" />
-										<div class="stories__slide-pic" style="background-image: url(./img/og/home-design.png);"></div>
+										<div class="stories__slide-pic" style="background-image: url(https://scontent-arn2-2.cdninstagram.com/vp/93d72eba9e43320ad4969d46faf9df2b/5DC40365/t51.2885-15/e35/s1080x1080/74656401_266056260985328_3582319420699940372_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=108);"></div>
 										<div class="stories__slide-txt">home design</div>
 									</label>
 								</div>
@@ -344,7 +346,7 @@
 								<div class="stories__slide" title="interior">
 									<label class="stories__slide__check">
 										<input type="checkbox" />
-										<div class="stories__slide-pic" style="background-image: url(./img/og/interior.png);"></div>
+										<div class="stories__slide-pic" style="background-image: url(https://scontent-arn2-2.cdninstagram.com/vp/93d72eba9e43320ad4969d46faf9df2b/5DC40365/t51.2885-15/e35/s1080x1080/74656401_266056260985328_3582319420699940372_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=108);"></div>
 										<div class="stories__slide-txt">interior</div>
 									</label>
 								</div>
@@ -353,7 +355,7 @@
 								<div class="stories__slide" title="дизайнер интерьера">
 									<label class="stories__slide__check">
 										<input type="checkbox" />
-										<div class="stories__slide-pic" style="background-image: url(./img/og/dizayner-inter-era.png);"></div>
+										<div class="stories__slide-pic" style="background-image: url(https://scontent-arn2-2.cdninstagram.com/vp/d35670865c193e2056edeaa089476f15/5E4E4CB7/t51.2885-15/e35/72989020_122040475558639_4118255752159299402_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=107);"></div>
 										<div class="stories__slide-txt">дизайнер интерьера</div>
 									</label>
 								</div>
@@ -362,7 +364,7 @@
 								<div class="stories__slide" title="дизайн интерьера">
 									<label class="stories__slide__check">
 										<input type="checkbox" />
-										<div class="stories__slide-pic" style="background-image: url(./img/og/dizayn-inter-era.png);"></div>
+										<div class="stories__slide-pic" style="background-image: url(https://scontent-arn2-2.cdninstagram.com/vp/61db9b633ca3b39c5b9d86ee115c2a84/5DC3090F/t51.2885-15/e35/71192937_763498064099078_3082891289840399258_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=102);"></div>
 										<div class="stories__slide-txt">дизайн интерьера</div>
 									</label>
 								</div>
@@ -380,6 +382,26 @@
 				<div class="items-main" id="js-items-main">
 					<div class="items-item">
 						<label class="items-item__wrap items-item__check">
+							<input id="inter-er-vypolnen-v-stile" type="checkbox" />
+							<div class="items-item__pic">
+								<img class="js-now-lazy" src="https://scontent-arn2-2.cdninstagram.com/vp/93d72eba9e43320ad4969d46faf9df2b/5DC40365/t51.2885-15/e35/s1080x1080/74656401_266056260985328_3582319420699940372_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=108" alt="">
+								<ul class="items-item__taglist">
+								</ul>
+							</div>
+						</label>
+					</div>
+					<div class="items-item">
+						<label class="items-item__wrap items-item__check">
+							<input id="dlya-polnotsennogo-sna-i-komfortnogo-otdykha" type="checkbox" />
+							<div class="items-item__pic">
+								<img class="js-now-lazy" src="https://scontent-arn2-2.cdninstagram.com/vp/05cc098cdee48adc0fb5a02179a3d4d7/5E534F3E/t51.2885-15/e35/75341432_1680596232077157_7688226180366951700_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=109" alt="">
+								<ul class="items-item__taglist">
+								</ul>
+							</div>
+						</label>
+					</div>
+					<div class="items-item">
+						<label class="items-item__wrap items-item__check">
 							<input id="izobrazhenie---pinterest" type="checkbox" />
 							<div class="items-item__pic">
 								<img class="js-now-lazy" src="https://scontent-arn2-2.cdninstagram.com/vp/ab0c84a8947d0cbe8c690fdbb48535bc/5E611198/t51.2885-15/e35/75595309_244592073179407_8563348107094225737_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=107" alt="">
@@ -392,7 +414,7 @@
 						<label class="items-item__wrap items-item__check">
 							<input id="elegantnaya-sderzhannost--x-tak-mozhno" type="checkbox" />
 							<div class="items-item__pic">
-								<img class="js-now-lazy" src="https://scontent-arn2-2.cdninstagram.com/vp/41ea49f9e9608c3da36cda87c3de2250/5DC05570/t51.2885-15/e35/74601599_132314984842554_3062261565217734011_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=106" alt="">
+								<img class="js-now-lazy" src="https://scontent-arn2-2.cdninstagram.com/vp/d50990009358e24a7fc61e276e13497f/5DC2F870/t51.2885-15/e35/74601599_132314984842554_3062261565217734011_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=106" alt="">
 								<ul class="items-item__taglist">
 								</ul>
 							</div>
@@ -402,7 +424,7 @@
 						<label class="items-item__wrap items-item__check">
 							<input id="teplaya-i-uyutnaya-spal-nya" type="checkbox" />
 							<div class="items-item__pic">
-								<img class="js-now-lazy" src="https://scontent-arn2-2.cdninstagram.com/vp/9accc3b8e00bd78205bdcaaea16677bd/5DC04E8F/t51.2885-15/e35/s1080x1080/72103274_580856512454352_2098607356443727590_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=100" alt="">
+								<img class="js-now-lazy" src="https://scontent-arn2-2.cdninstagram.com/vp/e54b5ee8fe8258cf4b515922e83fe131/5DC2F18F/t51.2885-15/e35/s1080x1080/72103274_580856512454352_2098607356443727590_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=100" alt="">
 								<ul class="items-item__taglist">
 								</ul>
 							</div>
@@ -412,7 +434,7 @@
 						<label class="items-item__wrap items-item__check">
 							<input id="novyy-stil-" type="checkbox" />
 							<div class="items-item__pic">
-								<img class="js-now-lazy" src="https://scontent-arn2-2.cdninstagram.com/vp/f27aa590041f98793d150b45cc04aa9b/5DC0660F/t51.2885-15/e35/71192937_763498064099078_3082891289840399258_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=102" alt="">
+								<img class="js-now-lazy" src="https://scontent-arn2-2.cdninstagram.com/vp/61db9b633ca3b39c5b9d86ee115c2a84/5DC3090F/t51.2885-15/e35/71192937_763498064099078_3082891289840399258_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=102" alt="">
 								<ul class="items-item__taglist">
 								</ul>
 							</div>
@@ -1170,7 +1192,7 @@
 					</div>
 					<div class="items-item">
 						<label class="items-item__wrap items-item__check">
-							<input id="dlya-polnotsennogo-sna-i-komfortnogo-otdykha" type="checkbox" />
+							<input id="dlya-polnotsennogo-sna-i-komfortnogo-otdykha-1" type="checkbox" />
 							<div class="items-item__pic">
 								<img class="js-now-lazy" src="https://scontent-arn2-2.cdninstagram.com/vp/c31082fd97e358ec5f6cf9ae9439a3a1/5E4D32F0/t51.2885-15/e35/66601726_720511355028843_6074820988430657016_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=103" alt="">
 								<ul class="items-item__taglist">
@@ -1800,7 +1822,7 @@
 					</div>
 					<div class="items-item">
 						<label class="items-item__wrap items-item__check">
-							<input id="dlya-polnotsennogo-sna-i-komfortnogo-otdykha-1" type="checkbox" />
+							<input id="dlya-polnotsennogo-sna-i-komfortnogo-otdykha-2" type="checkbox" />
 							<div class="items-item__pic">
 								<img class="js-now-lazy" src="https://scontent-arn2-2.cdninstagram.com/vp/802fcc88b8897efd8e9a087886c98170/5E5A6304/t51.2885-15/e35/61048829_554645114939348_8575113897966338330_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=108" alt="">
 								<ul class="items-item__taglist">
@@ -2487,49 +2509,2605 @@
 	<script type="text/javascript">
 var currentTitle = '';
 var tags = {
+	"дизайн проект Москва": [
+	"x-studiya-house-box-predostavit",
+	"studiya-house-box-predlagaet",
+	"uyut-v-stolovoyxx-1",
+	"svoya-komnata---mechta-lyubogo",
+	"eta-gostinaya-vypolnena-dizaynerami",
+	"xzakony-sovremennogo-stilya-1",
+	"vannaya-komnata-v-stile-1",
+	"xchto-vkhodit-v-gotovoe-reshenie-2",
+	"nam-ochen--nravitsya-stil-",
+	"druz-ya-1",
+	"stil--loft-x-eto-sochetanie-starogo",
+	"dorogie-druz-ya-2",
+	"bytuet-mneniex-chto-detskuyu",
+	"xxnam-potrebuetsya-vsego",
+	"xxx-house-box-znaetx-chto-o-stil-noy",
+	"gde-nayti-materialyx-kotorye",
+	"spal-nya-v-stile-vintazh",
+	"skandinavskiy-stil--na-pike-populyarnosti",
+	"vannaya-komnata-x-osobennoe",
+	"x-pochemu-house-box",
+	"na-izobrazhenii---proekt-vannoy",
+	"spal-nya-v-stile-vintazh-1",
+	"uyutnaya-i-utonchennaya-gostinaya",
+	"studiya-house-box-predlagaet-3",
+	"dlya-polnotsennogo-sna-i-komfortnogo-otdykha-2",
+	"x-x",
+	"xxxx-gde-zhe-kupit--vsyu-neobkhodimuyu-mebel-",
+	"kak-my-rabotaem",
+	"studiya-house-box-podgotovit",
+	"prostornaya-kukhnya-v-stile",
+	"interesuet-dizayn-proekt-kvartiry-2",
+	"x-chto-vkhodit-v-dizayn-proekt-za-29-900-rubley-1",
+	"seychas-v-trende-svetlye",
+	"interesuet-dizayn-proekt-kvartiry-4",
+	"xxglavnyy-personazh-na-kukhne",
+	"x-dlya-vashego-udobstva-kazhdyy",
+	"napomnim-vse-etapy-nashey",
+	"xxx-detskaya-komnata-x-eto-malen-kiy",
+	"nu-chtox-snova-vernemsya-v-loft",
+	"dizayn-proekt-ot-studii-house",
+	"zachem-vam-house-box",
+	"druz-yax-khotim-napomnit--1",
+	"studiya-house-box-predlagaet-5",
+	"xx-pochemu-zhe-stoit-sdelat--1",
+	"x-interesuet-dizayn-proekt-kvartiry",
+	"na-nash-vzglyadx-eta-gostinaya-vyzyvaet",
+	"nasha-uyutnaya-gostinaya-v-stile",
+	"stil--vintazh-x",
+	"studiya-house-box-napominaet",
+	"studiya-house-box-predlagaet-8",
+	"xxxx-v-chyom-raznitsa-mezhdu-remontom",
+	"xx-skandinavskiy-stil-",
+	"my-ochen--lyubim-klassicheskiy-1",
+	"kruglyy-obedennyy-stol-v-inter-ere",
+	"xxx-studiya-house-box-predostavit",
+	"al-bom-s-vizualizatsiyami-vybrannogo",
+	"mechtaete-o-krasivom-i-izyskannom",
+	"my-produmaem-vse-detali-vashego-1",
+	"xx-pochemu-zhe-stoit-sdelat--2",
+	"vybirayte-ponravivshiysya-stil-",
+	"proekt-kukhni-v-stile-1",
+	"stil-naya-i-funktsional-naya-kukhnya",
+	"inter-er-v-klassicheskom-stile",
+	"bol-shaya-krovat--s-myagkim",
+	"svetlayax-myagkaya-gostinaya",
+	"nash-kumir-stiv-dzhobs-schital",
+	"interesuet-dizayn-proekt-kvartiry-3",
+	"studiya-house-box-predlagaet-7",
+	"ob-edinenie-kukhni-i-gostinoyx",
+	"nam-potrebuetsya-10-dneyx-chtoby",
+	"v-chem-zhe-sekret-prityagatel-nosti-etoy-kukhni",
+	"gostinaya-v-stile-vintazh",
+	"studiya-house-box-predlagaet-11",
+	"moda-postoyanno-menyaetsyax-v-tom-chisle",
+	"skandinavskiy-stil--za-korotkoe",
+	"barnaya-stoyka-vmesto",
+	"dorogie-druz-ya-1",
+	"dizayn-proekt-kvartiry-ot-studii",
+	"studiya-house-box-predlagaet-9",
+	"vannaya-komnata-v-stile",
+	"interesuet-dizayn-proekt-kvartiry-6",
+	"gde-nayti-materialyx-kotorye-1",
+	"hashvdokhnovenie-iz-pinterest-xx-x",
+	"yarkiy-skandinavskiy-denmark",
+	"mechtaete-zhit--v-krasivoy-obstanovke",
+	"vo-vsekh-nashikh-dizaynakh-my-udelyaem-2",
+	"proekt-kukhni-v-stile",
+	"ne-mozhete-reshit--kakoy",
+	"interesuet-dizayn-proekt-kvartiry",
+	"interesuet-dizayn-proekt-kvartiry-1",
+	"dorogie-druz-ya",
+	"my-ochen--lyubim-klassicheskiy",
+	"ekologichnost-x-chistotax-atmosfernost-",
+	"vo-vsekh-nashikh-dizaynakh-my-udelyaem-1",
+	"x-chto-vkhodit-v-dizayn-proekt-za-29-900-rubley",
+	"studiya-house-box-predlagaet-2",
+	"xchto-vkhodit-v-gotovoe-reshenie-3",
+	"iznachal-no-stil--loft-zarodilsya-1",
+	"studiya-house-box-predlagaet-10",
+	"zachem-vam-house-box-1",
+	"my-schitaemx-chto-istinnaya-krasota",
+	"dizayn-nuzhem-vsem-1",
+	"xchto-vkhodit-v-gotovoe-reshenie-1",
+	"studiya-house-box-predlagaet-1",
+	"druz-yax-napominaem-vse-etapy",
+	"pochemu-house-box",
+	"my-produmaem-vse-detali-vashego",
+	"vybirayte-ponravivshiysya-stil--1",
+	"house-box---eto-stil-noe-dizaynerskoe",
+	"xx-pochemu-zhe-stoit-sdelat-",
+	"dizayn-nuzhem-vsem",
+	"vo-vsekh-nashikh-dizaynakh-my-udelyaem",
+	"xchto-vkhodit-v-gotovoe-reshenie",
+	"dizayn-inter-era---etox-prezhde-1",
+	"interesuet-dizayn-proekt-kvartiry-5",
+	"kak-my-rabotaem-1",
+],
+	"дизайнер интерьера Москва": [
+	"x-studiya-house-box-predostavit",
+	"studiya-house-box-predlagaet",
+	"uyut-v-stolovoyxx-1",
+	"svoya-komnata---mechta-lyubogo",
+	"eta-gostinaya-vypolnena-dizaynerami",
+	"xzakony-sovremennogo-stilya-1",
+	"vannaya-komnata-v-stile-1",
+	"xchto-vkhodit-v-gotovoe-reshenie-2",
+	"nam-ochen--nravitsya-stil-",
+	"druz-ya-1",
+	"stil--loft-x-eto-sochetanie-starogo",
+	"dorogie-druz-ya-2",
+	"bytuet-mneniex-chto-detskuyu",
+	"xxnam-potrebuetsya-vsego",
+	"xxx-house-box-znaetx-chto-o-stil-noy",
+	"gde-nayti-materialyx-kotorye",
+	"spal-nya-v-stile-vintazh",
+	"skandinavskiy-stil--na-pike-populyarnosti",
+	"vannaya-komnata-x-osobennoe",
+	"x-pochemu-house-box",
+	"na-izobrazhenii---proekt-vannoy",
+	"spal-nya-v-stile-vintazh-1",
+	"uyutnaya-i-utonchennaya-gostinaya",
+	"studiya-house-box-predlagaet-3",
+	"dlya-polnotsennogo-sna-i-komfortnogo-otdykha-2",
+	"x-x",
+	"xxxx-gde-zhe-kupit--vsyu-neobkhodimuyu-mebel-",
+	"kak-my-rabotaem",
+	"studiya-house-box-podgotovit",
+	"prostornaya-kukhnya-v-stile",
+	"interesuet-dizayn-proekt-kvartiry-2",
+	"x-chto-vkhodit-v-dizayn-proekt-za-29-900-rubley-1",
+	"seychas-v-trende-svetlye",
+	"interesuet-dizayn-proekt-kvartiry-4",
+	"xxglavnyy-personazh-na-kukhne",
+	"x-dlya-vashego-udobstva-kazhdyy",
+	"napomnim-vse-etapy-nashey",
+	"xxx-detskaya-komnata-x-eto-malen-kiy",
+	"nu-chtox-snova-vernemsya-v-loft",
+	"dizayn-proekt-ot-studii-house",
+	"zachem-vam-house-box",
+	"druz-yax-khotim-napomnit--1",
+	"studiya-house-box-predlagaet-5",
+	"xx-pochemu-zhe-stoit-sdelat--1",
+	"x-interesuet-dizayn-proekt-kvartiry",
+	"na-nash-vzglyadx-eta-gostinaya-vyzyvaet",
+	"nasha-uyutnaya-gostinaya-v-stile",
+	"stil--vintazh-x",
+	"studiya-house-box-napominaet",
+	"studiya-house-box-predlagaet-8",
+	"xxxx-v-chyom-raznitsa-mezhdu-remontom",
+	"xx-skandinavskiy-stil-",
+	"my-ochen--lyubim-klassicheskiy-1",
+	"kruglyy-obedennyy-stol-v-inter-ere",
+	"xxx-studiya-house-box-predostavit",
+	"al-bom-s-vizualizatsiyami-vybrannogo",
+	"mechtaete-o-krasivom-i-izyskannom",
+	"my-produmaem-vse-detali-vashego-1",
+	"xx-pochemu-zhe-stoit-sdelat--2",
+	"vybirayte-ponravivshiysya-stil-",
+	"proekt-kukhni-v-stile-1",
+	"stil-naya-i-funktsional-naya-kukhnya",
+	"inter-er-v-klassicheskom-stile",
+	"bol-shaya-krovat--s-myagkim",
+	"svetlayax-myagkaya-gostinaya",
+	"nash-kumir-stiv-dzhobs-schital",
+	"interesuet-dizayn-proekt-kvartiry-3",
+	"studiya-house-box-predlagaet-7",
+	"ob-edinenie-kukhni-i-gostinoyx",
+	"nam-potrebuetsya-10-dneyx-chtoby",
+	"v-chem-zhe-sekret-prityagatel-nosti-etoy-kukhni",
+	"gostinaya-v-stile-vintazh",
+	"studiya-house-box-predlagaet-11",
+	"moda-postoyanno-menyaetsyax-v-tom-chisle",
+	"skandinavskiy-stil--za-korotkoe",
+	"barnaya-stoyka-vmesto",
+	"dorogie-druz-ya-1",
+	"dizayn-proekt-kvartiry-ot-studii",
+	"studiya-house-box-predlagaet-9",
+	"vannaya-komnata-v-stile",
+	"interesuet-dizayn-proekt-kvartiry-6",
+	"gde-nayti-materialyx-kotorye-1",
+	"hashvdokhnovenie-iz-pinterest-xx-x",
+	"yarkiy-skandinavskiy-denmark",
+	"mechtaete-zhit--v-krasivoy-obstanovke",
+	"vo-vsekh-nashikh-dizaynakh-my-udelyaem-2",
+	"proekt-kukhni-v-stile",
+	"ne-mozhete-reshit--kakoy",
+	"interesuet-dizayn-proekt-kvartiry",
+	"interesuet-dizayn-proekt-kvartiry-1",
+	"dorogie-druz-ya",
+	"my-ochen--lyubim-klassicheskiy",
+	"ekologichnost-x-chistotax-atmosfernost-",
+	"vo-vsekh-nashikh-dizaynakh-my-udelyaem-1",
+	"x-chto-vkhodit-v-dizayn-proekt-za-29-900-rubley",
+	"studiya-house-box-predlagaet-2",
+	"xchto-vkhodit-v-gotovoe-reshenie-3",
+	"iznachal-no-stil--loft-zarodilsya-1",
+	"studiya-house-box-predlagaet-10",
+	"zachem-vam-house-box-1",
+	"my-schitaemx-chto-istinnaya-krasota",
+	"dizayn-nuzhem-vsem-1",
+	"xchto-vkhodit-v-gotovoe-reshenie-1",
+	"studiya-house-box-predlagaet-1",
+	"druz-yax-napominaem-vse-etapy",
+	"pochemu-house-box",
+	"my-produmaem-vse-detali-vashego",
+	"vybirayte-ponravivshiysya-stil--1",
+	"house-box---eto-stil-noe-dizaynerskoe",
+	"xx-pochemu-zhe-stoit-sdelat-",
+	"dizayn-nuzhem-vsem",
+	"vo-vsekh-nashikh-dizaynakh-my-udelyaem",
+	"xchto-vkhodit-v-gotovoe-reshenie",
+	"dizayn-inter-era---etox-prezhde-1",
+	"interesuet-dizayn-proekt-kvartiry-5",
+	"kak-my-rabotaem-1",
+],
+	"дизайн проект квартиры": [
+	"x-studiya-house-box-predostavit",
+	"studiya-house-box-predlagaet",
+	"uyut-v-stolovoyxx-1",
+	"svoya-komnata---mechta-lyubogo",
+	"eta-gostinaya-vypolnena-dizaynerami",
+	"xzakony-sovremennogo-stilya-1",
+	"vannaya-komnata-v-stile-1",
+	"xchto-vkhodit-v-gotovoe-reshenie-2",
+	"nam-ochen--nravitsya-stil-",
+	"druz-ya-1",
+	"stil--loft-x-eto-sochetanie-starogo",
+	"dorogie-druz-ya-2",
+	"bytuet-mneniex-chto-detskuyu",
+	"xxnam-potrebuetsya-vsego",
+	"xxx-house-box-znaetx-chto-o-stil-noy",
+	"gde-nayti-materialyx-kotorye",
+	"spal-nya-v-stile-vintazh",
+	"skandinavskiy-stil--na-pike-populyarnosti",
+	"vannaya-komnata-x-osobennoe",
+	"x-pochemu-house-box",
+	"na-izobrazhenii---proekt-vannoy",
+	"spal-nya-v-stile-vintazh-1",
+	"uyutnaya-i-utonchennaya-gostinaya",
+	"studiya-house-box-predlagaet-3",
+	"dlya-polnotsennogo-sna-i-komfortnogo-otdykha-2",
+	"x-x",
+	"xxxx-gde-zhe-kupit--vsyu-neobkhodimuyu-mebel-",
+	"kak-my-rabotaem",
+	"studiya-house-box-podgotovit",
+	"prostornaya-kukhnya-v-stile",
+	"interesuet-dizayn-proekt-kvartiry-2",
+	"x-chto-vkhodit-v-dizayn-proekt-za-29-900-rubley-1",
+	"seychas-v-trende-svetlye",
+	"interesuet-dizayn-proekt-kvartiry-4",
+	"xxglavnyy-personazh-na-kukhne",
+	"x-dlya-vashego-udobstva-kazhdyy",
+	"napomnim-vse-etapy-nashey",
+	"xxx-detskaya-komnata-x-eto-malen-kiy",
+	"nu-chtox-snova-vernemsya-v-loft",
+	"dizayn-proekt-ot-studii-house",
+	"zachem-vam-house-box",
+	"druz-yax-khotim-napomnit--1",
+	"studiya-house-box-predlagaet-5",
+	"xx-pochemu-zhe-stoit-sdelat--1",
+	"x-interesuet-dizayn-proekt-kvartiry",
+	"na-nash-vzglyadx-eta-gostinaya-vyzyvaet",
+	"nasha-uyutnaya-gostinaya-v-stile",
+	"stil--vintazh-x",
+	"studiya-house-box-napominaet",
+	"studiya-house-box-predlagaet-8",
+	"xxxx-v-chyom-raznitsa-mezhdu-remontom",
+	"xx-skandinavskiy-stil-",
+	"my-ochen--lyubim-klassicheskiy-1",
+	"kruglyy-obedennyy-stol-v-inter-ere",
+	"xxx-studiya-house-box-predostavit",
+	"al-bom-s-vizualizatsiyami-vybrannogo",
+	"mechtaete-o-krasivom-i-izyskannom",
+	"my-produmaem-vse-detali-vashego-1",
+	"xx-pochemu-zhe-stoit-sdelat--2",
+	"vybirayte-ponravivshiysya-stil-",
+	"proekt-kukhni-v-stile-1",
+	"stil-naya-i-funktsional-naya-kukhnya",
+	"inter-er-v-klassicheskom-stile",
+	"bol-shaya-krovat--s-myagkim",
+	"svetlayax-myagkaya-gostinaya",
+	"nash-kumir-stiv-dzhobs-schital",
+	"interesuet-dizayn-proekt-kvartiry-3",
+	"studiya-house-box-predlagaet-7",
+	"ob-edinenie-kukhni-i-gostinoyx",
+	"nam-potrebuetsya-10-dneyx-chtoby",
+	"v-chem-zhe-sekret-prityagatel-nosti-etoy-kukhni",
+	"gostinaya-v-stile-vintazh",
+	"studiya-house-box-predlagaet-11",
+	"moda-postoyanno-menyaetsyax-v-tom-chisle",
+	"skandinavskiy-stil--za-korotkoe",
+	"barnaya-stoyka-vmesto",
+	"dorogie-druz-ya-1",
+	"studiya-house-box-predlagaet-9",
+	"vannaya-komnata-v-stile",
+	"interesuet-dizayn-proekt-kvartiry-6",
+	"gde-nayti-materialyx-kotorye-1",
+	"hashvdokhnovenie-iz-pinterest-xx-x",
+	"yarkiy-skandinavskiy-denmark",
+	"mechtaete-zhit--v-krasivoy-obstanovke",
+	"vo-vsekh-nashikh-dizaynakh-my-udelyaem-2",
+	"proekt-kukhni-v-stile",
+	"ne-mozhete-reshit--kakoy",
+	"interesuet-dizayn-proekt-kvartiry",
+	"interesuet-dizayn-proekt-kvartiry-1",
+	"dorogie-druz-ya",
+	"my-ochen--lyubim-klassicheskiy",
+	"ekologichnost-x-chistotax-atmosfernost-",
+	"vo-vsekh-nashikh-dizaynakh-my-udelyaem-1",
+	"x-chto-vkhodit-v-dizayn-proekt-za-29-900-rubley",
+	"studiya-house-box-predlagaet-2",
+	"xchto-vkhodit-v-gotovoe-reshenie-3",
+	"iznachal-no-stil--loft-zarodilsya-1",
+	"studiya-house-box-predlagaet-10",
+	"zachem-vam-house-box-1",
+	"my-schitaemx-chto-istinnaya-krasota",
+	"dizayn-nuzhem-vsem-1",
+	"xchto-vkhodit-v-gotovoe-reshenie-1",
+	"studiya-house-box-predlagaet-1",
+	"druz-yax-napominaem-vse-etapy",
+	"pochemu-house-box",
+	"my-produmaem-vse-detali-vashego",
+	"vybirayte-ponravivshiysya-stil--1",
+	"xx-pochemu-zhe-stoit-sdelat-",
+	"dizayn-nuzhem-vsem",
+	"vo-vsekh-nashikh-dizaynakh-my-udelyaem",
+	"xchto-vkhodit-v-gotovoe-reshenie",
+	"dizayn-inter-era---etox-prezhde-1",
+	"interesuet-dizayn-proekt-kvartiry-5",
+	"kak-my-rabotaem-1",
+],
+	"дизайнер интерьера спб": [
+	"x-studiya-house-box-predostavit",
+	"studiya-house-box-predlagaet",
+	"uyut-v-stolovoyxx-1",
+	"svoya-komnata---mechta-lyubogo",
+	"eta-gostinaya-vypolnena-dizaynerami",
+	"xzakony-sovremennogo-stilya-1",
+	"vannaya-komnata-v-stile-1",
+	"xchto-vkhodit-v-gotovoe-reshenie-2",
+	"nam-ochen--nravitsya-stil-",
+	"druz-ya-1",
+	"stil--loft-x-eto-sochetanie-starogo",
+	"dorogie-druz-ya-2",
+	"bytuet-mneniex-chto-detskuyu",
+	"xxnam-potrebuetsya-vsego",
+	"xxx-house-box-znaetx-chto-o-stil-noy",
+	"gde-nayti-materialyx-kotorye",
+	"spal-nya-v-stile-vintazh",
+	"skandinavskiy-stil--na-pike-populyarnosti",
+	"vannaya-komnata-x-osobennoe",
+	"x-pochemu-house-box",
+	"na-izobrazhenii---proekt-vannoy",
+	"spal-nya-v-stile-vintazh-1",
+	"uyutnaya-i-utonchennaya-gostinaya",
+	"studiya-house-box-predlagaet-3",
+	"dlya-polnotsennogo-sna-i-komfortnogo-otdykha-2",
+	"x-x",
+	"xxxx-gde-zhe-kupit--vsyu-neobkhodimuyu-mebel-",
+	"kak-my-rabotaem",
+	"studiya-house-box-podgotovit",
+	"prostornaya-kukhnya-v-stile",
+	"interesuet-dizayn-proekt-kvartiry-2",
+	"x-chto-vkhodit-v-dizayn-proekt-za-29-900-rubley-1",
+	"seychas-v-trende-svetlye",
+	"interesuet-dizayn-proekt-kvartiry-4",
+	"xxglavnyy-personazh-na-kukhne",
+	"x-dlya-vashego-udobstva-kazhdyy",
+	"napomnim-vse-etapy-nashey",
+	"xxx-detskaya-komnata-x-eto-malen-kiy",
+	"nu-chtox-snova-vernemsya-v-loft",
+	"dizayn-proekt-ot-studii-house",
+	"zachem-vam-house-box",
+	"druz-yax-khotim-napomnit--1",
+	"studiya-house-box-predlagaet-5",
+	"xx-pochemu-zhe-stoit-sdelat--1",
+	"x-interesuet-dizayn-proekt-kvartiry",
+	"na-nash-vzglyadx-eta-gostinaya-vyzyvaet",
+	"nasha-uyutnaya-gostinaya-v-stile",
+	"stil--vintazh-x",
+	"studiya-house-box-napominaet",
+	"studiya-house-box-predlagaet-8",
+	"xxxx-v-chyom-raznitsa-mezhdu-remontom",
+	"xx-skandinavskiy-stil-",
+	"my-ochen--lyubim-klassicheskiy-1",
+	"kruglyy-obedennyy-stol-v-inter-ere",
+	"xxx-studiya-house-box-predostavit",
+	"al-bom-s-vizualizatsiyami-vybrannogo",
+	"mechtaete-o-krasivom-i-izyskannom",
+	"my-produmaem-vse-detali-vashego-1",
+	"xx-pochemu-zhe-stoit-sdelat--2",
+	"vybirayte-ponravivshiysya-stil-",
+	"proekt-kukhni-v-stile-1",
+	"stil-naya-i-funktsional-naya-kukhnya",
+	"inter-er-v-klassicheskom-stile",
+	"bol-shaya-krovat--s-myagkim",
+	"svetlayax-myagkaya-gostinaya",
+	"nash-kumir-stiv-dzhobs-schital",
+	"interesuet-dizayn-proekt-kvartiry-3",
+	"studiya-house-box-predlagaet-7",
+	"ob-edinenie-kukhni-i-gostinoyx",
+	"nam-potrebuetsya-10-dneyx-chtoby",
+	"v-chem-zhe-sekret-prityagatel-nosti-etoy-kukhni",
+	"gostinaya-v-stile-vintazh",
+	"studiya-house-box-predlagaet-11",
+	"moda-postoyanno-menyaetsyax-v-tom-chisle",
+	"skandinavskiy-stil--za-korotkoe",
+	"barnaya-stoyka-vmesto",
+	"dorogie-druz-ya-1",
+	"studiya-house-box-predlagaet-9",
+	"vannaya-komnata-v-stile",
+	"interesuet-dizayn-proekt-kvartiry-6",
+	"gde-nayti-materialyx-kotorye-1",
+	"hashvdokhnovenie-iz-pinterest-xx-x",
+	"yarkiy-skandinavskiy-denmark",
+	"mechtaete-zhit--v-krasivoy-obstanovke",
+	"vo-vsekh-nashikh-dizaynakh-my-udelyaem-2",
+	"proekt-kukhni-v-stile",
+	"ne-mozhete-reshit--kakoy",
+	"interesuet-dizayn-proekt-kvartiry",
+	"interesuet-dizayn-proekt-kvartiry-1",
+	"dorogie-druz-ya",
+	"my-ochen--lyubim-klassicheskiy",
+	"ekologichnost-x-chistotax-atmosfernost-",
+	"vo-vsekh-nashikh-dizaynakh-my-udelyaem-1",
+	"x-chto-vkhodit-v-dizayn-proekt-za-29-900-rubley",
+	"studiya-house-box-predlagaet-2",
+	"xchto-vkhodit-v-gotovoe-reshenie-3",
+	"iznachal-no-stil--loft-zarodilsya-1",
+	"studiya-house-box-predlagaet-10",
+	"zachem-vam-house-box-1",
+	"my-schitaemx-chto-istinnaya-krasota",
+	"dizayn-nuzhem-vsem-1",
+	"xchto-vkhodit-v-gotovoe-reshenie-1",
+	"studiya-house-box-predlagaet-1",
+	"druz-yax-napominaem-vse-etapy",
+	"pochemu-house-box",
+	"my-produmaem-vse-detali-vashego",
+	"vybirayte-ponravivshiysya-stil--1",
+	"xx-pochemu-zhe-stoit-sdelat-",
+	"dizayn-nuzhem-vsem",
+	"vo-vsekh-nashikh-dizaynakh-my-udelyaem",
+	"xchto-vkhodit-v-gotovoe-reshenie",
+	"dizayn-inter-era---etox-prezhde-1",
+	"interesuet-dizayn-proekt-kvartiry-5",
+	"kak-my-rabotaem-1",
+],
+	"дизайн квартиры Москва": [
+	"x-studiya-house-box-predostavit",
+	"studiya-house-box-predlagaet",
+	"uyut-v-stolovoyxx-1",
+	"svoya-komnata---mechta-lyubogo",
+	"eta-gostinaya-vypolnena-dizaynerami",
+	"xzakony-sovremennogo-stilya-1",
+	"vannaya-komnata-v-stile-1",
+	"xchto-vkhodit-v-gotovoe-reshenie-2",
+	"nam-ochen--nravitsya-stil-",
+	"druz-ya-1",
+	"stil--loft-x-eto-sochetanie-starogo",
+	"dorogie-druz-ya-2",
+	"bytuet-mneniex-chto-detskuyu",
+	"xxnam-potrebuetsya-vsego",
+	"xxx-house-box-znaetx-chto-o-stil-noy",
+	"gde-nayti-materialyx-kotorye",
+	"spal-nya-v-stile-vintazh",
+	"skandinavskiy-stil--na-pike-populyarnosti",
+	"vannaya-komnata-x-osobennoe",
+	"x-pochemu-house-box",
+	"na-izobrazhenii---proekt-vannoy",
+	"spal-nya-v-stile-vintazh-1",
+	"uyutnaya-i-utonchennaya-gostinaya",
+	"studiya-house-box-predlagaet-3",
+	"dlya-polnotsennogo-sna-i-komfortnogo-otdykha-2",
+	"x-x",
+	"xxxx-gde-zhe-kupit--vsyu-neobkhodimuyu-mebel-",
+	"kak-my-rabotaem",
+	"studiya-house-box-podgotovit",
+	"prostornaya-kukhnya-v-stile",
+	"interesuet-dizayn-proekt-kvartiry-2",
+	"x-chto-vkhodit-v-dizayn-proekt-za-29-900-rubley-1",
+	"seychas-v-trende-svetlye",
+	"interesuet-dizayn-proekt-kvartiry-4",
+	"xxglavnyy-personazh-na-kukhne",
+	"x-dlya-vashego-udobstva-kazhdyy",
+	"napomnim-vse-etapy-nashey",
+	"xxx-detskaya-komnata-x-eto-malen-kiy",
+	"nu-chtox-snova-vernemsya-v-loft",
+	"dizayn-proekt-ot-studii-house",
+	"zachem-vam-house-box",
+	"druz-yax-khotim-napomnit--1",
+	"studiya-house-box-predlagaet-5",
+	"xx-pochemu-zhe-stoit-sdelat--1",
+	"x-interesuet-dizayn-proekt-kvartiry",
+	"na-nash-vzglyadx-eta-gostinaya-vyzyvaet",
+	"nasha-uyutnaya-gostinaya-v-stile",
+	"stil--vintazh-x",
+	"studiya-house-box-napominaet",
+	"studiya-house-box-predlagaet-8",
+	"xxxx-v-chyom-raznitsa-mezhdu-remontom",
+	"xx-skandinavskiy-stil-",
+	"my-ochen--lyubim-klassicheskiy-1",
+	"kruglyy-obedennyy-stol-v-inter-ere",
+	"xxx-studiya-house-box-predostavit",
+	"al-bom-s-vizualizatsiyami-vybrannogo",
+	"mechtaete-o-krasivom-i-izyskannom",
+	"my-produmaem-vse-detali-vashego-1",
+	"xx-pochemu-zhe-stoit-sdelat--2",
+	"vybirayte-ponravivshiysya-stil-",
+	"proekt-kukhni-v-stile-1",
+	"stil-naya-i-funktsional-naya-kukhnya",
+	"inter-er-v-klassicheskom-stile",
+	"bol-shaya-krovat--s-myagkim",
+	"svetlayax-myagkaya-gostinaya",
+	"nash-kumir-stiv-dzhobs-schital",
+	"interesuet-dizayn-proekt-kvartiry-3",
+	"studiya-house-box-predlagaet-7",
+	"ob-edinenie-kukhni-i-gostinoyx",
+	"nam-potrebuetsya-10-dneyx-chtoby",
+	"v-chem-zhe-sekret-prityagatel-nosti-etoy-kukhni",
+	"gostinaya-v-stile-vintazh",
+	"studiya-house-box-predlagaet-11",
+	"moda-postoyanno-menyaetsyax-v-tom-chisle",
+	"skandinavskiy-stil--za-korotkoe",
+	"barnaya-stoyka-vmesto",
+	"dorogie-druz-ya-1",
+	"studiya-house-box-predlagaet-9",
+	"vannaya-komnata-v-stile",
+	"interesuet-dizayn-proekt-kvartiry-6",
+	"gde-nayti-materialyx-kotorye-1",
+	"hashvdokhnovenie-iz-pinterest-xx-x",
+	"yarkiy-skandinavskiy-denmark",
+	"mechtaete-zhit--v-krasivoy-obstanovke",
+	"vo-vsekh-nashikh-dizaynakh-my-udelyaem-2",
+	"proekt-kukhni-v-stile",
+	"ne-mozhete-reshit--kakoy",
+	"interesuet-dizayn-proekt-kvartiry",
+	"interesuet-dizayn-proekt-kvartiry-1",
+	"dorogie-druz-ya",
+	"my-ochen--lyubim-klassicheskiy",
+	"ekologichnost-x-chistotax-atmosfernost-",
+	"vo-vsekh-nashikh-dizaynakh-my-udelyaem-1",
+	"x-chto-vkhodit-v-dizayn-proekt-za-29-900-rubley",
+	"studiya-house-box-predlagaet-2",
+	"xchto-vkhodit-v-gotovoe-reshenie-3",
+	"iznachal-no-stil--loft-zarodilsya-1",
+	"studiya-house-box-predlagaet-10",
+	"zachem-vam-house-box-1",
+	"my-schitaemx-chto-istinnaya-krasota",
+	"dizayn-nuzhem-vsem-1",
+	"xchto-vkhodit-v-gotovoe-reshenie-1",
+	"studiya-house-box-predlagaet-1",
+	"druz-yax-napominaem-vse-etapy",
+	"pochemu-house-box",
+	"my-produmaem-vse-detali-vashego",
+	"vybirayte-ponravivshiysya-stil--1",
+	"xx-pochemu-zhe-stoit-sdelat-",
+	"dizayn-nuzhem-vsem",
+	"vo-vsekh-nashikh-dizaynakh-my-udelyaem",
+	"xchto-vkhodit-v-gotovoe-reshenie",
+	"dizayn-inter-era---etox-prezhde-1",
+	"interesuet-dizayn-proekt-kvartiry-5",
+	"kak-my-rabotaem-1",
+],
+	"дизайн интерьера спб": [
+	"novyy-stil-",
+	"teplaya-i-uyutnaya-spal-nya",
+	"elegantnaya-sderzhannost--x-tak-mozhno",
+	"x-studiya-house-box-predostavit",
+	"studiya-house-box-predlagaet",
+	"svoya-komnata---mechta-lyubogo",
+	"eta-gostinaya-vypolnena-dizaynerami",
+	"vannaya-komnata-v-stile-1",
+	"nam-ochen--nravitsya-stil-",
+	"druz-ya-1",
+	"stil--loft-x-eto-sochetanie-starogo",
+	"dorogie-druz-ya-2",
+	"bytuet-mneniex-chto-detskuyu",
+	"xxx-house-box-znaetx-chto-o-stil-noy",
+	"gde-nayti-materialyx-kotorye",
+	"spal-nya-v-stile-vintazh",
+	"skandinavskiy-stil--na-pike-populyarnosti",
+	"na-izobrazhenii---proekt-vannoy",
+	"spal-nya-v-stile-vintazh-1",
+	"uyutnaya-i-utonchennaya-gostinaya",
+	"studiya-house-box-predlagaet-3",
+	"xxxx-gde-zhe-kupit--vsyu-neobkhodimuyu-mebel-",
+	"kak-my-rabotaem",
+	"studiya-house-box-podgotovit",
+	"prostornaya-kukhnya-v-stile",
+	"interesuet-dizayn-proekt-kvartiry-2",
+	"x-chto-vkhodit-v-dizayn-proekt-za-29-900-rubley-1",
+	"napomnim-vse-etapy-nashey",
+	"xxx-detskaya-komnata-x-eto-malen-kiy",
+	"nu-chtox-snova-vernemsya-v-loft",
+	"dizayn-proekt-ot-studii-house",
+	"zachem-vam-house-box",
+	"druz-yax-khotim-napomnit--1",
+	"studiya-house-box-predlagaet-5",
+	"klassika-aktual-na-vo-vse-vremena",
+	"xx-pochemu-zhe-stoit-sdelat--1",
+	"x-interesuet-dizayn-proekt-kvartiry",
+	"na-nash-vzglyadx-eta-gostinaya-vyzyvaet",
+	"nasha-uyutnaya-gostinaya-v-stile",
+	"studiya-house-box-napominaet",
+	"xxx-studiya-house-box-predostavit",
+	"al-bom-s-vizualizatsiyami-vybrannogo",
+	"mechtaete-o-krasivom-i-izyskannom",
+	"my-produmaem-vse-detali-vashego-1",
+	"xx-pochemu-zhe-stoit-sdelat--2",
+	"vybirayte-ponravivshiysya-stil-",
+	"proekt-kukhni-v-stile-1",
+	"stil-naya-i-funktsional-naya-kukhnya",
+	"inter-er-v-klassicheskom-stile",
+	"bol-shaya-krovat--s-myagkim",
+	"svetlayax-myagkaya-gostinaya",
+	"nash-kumir-stiv-dzhobs-schital",
+	"minimalizm-lyubit-geometricheskie-1",
+	"interesuet-dizayn-proekt-kvartiry-3",
+	"studiya-house-box-predlagaet-7",
+	"nam-potrebuetsya-10-dneyx-chtoby",
+	"angliyskaya-klassika-aktual-na",
+	"v-chem-zhe-sekret-prityagatel-nosti-etoy-kukhni",
+	"gostinaya-v-stile-vintazh",
+	"studiya-house-box-predlagaet-11",
+	"moda-postoyanno-menyaetsyax-v-tom-chisle",
+	"skandinavskiy-stil--za-korotkoe",
+	"barnaya-stoyka-vmesto",
+	"dorogie-druz-ya-1",
+	"dizayn-proekt-kvartiry-ot-studii",
+	"v-nashey-kollektsii-poyavilos-",
+	"vannaya-komnata-v-stile",
+	"interesuet-dizayn-proekt-kvartiry-6",
+	"gde-nayti-materialyx-kotorye-1",
+	"hashvdokhnovenie-iz-pinterest-xx-x",
+	"yarkiy-skandinavskiy-denmark",
+	"mechtaete-zhit--v-krasivoy-obstanovke",
+	"xne-ustanu-povtoryat-x-glavnoe",
+	"druz-ya",
+	"vo-vsekh-nashikh-dizaynakh-my-udelyaem-2",
+	"nezhnost--i-vozdushnost--po-skandinavski",
+	"proekt-kukhni-v-stile",
+	"ne-mozhete-reshit--kakoy",
+	"interesuet-dizayn-proekt-kvartiry",
+	"interesuet-dizayn-proekt-kvartiry-1",
+	"dorogie-druz-ya",
+	"my-ochen--lyubim-klassicheskiy",
+	"spal-nyax-vypolnennaya-v-angliyskom",
+	"ekologichnost-x-chistotax-atmosfernost-",
+	"vo-vsekh-nashikh-dizaynakh-my-udelyaem-1",
+	"ne-zrya-angliyskiy-stil--schitaetsya",
+	"xx-v-chyom-raznitsa-mezhdu-remontom",
+	"v-proekte-angliyskaya-klassika",
+	"x-chto-vkhodit-v-dizayn-proekt-za-29-900-rubley",
+	"angliyskiy-klassicheskiy-stil-",
+	"studiya-house-box-predlagaet-2",
+	"xchto-vkhodit-v-gotovoe-reshenie-3",
+	"iznachal-no-stil--loft-zarodilsya-1",
+	"studiya-house-box-predlagaet-10",
+	"zachem-vam-house-box-1",
+	"my-schitaemx-chto-istinnaya-krasota",
+	"dizayn-nuzhem-vsem-1",
+	"xchto-vkhodit-v-gotovoe-reshenie-1",
+	"studiya-house-box-predlagaet-1",
+	"druz-yax-napominaem-vse-etapy",
+	"pochemu-house-box",
+	"my-produmaem-vse-detali-vashego",
+	"vybirayte-ponravivshiysya-stil--1",
+	"minimalizm-lyubit-geometricheskie",
+	"house-box---eto-stil-noe-dizaynerskoe",
+	"eta-gostinaya-vypolnena-v-stile",
+	"xx-pochemu-zhe-stoit-sdelat-",
+	"dizayn-nuzhem-vsem",
+	"vo-vsekh-nashikh-dizaynakh-my-udelyaem",
+	"v-nashikh-inter-erakh-my-priderzhivaemsya",
+	"xchto-vkhodit-v-gotovoe-reshenie",
+	"interesuet-dizayn-proekt-kvartiry-5",
+	"kak-my-rabotaem-1",
+],
+	"заказать дизайн проект": [
+	"x-studiya-house-box-predostavit",
+	"studiya-house-box-predlagaet",
+	"uyut-v-stolovoyxx-1",
+	"svoya-komnata---mechta-lyubogo",
+	"xzakony-sovremennogo-stilya-1",
+	"vannaya-komnata-v-stile-1",
+	"xchto-vkhodit-v-gotovoe-reshenie-2",
+	"nam-ochen--nravitsya-stil-",
+	"druz-ya-1",
+	"stil--loft-x-eto-sochetanie-starogo",
+	"dorogie-druz-ya-2",
+	"bytuet-mneniex-chto-detskuyu",
+	"xxnam-potrebuetsya-vsego",
+	"xxx-house-box-znaetx-chto-o-stil-noy",
+	"gde-nayti-materialyx-kotorye",
+	"spal-nya-v-stile-vintazh",
+	"dazhe-samyy-izyskannyy-inter-er-1",
+	"skandinavskiy-stil--na-pike-populyarnosti",
+	"vannaya-komnata-x-osobennoe",
+	"x-pochemu-house-box",
+	"na-izobrazhenii---proekt-vannoy",
+	"spal-nya-v-stile-vintazh-1",
+	"uyutnaya-i-utonchennaya-gostinaya",
+	"studiya-house-box-predlagaet-3",
+	"dlya-polnotsennogo-sna-i-komfortnogo-otdykha-2",
+	"x-x",
+	"xxxx-gde-zhe-kupit--vsyu-neobkhodimuyu-mebel-",
+	"kak-my-rabotaem",
+	"studiya-house-box-podgotovit",
+	"prostornaya-kukhnya-v-stile",
+	"interesuet-dizayn-proekt-kvartiry-2",
+	"x-chto-vkhodit-v-dizayn-proekt-za-29-900-rubley-1",
+	"seychas-v-trende-svetlye",
+	"interesuet-dizayn-proekt-kvartiry-4",
+	"xxglavnyy-personazh-na-kukhne",
+	"x-dlya-vashego-udobstva-kazhdyy",
+	"napomnim-vse-etapy-nashey",
+	"xxx-detskaya-komnata-x-eto-malen-kiy",
+	"dizayn-proekt-ot-studii-house",
+	"zachem-vam-house-box",
+	"druz-yax-khotim-napomnit--1",
+	"studiya-house-box-predlagaet-5",
+	"xx-pochemu-zhe-stoit-sdelat--1",
+	"x-interesuet-dizayn-proekt-kvartiry",
+	"na-nash-vzglyadx-eta-gostinaya-vyzyvaet",
+	"nasha-uyutnaya-gostinaya-v-stile",
+	"stil--vintazh-x",
+	"studiya-house-box-napominaet",
+	"studiya-house-box-predlagaet-8",
+	"xxxx-v-chyom-raznitsa-mezhdu-remontom",
+	"xx-skandinavskiy-stil-",
+	"my-ochen--lyubim-klassicheskiy-1",
+	"kruglyy-obedennyy-stol-v-inter-ere",
+	"xxx-studiya-house-box-predostavit",
+	"al-bom-s-vizualizatsiyami-vybrannogo",
+	"mechtaete-o-krasivom-i-izyskannom",
+	"my-produmaem-vse-detali-vashego-1",
+	"xx-pochemu-zhe-stoit-sdelat--2",
+	"vybirayte-ponravivshiysya-stil-",
+	"proekt-kukhni-v-stile-1",
+	"stil-naya-i-funktsional-naya-kukhnya",
+	"inter-er-v-klassicheskom-stile",
+	"bol-shaya-krovat--s-myagkim",
+	"svetlayax-myagkaya-gostinaya",
+	"nash-kumir-stiv-dzhobs-schital",
+	"interesuet-dizayn-proekt-kvartiry-3",
+	"studiya-house-box-predlagaet-7",
+	"ob-edinenie-kukhni-i-gostinoyx",
+	"nam-potrebuetsya-10-dneyx-chtoby",
+	"v-chem-zhe-sekret-prityagatel-nosti-etoy-kukhni",
+	"gostinaya-v-stile-vintazh",
+	"studiya-house-box-predlagaet-11",
+	"moda-postoyanno-menyaetsyax-v-tom-chisle",
+	"skandinavskiy-stil--za-korotkoe",
+	"barnaya-stoyka-vmesto",
+	"dorogie-druz-ya-1",
+	"studiya-house-box-predlagaet-9",
+	"vannaya-komnata-v-stile",
+	"interesuet-dizayn-proekt-kvartiry-6",
+	"gde-nayti-materialyx-kotorye-1",
+	"hashvdokhnovenie-iz-pinterest-xx-x",
+	"yarkiy-skandinavskiy-denmark",
+	"mechtaete-zhit--v-krasivoy-obstanovke",
+	"vo-vsekh-nashikh-dizaynakh-my-udelyaem-2",
+	"proekt-kukhni-v-stile",
+	"ne-mozhete-reshit--kakoy",
+	"interesuet-dizayn-proekt-kvartiry",
+	"interesuet-dizayn-proekt-kvartiry-1",
+	"dorogie-druz-ya",
+	"my-ochen--lyubim-klassicheskiy",
+	"ekologichnost-x-chistotax-atmosfernost-",
+	"vo-vsekh-nashikh-dizaynakh-my-udelyaem-1",
+	"x-chto-vkhodit-v-dizayn-proekt-za-29-900-rubley",
+	"studiya-house-box-predlagaet-2",
+	"xchto-vkhodit-v-gotovoe-reshenie-3",
+	"iznachal-no-stil--loft-zarodilsya-1",
+	"studiya-house-box-predlagaet-10",
+	"zachem-vam-house-box-1",
+	"my-schitaemx-chto-istinnaya-krasota",
+	"dizayn-nuzhem-vsem-1",
+	"xchto-vkhodit-v-gotovoe-reshenie-1",
+	"studiya-house-box-predlagaet-1",
+	"druz-yax-napominaem-vse-etapy",
+	"pochemu-house-box",
+	"my-produmaem-vse-detali-vashego",
+	"vybirayte-ponravivshiysya-stil--1",
+	"xx-pochemu-zhe-stoit-sdelat-",
+	"dizayn-nuzhem-vsem",
+	"vo-vsekh-nashikh-dizaynakh-my-udelyaem",
+	"xchto-vkhodit-v-gotovoe-reshenie",
+	"dizayn-inter-era---etox-prezhde-1",
+	"interesuet-dizayn-proekt-kvartiry-5",
+	"kak-my-rabotaem-1",
+],
+	"дизайн проекты": [
+	"x-studiya-house-box-predostavit",
+	"studiya-house-box-predlagaet",
+	"uyut-v-stolovoyxx-1",
+	"svoya-komnata---mechta-lyubogo",
+	"xzakony-sovremennogo-stilya-1",
+	"vannaya-komnata-v-stile-1",
+	"xchto-vkhodit-v-gotovoe-reshenie-2",
+	"nam-ochen--nravitsya-stil-",
+	"druz-ya-1",
+	"stil--loft-x-eto-sochetanie-starogo",
+	"dorogie-druz-ya-2",
+	"bytuet-mneniex-chto-detskuyu",
+	"xxnam-potrebuetsya-vsego",
+	"xxx-house-box-znaetx-chto-o-stil-noy",
+	"gde-nayti-materialyx-kotorye",
+	"spal-nya-v-stile-vintazh",
+	"skandinavskiy-stil--na-pike-populyarnosti",
+	"vannaya-komnata-x-osobennoe",
+	"x-pochemu-house-box",
+	"na-izobrazhenii---proekt-vannoy",
+	"spal-nya-v-stile-vintazh-1",
+	"uyutnaya-i-utonchennaya-gostinaya",
+	"studiya-house-box-predlagaet-3",
+	"dlya-polnotsennogo-sna-i-komfortnogo-otdykha-2",
+	"x-x",
+	"xxxx-gde-zhe-kupit--vsyu-neobkhodimuyu-mebel-",
+	"kak-my-rabotaem",
+	"studiya-house-box-podgotovit",
+	"prostornaya-kukhnya-v-stile",
+	"interesuet-dizayn-proekt-kvartiry-2",
+	"x-chto-vkhodit-v-dizayn-proekt-za-29-900-rubley-1",
+	"seychas-v-trende-svetlye",
+	"interesuet-dizayn-proekt-kvartiry-4",
+	"xxglavnyy-personazh-na-kukhne",
+	"x-dlya-vashego-udobstva-kazhdyy",
+	"napomnim-vse-etapy-nashey",
+	"xxx-detskaya-komnata-x-eto-malen-kiy",
+	"dizayn-proekt-ot-studii-house",
+	"zachem-vam-house-box",
+	"druz-yax-khotim-napomnit--1",
+	"studiya-house-box-predlagaet-5",
+	"xx-pochemu-zhe-stoit-sdelat--1",
+	"x-interesuet-dizayn-proekt-kvartiry",
+	"na-nash-vzglyadx-eta-gostinaya-vyzyvaet",
+	"nasha-uyutnaya-gostinaya-v-stile",
+	"stil--vintazh-x",
+	"studiya-house-box-napominaet",
+	"studiya-house-box-predlagaet-8",
+	"xxxx-v-chyom-raznitsa-mezhdu-remontom",
+	"xx-skandinavskiy-stil-",
+	"my-ochen--lyubim-klassicheskiy-1",
+	"kruglyy-obedennyy-stol-v-inter-ere",
+	"xxx-studiya-house-box-predostavit",
+	"al-bom-s-vizualizatsiyami-vybrannogo",
+	"mechtaete-o-krasivom-i-izyskannom",
+	"my-produmaem-vse-detali-vashego-1",
+	"xx-pochemu-zhe-stoit-sdelat--2",
+	"vybirayte-ponravivshiysya-stil-",
+	"proekt-kukhni-v-stile-1",
+	"stil-naya-i-funktsional-naya-kukhnya",
+	"inter-er-v-klassicheskom-stile",
+	"bol-shaya-krovat--s-myagkim",
+	"svetlayax-myagkaya-gostinaya",
+	"nash-kumir-stiv-dzhobs-schital",
+	"interesuet-dizayn-proekt-kvartiry-3",
+	"studiya-house-box-predlagaet-7",
+	"ob-edinenie-kukhni-i-gostinoyx",
+	"nam-potrebuetsya-10-dneyx-chtoby",
+	"v-chem-zhe-sekret-prityagatel-nosti-etoy-kukhni",
+	"gostinaya-v-stile-vintazh",
+	"studiya-house-box-predlagaet-11",
+	"moda-postoyanno-menyaetsyax-v-tom-chisle",
+	"skandinavskiy-stil--za-korotkoe",
+	"dorogie-druz-ya-1",
+	"dizayn-proekt-kvartiry-ot-studii",
+	"studiya-house-box-predlagaet-9",
+	"vannaya-komnata-v-stile",
+	"interesuet-dizayn-proekt-kvartiry-6",
+	"gde-nayti-materialyx-kotorye-1",
+	"hashvdokhnovenie-iz-pinterest-xx-x",
+	"yarkiy-skandinavskiy-denmark",
+	"mechtaete-zhit--v-krasivoy-obstanovke",
+	"vo-vsekh-nashikh-dizaynakh-my-udelyaem-2",
+	"proekt-kukhni-v-stile",
+	"ne-mozhete-reshit--kakoy",
+	"interesuet-dizayn-proekt-kvartiry",
+	"interesuet-dizayn-proekt-kvartiry-1",
+	"dorogie-druz-ya",
+	"my-ochen--lyubim-klassicheskiy",
+	"ekologichnost-x-chistotax-atmosfernost-",
+	"vo-vsekh-nashikh-dizaynakh-my-udelyaem-1",
+	"x-chto-vkhodit-v-dizayn-proekt-za-29-900-rubley",
+	"studiya-house-box-predlagaet-2",
+	"xchto-vkhodit-v-gotovoe-reshenie-3",
+	"iznachal-no-stil--loft-zarodilsya-1",
+	"studiya-house-box-predlagaet-10",
+	"zachem-vam-house-box-1",
+	"my-schitaemx-chto-istinnaya-krasota",
+	"dizayn-nuzhem-vsem-1",
+	"xchto-vkhodit-v-gotovoe-reshenie-1",
+	"studiya-house-box-predlagaet-1",
+	"druz-yax-napominaem-vse-etapy",
+	"pochemu-house-box",
+	"my-produmaem-vse-detali-vashego",
+	"vybirayte-ponravivshiysya-stil--1",
+	"house-box---eto-stil-noe-dizaynerskoe",
+	"xx-pochemu-zhe-stoit-sdelat-",
+	"dizayn-nuzhem-vsem",
+	"vo-vsekh-nashikh-dizaynakh-my-udelyaem",
+	"xchto-vkhodit-v-gotovoe-reshenie",
+	"dizayn-inter-era---etox-prezhde-1",
+	"interesuet-dizayn-proekt-kvartiry-5",
+	"kak-my-rabotaem-1",
+],
+	"дизайн проект спб": [
+	"studiya-house-box-predlagaet",
+	"uyut-v-stolovoyxx-1",
+	"svoya-komnata---mechta-lyubogo",
+	"xzakony-sovremennogo-stilya-1",
+	"xchto-vkhodit-v-gotovoe-reshenie-2",
+	"nam-ochen--nravitsya-stil-",
+	"druz-ya-1",
+	"stil--loft-x-eto-sochetanie-starogo",
+	"dorogie-druz-ya-2",
+	"bytuet-mneniex-chto-detskuyu",
+	"xxnam-potrebuetsya-vsego",
+	"xxx-house-box-znaetx-chto-o-stil-noy",
+	"gde-nayti-materialyx-kotorye",
+	"spal-nya-v-stile-vintazh",
+	"skandinavskiy-stil--na-pike-populyarnosti",
+	"vannaya-komnata-x-osobennoe",
+	"x-pochemu-house-box",
+	"na-izobrazhenii---proekt-vannoy",
+	"uyutnaya-i-utonchennaya-gostinaya",
+	"studiya-house-box-predlagaet-3",
+	"dlya-polnotsennogo-sna-i-komfortnogo-otdykha-2",
+	"x-x",
+	"xxxx-gde-zhe-kupit--vsyu-neobkhodimuyu-mebel-",
+	"kak-my-rabotaem",
+	"interesuet-dizayn-proekt-kvartiry-2",
+	"x-chto-vkhodit-v-dizayn-proekt-za-29-900-rubley-1",
+	"seychas-v-trende-svetlye",
+	"interesuet-dizayn-proekt-kvartiry-4",
+	"xxglavnyy-personazh-na-kukhne",
+	"x-dlya-vashego-udobstva-kazhdyy",
+	"napomnim-vse-etapy-nashey",
+	"xxx-detskaya-komnata-x-eto-malen-kiy",
+	"dizayn-proekt-ot-studii-house",
+	"druz-yax-khotim-napomnit--1",
+	"studiya-house-box-predlagaet-5",
+	"xx-pochemu-zhe-stoit-sdelat--1",
+	"x-interesuet-dizayn-proekt-kvartiry",
+	"na-nash-vzglyadx-eta-gostinaya-vyzyvaet",
+	"nasha-uyutnaya-gostinaya-v-stile",
+	"stil--vintazh-x",
+	"studiya-house-box-napominaet",
+	"studiya-house-box-predlagaet-8",
+	"xxxx-v-chyom-raznitsa-mezhdu-remontom",
+	"xx-skandinavskiy-stil-",
+	"my-ochen--lyubim-klassicheskiy-1",
+	"kruglyy-obedennyy-stol-v-inter-ere",
+	"xxx-studiya-house-box-predostavit",
+	"al-bom-s-vizualizatsiyami-vybrannogo",
+	"mechtaete-o-krasivom-i-izyskannom",
+	"my-produmaem-vse-detali-vashego-1",
+	"xx-pochemu-zhe-stoit-sdelat--2",
+	"vybirayte-ponravivshiysya-stil-",
+	"svetlayax-myagkaya-gostinaya",
+	"interesuet-dizayn-proekt-kvartiry-3",
+	"studiya-house-box-predlagaet-7",
+	"ob-edinenie-kukhni-i-gostinoyx",
+	"moda-postoyanno-menyaetsyax-v-tom-chisle",
+	"barnaya-stoyka-vmesto",
+	"dorogie-druz-ya-1",
+	"studiya-house-box-predlagaet-9",
+	"vannaya-komnata-v-stile",
+	"mechtaete-zhit--v-krasivoy-obstanovke",
+	"vo-vsekh-nashikh-dizaynakh-my-udelyaem-2",
+	"proekt-kukhni-v-stile",
+	"interesuet-dizayn-proekt-kvartiry",
+	"interesuet-dizayn-proekt-kvartiry-1",
+	"dorogie-druz-ya",
+	"my-ochen--lyubim-klassicheskiy",
+	"vo-vsekh-nashikh-dizaynakh-my-udelyaem-1",
+	"x-chto-vkhodit-v-dizayn-proekt-za-29-900-rubley",
+	"studiya-house-box-predlagaet-2",
+	"studiya-house-box-predlagaet-10",
+	"studiya-house-box-predlagaet-1",
+	"vybirayte-ponravivshiysya-stil--1",
+	"xx-pochemu-zhe-stoit-sdelat-",
+	"vo-vsekh-nashikh-dizaynakh-my-udelyaem",
+	"dizayn-inter-era---etox-prezhde-1",
+	"interesuet-dizayn-proekt-kvartiry-5",
+],
+	"дизайн квартиры спб": [
+	"studiya-house-box-predlagaet",
+	"uyut-v-stolovoyxx-1",
+	"svoya-komnata---mechta-lyubogo",
+	"xzakony-sovremennogo-stilya-1",
+	"xchto-vkhodit-v-gotovoe-reshenie-2",
+	"nam-ochen--nravitsya-stil-",
+	"druz-ya-1",
+	"stil--loft-x-eto-sochetanie-starogo",
+	"dorogie-druz-ya-2",
+	"bytuet-mneniex-chto-detskuyu",
+	"xxnam-potrebuetsya-vsego",
+	"xxx-house-box-znaetx-chto-o-stil-noy",
+	"gde-nayti-materialyx-kotorye",
+	"spal-nya-v-stile-vintazh",
+	"skandinavskiy-stil--na-pike-populyarnosti",
+	"vannaya-komnata-x-osobennoe",
+	"x-pochemu-house-box",
+	"na-izobrazhenii---proekt-vannoy",
+	"uyutnaya-i-utonchennaya-gostinaya",
+	"studiya-house-box-predlagaet-3",
+	"dlya-polnotsennogo-sna-i-komfortnogo-otdykha-2",
+	"x-x",
+	"xxxx-gde-zhe-kupit--vsyu-neobkhodimuyu-mebel-",
+	"kak-my-rabotaem",
+	"interesuet-dizayn-proekt-kvartiry-2",
+	"x-chto-vkhodit-v-dizayn-proekt-za-29-900-rubley-1",
+	"seychas-v-trende-svetlye",
+	"interesuet-dizayn-proekt-kvartiry-4",
+	"xxglavnyy-personazh-na-kukhne",
+	"x-dlya-vashego-udobstva-kazhdyy",
+	"napomnim-vse-etapy-nashey",
+	"xxx-detskaya-komnata-x-eto-malen-kiy",
+	"dizayn-proekt-ot-studii-house",
+	"druz-yax-khotim-napomnit--1",
+	"studiya-house-box-predlagaet-5",
+	"xx-pochemu-zhe-stoit-sdelat--1",
+	"x-interesuet-dizayn-proekt-kvartiry",
+	"na-nash-vzglyadx-eta-gostinaya-vyzyvaet",
+	"nasha-uyutnaya-gostinaya-v-stile",
+	"stil--vintazh-x",
+	"studiya-house-box-napominaet",
+	"studiya-house-box-predlagaet-8",
+	"xxxx-v-chyom-raznitsa-mezhdu-remontom",
+	"xx-skandinavskiy-stil-",
+	"my-ochen--lyubim-klassicheskiy-1",
+	"kruglyy-obedennyy-stol-v-inter-ere",
+	"xxx-studiya-house-box-predostavit",
+	"al-bom-s-vizualizatsiyami-vybrannogo",
+	"mechtaete-o-krasivom-i-izyskannom",
+	"my-produmaem-vse-detali-vashego-1",
+	"xx-pochemu-zhe-stoit-sdelat--2",
+	"vybirayte-ponravivshiysya-stil-",
+	"svetlayax-myagkaya-gostinaya",
+	"interesuet-dizayn-proekt-kvartiry-3",
+	"studiya-house-box-predlagaet-7",
+	"ob-edinenie-kukhni-i-gostinoyx",
+	"moda-postoyanno-menyaetsyax-v-tom-chisle",
+	"barnaya-stoyka-vmesto",
+	"dorogie-druz-ya-1",
+	"studiya-house-box-predlagaet-9",
+	"vannaya-komnata-v-stile",
+	"mechtaete-zhit--v-krasivoy-obstanovke",
+	"vo-vsekh-nashikh-dizaynakh-my-udelyaem-2",
+	"proekt-kukhni-v-stile",
+	"interesuet-dizayn-proekt-kvartiry",
+	"interesuet-dizayn-proekt-kvartiry-1",
+	"dorogie-druz-ya",
+	"my-ochen--lyubim-klassicheskiy",
+	"vo-vsekh-nashikh-dizaynakh-my-udelyaem-1",
+	"x-chto-vkhodit-v-dizayn-proekt-za-29-900-rubley",
+	"studiya-house-box-predlagaet-2",
+	"studiya-house-box-predlagaet-10",
+	"studiya-house-box-predlagaet-1",
+	"vybirayte-ponravivshiysya-stil--1",
+	"xx-pochemu-zhe-stoit-sdelat-",
+	"vo-vsekh-nashikh-dizaynakh-my-udelyaem",
+	"dizayn-inter-era---etox-prezhde-1",
+	"interesuet-dizayn-proekt-kvartiry-5",
+],
+	"дизайн квартиры студии": [
+	"studiya-house-box-predlagaet",
+	"uyut-v-stolovoyxx-1",
+	"svoya-komnata---mechta-lyubogo",
+	"xzakony-sovremennogo-stilya-1",
+	"xchto-vkhodit-v-gotovoe-reshenie-2",
+	"nam-ochen--nravitsya-stil-",
+	"druz-ya-1",
+	"stil--loft-x-eto-sochetanie-starogo",
+	"dorogie-druz-ya-2",
+	"bytuet-mneniex-chto-detskuyu",
+	"xxnam-potrebuetsya-vsego",
+	"xxx-house-box-znaetx-chto-o-stil-noy",
+	"gde-nayti-materialyx-kotorye",
+	"spal-nya-v-stile-vintazh",
+	"skandinavskiy-stil--na-pike-populyarnosti",
+	"vannaya-komnata-x-osobennoe",
+	"x-pochemu-house-box",
+	"na-izobrazhenii---proekt-vannoy",
+	"uyutnaya-i-utonchennaya-gostinaya",
+	"studiya-house-box-predlagaet-3",
+	"dlya-polnotsennogo-sna-i-komfortnogo-otdykha-2",
+	"x-x",
+	"xxxx-gde-zhe-kupit--vsyu-neobkhodimuyu-mebel-",
+	"kak-my-rabotaem",
+	"interesuet-dizayn-proekt-kvartiry-2",
+	"x-chto-vkhodit-v-dizayn-proekt-za-29-900-rubley-1",
+	"seychas-v-trende-svetlye",
+	"interesuet-dizayn-proekt-kvartiry-4",
+	"xxglavnyy-personazh-na-kukhne",
+	"x-dlya-vashego-udobstva-kazhdyy",
+	"napomnim-vse-etapy-nashey",
+	"xxx-detskaya-komnata-x-eto-malen-kiy",
+	"dizayn-proekt-ot-studii-house",
+	"druz-yax-khotim-napomnit--1",
+	"studiya-house-box-predlagaet-5",
+	"xx-pochemu-zhe-stoit-sdelat--1",
+	"x-interesuet-dizayn-proekt-kvartiry",
+	"na-nash-vzglyadx-eta-gostinaya-vyzyvaet",
+	"nasha-uyutnaya-gostinaya-v-stile",
+	"stil--vintazh-x",
+	"studiya-house-box-napominaet",
+	"studiya-house-box-predlagaet-8",
+	"xxxx-v-chyom-raznitsa-mezhdu-remontom",
+	"xx-skandinavskiy-stil-",
+	"my-ochen--lyubim-klassicheskiy-1",
+	"kruglyy-obedennyy-stol-v-inter-ere",
+	"xxx-studiya-house-box-predostavit",
+	"al-bom-s-vizualizatsiyami-vybrannogo",
+	"mechtaete-o-krasivom-i-izyskannom",
+	"my-produmaem-vse-detali-vashego-1",
+	"xx-pochemu-zhe-stoit-sdelat--2",
+	"vybirayte-ponravivshiysya-stil-",
+	"svetlayax-myagkaya-gostinaya",
+	"interesuet-dizayn-proekt-kvartiry-3",
+	"studiya-house-box-predlagaet-7",
+	"ob-edinenie-kukhni-i-gostinoyx",
+	"moda-postoyanno-menyaetsyax-v-tom-chisle",
+	"barnaya-stoyka-vmesto",
+	"dorogie-druz-ya-1",
+	"studiya-house-box-predlagaet-9",
+	"vannaya-komnata-v-stile",
+	"mechtaete-zhit--v-krasivoy-obstanovke",
+	"vo-vsekh-nashikh-dizaynakh-my-udelyaem-2",
+	"proekt-kukhni-v-stile",
+	"interesuet-dizayn-proekt-kvartiry",
+	"interesuet-dizayn-proekt-kvartiry-1",
+	"dorogie-druz-ya",
+	"my-ochen--lyubim-klassicheskiy",
+	"vo-vsekh-nashikh-dizaynakh-my-udelyaem-1",
+	"x-chto-vkhodit-v-dizayn-proekt-za-29-900-rubley",
+	"studiya-house-box-predlagaet-2",
+	"studiya-house-box-predlagaet-10",
+	"studiya-house-box-predlagaet-1",
+	"vybirayte-ponravivshiysya-stil--1",
+	"xx-pochemu-zhe-stoit-sdelat-",
+	"vo-vsekh-nashikh-dizaynakh-my-udelyaem",
+	"dizayn-inter-era---etox-prezhde-1",
+	"interesuet-dizayn-proekt-kvartiry-5",
+],
+	"заказать дизайн интерьера": [
+	"studiya-house-box-predlagaet",
+	"uyut-v-stolovoyxx-1",
+	"svoya-komnata---mechta-lyubogo",
+	"xzakony-sovremennogo-stilya-1",
+	"xchto-vkhodit-v-gotovoe-reshenie-2",
+	"nam-ochen--nravitsya-stil-",
+	"druz-ya-1",
+	"stil--loft-x-eto-sochetanie-starogo",
+	"dorogie-druz-ya-2",
+	"bytuet-mneniex-chto-detskuyu",
+	"xxnam-potrebuetsya-vsego",
+	"xxx-house-box-znaetx-chto-o-stil-noy",
+	"gde-nayti-materialyx-kotorye",
+	"spal-nya-v-stile-vintazh",
+	"skandinavskiy-stil--na-pike-populyarnosti",
+	"vannaya-komnata-x-osobennoe",
+	"x-pochemu-house-box",
+	"na-izobrazhenii---proekt-vannoy",
+	"uyutnaya-i-utonchennaya-gostinaya",
+	"studiya-house-box-predlagaet-3",
+	"dlya-polnotsennogo-sna-i-komfortnogo-otdykha-2",
+	"x-x",
+	"xxxx-gde-zhe-kupit--vsyu-neobkhodimuyu-mebel-",
+	"kak-my-rabotaem",
+	"interesuet-dizayn-proekt-kvartiry-2",
+	"x-chto-vkhodit-v-dizayn-proekt-za-29-900-rubley-1",
+	"seychas-v-trende-svetlye",
+	"interesuet-dizayn-proekt-kvartiry-4",
+	"xxglavnyy-personazh-na-kukhne",
+	"x-dlya-vashego-udobstva-kazhdyy",
+	"napomnim-vse-etapy-nashey",
+	"xxx-detskaya-komnata-x-eto-malen-kiy",
+	"dizayn-proekt-ot-studii-house",
+	"druz-yax-khotim-napomnit--1",
+	"studiya-house-box-predlagaet-5",
+	"xx-pochemu-zhe-stoit-sdelat--1",
+	"x-interesuet-dizayn-proekt-kvartiry",
+	"na-nash-vzglyadx-eta-gostinaya-vyzyvaet",
+	"nasha-uyutnaya-gostinaya-v-stile",
+	"stil--vintazh-x",
+	"studiya-house-box-napominaet",
+	"studiya-house-box-predlagaet-8",
+	"xxxx-v-chyom-raznitsa-mezhdu-remontom",
+	"xx-skandinavskiy-stil-",
+	"my-ochen--lyubim-klassicheskiy-1",
+	"kruglyy-obedennyy-stol-v-inter-ere",
+	"xxx-studiya-house-box-predostavit",
+	"al-bom-s-vizualizatsiyami-vybrannogo",
+	"mechtaete-o-krasivom-i-izyskannom",
+	"my-produmaem-vse-detali-vashego-1",
+	"xx-pochemu-zhe-stoit-sdelat--2",
+	"vybirayte-ponravivshiysya-stil-",
+	"svetlayax-myagkaya-gostinaya",
+	"interesuet-dizayn-proekt-kvartiry-3",
+	"studiya-house-box-predlagaet-7",
+	"ob-edinenie-kukhni-i-gostinoyx",
+	"moda-postoyanno-menyaetsyax-v-tom-chisle",
+	"barnaya-stoyka-vmesto",
+	"dorogie-druz-ya-1",
+	"studiya-house-box-predlagaet-9",
+	"vannaya-komnata-v-stile",
+	"mechtaete-zhit--v-krasivoy-obstanovke",
+	"vo-vsekh-nashikh-dizaynakh-my-udelyaem-2",
+	"proekt-kukhni-v-stile",
+	"interesuet-dizayn-proekt-kvartiry",
+	"interesuet-dizayn-proekt-kvartiry-1",
+	"dorogie-druz-ya",
+	"my-ochen--lyubim-klassicheskiy",
+	"vo-vsekh-nashikh-dizaynakh-my-udelyaem-1",
+	"x-chto-vkhodit-v-dizayn-proekt-za-29-900-rubley",
+	"studiya-house-box-predlagaet-2",
+	"studiya-house-box-predlagaet-10",
+	"studiya-house-box-predlagaet-1",
+	"vybirayte-ponravivshiysya-stil--1",
+	"xx-pochemu-zhe-stoit-sdelat-",
+	"vo-vsekh-nashikh-dizaynakh-my-udelyaem",
+	"dizayn-inter-era---etox-prezhde-1",
+	"interesuet-dizayn-proekt-kvartiry-5",
+],
+	"заказать дизайн дома": [
+	"studiya-house-box-predlagaet",
+	"uyut-v-stolovoyxx-1",
+	"svoya-komnata---mechta-lyubogo",
+	"xzakony-sovremennogo-stilya-1",
+	"xchto-vkhodit-v-gotovoe-reshenie-2",
+	"nam-ochen--nravitsya-stil-",
+	"druz-ya-1",
+	"stil--loft-x-eto-sochetanie-starogo",
+	"dorogie-druz-ya-2",
+	"bytuet-mneniex-chto-detskuyu",
+	"xxnam-potrebuetsya-vsego",
+	"xxx-house-box-znaetx-chto-o-stil-noy",
+	"gde-nayti-materialyx-kotorye",
+	"spal-nya-v-stile-vintazh",
+	"skandinavskiy-stil--na-pike-populyarnosti",
+	"vannaya-komnata-x-osobennoe",
+	"x-pochemu-house-box",
+	"na-izobrazhenii---proekt-vannoy",
+	"uyutnaya-i-utonchennaya-gostinaya",
+	"studiya-house-box-predlagaet-3",
+	"dlya-polnotsennogo-sna-i-komfortnogo-otdykha-2",
+	"x-x",
+	"xxxx-gde-zhe-kupit--vsyu-neobkhodimuyu-mebel-",
+	"kak-my-rabotaem",
+	"interesuet-dizayn-proekt-kvartiry-2",
+	"x-chto-vkhodit-v-dizayn-proekt-za-29-900-rubley-1",
+	"seychas-v-trende-svetlye",
+	"interesuet-dizayn-proekt-kvartiry-4",
+	"xxglavnyy-personazh-na-kukhne",
+	"x-dlya-vashego-udobstva-kazhdyy",
+	"napomnim-vse-etapy-nashey",
+	"xxx-detskaya-komnata-x-eto-malen-kiy",
+	"dizayn-proekt-ot-studii-house",
+	"druz-yax-khotim-napomnit--1",
+	"studiya-house-box-predlagaet-5",
+	"xx-pochemu-zhe-stoit-sdelat--1",
+	"x-interesuet-dizayn-proekt-kvartiry",
+	"na-nash-vzglyadx-eta-gostinaya-vyzyvaet",
+	"nasha-uyutnaya-gostinaya-v-stile",
+	"stil--vintazh-x",
+	"studiya-house-box-napominaet",
+	"studiya-house-box-predlagaet-8",
+	"xxxx-v-chyom-raznitsa-mezhdu-remontom",
+	"xx-skandinavskiy-stil-",
+	"my-ochen--lyubim-klassicheskiy-1",
+	"kruglyy-obedennyy-stol-v-inter-ere",
+	"xxx-studiya-house-box-predostavit",
+	"al-bom-s-vizualizatsiyami-vybrannogo",
+	"mechtaete-o-krasivom-i-izyskannom",
+	"my-produmaem-vse-detali-vashego-1",
+	"xx-pochemu-zhe-stoit-sdelat--2",
+	"vybirayte-ponravivshiysya-stil-",
+	"svetlayax-myagkaya-gostinaya",
+	"interesuet-dizayn-proekt-kvartiry-3",
+	"studiya-house-box-predlagaet-7",
+	"ob-edinenie-kukhni-i-gostinoyx",
+	"moda-postoyanno-menyaetsyax-v-tom-chisle",
+	"dorogie-druz-ya-1",
+	"studiya-house-box-predlagaet-9",
+	"vannaya-komnata-v-stile",
+	"mechtaete-zhit--v-krasivoy-obstanovke",
+	"vo-vsekh-nashikh-dizaynakh-my-udelyaem-2",
+	"proekt-kukhni-v-stile",
+	"interesuet-dizayn-proekt-kvartiry",
+	"interesuet-dizayn-proekt-kvartiry-1",
+	"dorogie-druz-ya",
+	"my-ochen--lyubim-klassicheskiy",
+	"vo-vsekh-nashikh-dizaynakh-my-udelyaem-1",
+	"x-chto-vkhodit-v-dizayn-proekt-za-29-900-rubley",
+	"studiya-house-box-predlagaet-2",
+	"studiya-house-box-predlagaet-10",
+	"studiya-house-box-predlagaet-1",
+	"vybirayte-ponravivshiysya-stil--1",
+	"xx-pochemu-zhe-stoit-sdelat-",
+	"vo-vsekh-nashikh-dizaynakh-my-udelyaem",
+	"dizayn-inter-era---etox-prezhde-1",
+	"interesuet-dizayn-proekt-kvartiry-5",
+],
+	"обустройство квартиры": [
+	"studiya-house-box-predlagaet",
+	"uyut-v-stolovoyxx-1",
+	"svoya-komnata---mechta-lyubogo",
+	"xzakony-sovremennogo-stilya-1",
+	"xchto-vkhodit-v-gotovoe-reshenie-2",
+	"nam-ochen--nravitsya-stil-",
+	"druz-ya-1",
+	"stil--loft-x-eto-sochetanie-starogo",
+	"dorogie-druz-ya-2",
+	"bytuet-mneniex-chto-detskuyu",
+	"xxnam-potrebuetsya-vsego",
+	"xxx-house-box-znaetx-chto-o-stil-noy",
+	"gde-nayti-materialyx-kotorye",
+	"spal-nya-v-stile-vintazh",
+	"skandinavskiy-stil--na-pike-populyarnosti",
+	"vannaya-komnata-x-osobennoe",
+	"x-pochemu-house-box",
+	"na-izobrazhenii---proekt-vannoy",
+	"uyutnaya-i-utonchennaya-gostinaya",
+	"studiya-house-box-predlagaet-3",
+	"dlya-polnotsennogo-sna-i-komfortnogo-otdykha-2",
+	"x-x",
+	"xxxx-gde-zhe-kupit--vsyu-neobkhodimuyu-mebel-",
+	"kak-my-rabotaem",
+	"interesuet-dizayn-proekt-kvartiry-2",
+	"x-chto-vkhodit-v-dizayn-proekt-za-29-900-rubley-1",
+	"seychas-v-trende-svetlye",
+	"interesuet-dizayn-proekt-kvartiry-4",
+	"xxglavnyy-personazh-na-kukhne",
+	"x-dlya-vashego-udobstva-kazhdyy",
+	"napomnim-vse-etapy-nashey",
+	"xxx-detskaya-komnata-x-eto-malen-kiy",
+	"dizayn-proekt-ot-studii-house",
+	"druz-yax-khotim-napomnit--1",
+	"studiya-house-box-predlagaet-5",
+	"xx-pochemu-zhe-stoit-sdelat--1",
+	"x-interesuet-dizayn-proekt-kvartiry",
+	"na-nash-vzglyadx-eta-gostinaya-vyzyvaet",
+	"nasha-uyutnaya-gostinaya-v-stile",
+	"stil--vintazh-x",
+	"studiya-house-box-napominaet",
+	"studiya-house-box-predlagaet-8",
+	"xxxx-v-chyom-raznitsa-mezhdu-remontom",
+	"xx-skandinavskiy-stil-",
+	"my-ochen--lyubim-klassicheskiy-1",
+	"kruglyy-obedennyy-stol-v-inter-ere",
+	"xxx-studiya-house-box-predostavit",
+	"al-bom-s-vizualizatsiyami-vybrannogo",
+	"mechtaete-o-krasivom-i-izyskannom",
+	"my-produmaem-vse-detali-vashego-1",
+	"xx-pochemu-zhe-stoit-sdelat--2",
+	"vybirayte-ponravivshiysya-stil-",
+	"svetlayax-myagkaya-gostinaya",
+	"interesuet-dizayn-proekt-kvartiry-3",
+	"studiya-house-box-predlagaet-7",
+	"ob-edinenie-kukhni-i-gostinoyx",
+	"moda-postoyanno-menyaetsyax-v-tom-chisle",
+	"dorogie-druz-ya-1",
+	"studiya-house-box-predlagaet-9",
+	"vannaya-komnata-v-stile",
+	"mechtaete-zhit--v-krasivoy-obstanovke",
+	"vo-vsekh-nashikh-dizaynakh-my-udelyaem-2",
+	"proekt-kukhni-v-stile",
+	"interesuet-dizayn-proekt-kvartiry",
+	"interesuet-dizayn-proekt-kvartiry-1",
+	"dorogie-druz-ya",
+	"my-ochen--lyubim-klassicheskiy",
+	"vo-vsekh-nashikh-dizaynakh-my-udelyaem-1",
+	"x-chto-vkhodit-v-dizayn-proekt-za-29-900-rubley",
+	"studiya-house-box-predlagaet-2",
+	"studiya-house-box-predlagaet-10",
+	"studiya-house-box-predlagaet-1",
+	"vybirayte-ponravivshiysya-stil--1",
+	"xx-pochemu-zhe-stoit-sdelat-",
+	"vo-vsekh-nashikh-dizaynakh-my-udelyaem",
+	"dizayn-inter-era---etox-prezhde-1",
+	"interesuet-dizayn-proekt-kvartiry-5",
+],
+	"дизайн квартиры в Москве": [
+	"studiya-house-box-predlagaet",
+	"uyut-v-stolovoyxx-1",
+	"svoya-komnata---mechta-lyubogo",
+	"xzakony-sovremennogo-stilya-1",
+	"xchto-vkhodit-v-gotovoe-reshenie-2",
+	"nam-ochen--nravitsya-stil-",
+	"druz-ya-1",
+	"stil--loft-x-eto-sochetanie-starogo",
+	"dorogie-druz-ya-2",
+	"bytuet-mneniex-chto-detskuyu",
+	"xxnam-potrebuetsya-vsego",
+	"xxx-house-box-znaetx-chto-o-stil-noy",
+	"gde-nayti-materialyx-kotorye",
+	"spal-nya-v-stile-vintazh",
+	"skandinavskiy-stil--na-pike-populyarnosti",
+	"vannaya-komnata-x-osobennoe",
+	"x-pochemu-house-box",
+	"na-izobrazhenii---proekt-vannoy",
+	"uyutnaya-i-utonchennaya-gostinaya",
+	"studiya-house-box-predlagaet-3",
+	"dlya-polnotsennogo-sna-i-komfortnogo-otdykha-2",
+	"x-x",
+	"xxxx-gde-zhe-kupit--vsyu-neobkhodimuyu-mebel-",
+	"kak-my-rabotaem",
+	"interesuet-dizayn-proekt-kvartiry-2",
+	"x-chto-vkhodit-v-dizayn-proekt-za-29-900-rubley-1",
+	"seychas-v-trende-svetlye",
+	"interesuet-dizayn-proekt-kvartiry-4",
+	"xxglavnyy-personazh-na-kukhne",
+	"x-dlya-vashego-udobstva-kazhdyy",
+	"napomnim-vse-etapy-nashey",
+	"xxx-detskaya-komnata-x-eto-malen-kiy",
+	"dizayn-proekt-ot-studii-house",
+	"druz-yax-khotim-napomnit--1",
+	"studiya-house-box-predlagaet-5",
+	"xx-pochemu-zhe-stoit-sdelat--1",
+	"x-interesuet-dizayn-proekt-kvartiry",
+	"na-nash-vzglyadx-eta-gostinaya-vyzyvaet",
+	"nasha-uyutnaya-gostinaya-v-stile",
+	"stil--vintazh-x",
+	"studiya-house-box-napominaet",
+	"studiya-house-box-predlagaet-8",
+	"xxxx-v-chyom-raznitsa-mezhdu-remontom",
+	"xx-skandinavskiy-stil-",
+	"my-ochen--lyubim-klassicheskiy-1",
+	"kruglyy-obedennyy-stol-v-inter-ere",
+	"xxx-studiya-house-box-predostavit",
+	"al-bom-s-vizualizatsiyami-vybrannogo",
+	"mechtaete-o-krasivom-i-izyskannom",
+	"my-produmaem-vse-detali-vashego-1",
+	"xx-pochemu-zhe-stoit-sdelat--2",
+	"vybirayte-ponravivshiysya-stil-",
+	"svetlayax-myagkaya-gostinaya",
+	"interesuet-dizayn-proekt-kvartiry-3",
+	"studiya-house-box-predlagaet-7",
+	"ob-edinenie-kukhni-i-gostinoyx",
+	"moda-postoyanno-menyaetsyax-v-tom-chisle",
+	"dorogie-druz-ya-1",
+	"studiya-house-box-predlagaet-9",
+	"vannaya-komnata-v-stile",
+	"mechtaete-zhit--v-krasivoy-obstanovke",
+	"vo-vsekh-nashikh-dizaynakh-my-udelyaem-2",
+	"proekt-kukhni-v-stile",
+	"interesuet-dizayn-proekt-kvartiry",
+	"interesuet-dizayn-proekt-kvartiry-1",
+	"dorogie-druz-ya",
+	"my-ochen--lyubim-klassicheskiy",
+	"vo-vsekh-nashikh-dizaynakh-my-udelyaem-1",
+	"x-chto-vkhodit-v-dizayn-proekt-za-29-900-rubley",
+	"studiya-house-box-predlagaet-2",
+	"studiya-house-box-predlagaet-10",
+	"studiya-house-box-predlagaet-1",
+	"vybirayte-ponravivshiysya-stil--1",
+	"xx-pochemu-zhe-stoit-sdelat-",
+	"vo-vsekh-nashikh-dizaynakh-my-udelyaem",
+	"dizayn-inter-era---etox-prezhde-1",
+	"interesuet-dizayn-proekt-kvartiry-5",
+],
+	"заказать дизайн проект Москва": [
+	"studiya-house-box-predlagaet",
+	"uyut-v-stolovoyxx-1",
+	"svoya-komnata---mechta-lyubogo",
+	"xzakony-sovremennogo-stilya-1",
+	"xchto-vkhodit-v-gotovoe-reshenie-2",
+	"nam-ochen--nravitsya-stil-",
+	"druz-ya-1",
+	"stil--loft-x-eto-sochetanie-starogo",
+	"dorogie-druz-ya-2",
+	"bytuet-mneniex-chto-detskuyu",
+	"xxnam-potrebuetsya-vsego",
+	"xxx-house-box-znaetx-chto-o-stil-noy",
+	"gde-nayti-materialyx-kotorye",
+	"spal-nya-v-stile-vintazh",
+	"skandinavskiy-stil--na-pike-populyarnosti",
+	"vannaya-komnata-x-osobennoe",
+	"x-pochemu-house-box",
+	"na-izobrazhenii---proekt-vannoy",
+	"uyutnaya-i-utonchennaya-gostinaya",
+	"studiya-house-box-predlagaet-3",
+	"dlya-polnotsennogo-sna-i-komfortnogo-otdykha-2",
+	"x-x",
+	"xxxx-gde-zhe-kupit--vsyu-neobkhodimuyu-mebel-",
+	"kak-my-rabotaem",
+	"interesuet-dizayn-proekt-kvartiry-2",
+	"x-chto-vkhodit-v-dizayn-proekt-za-29-900-rubley-1",
+	"seychas-v-trende-svetlye",
+	"interesuet-dizayn-proekt-kvartiry-4",
+	"xxglavnyy-personazh-na-kukhne",
+	"x-dlya-vashego-udobstva-kazhdyy",
+	"napomnim-vse-etapy-nashey",
+	"xxx-detskaya-komnata-x-eto-malen-kiy",
+	"dizayn-proekt-ot-studii-house",
+	"druz-yax-khotim-napomnit--1",
+	"studiya-house-box-predlagaet-5",
+	"xx-pochemu-zhe-stoit-sdelat--1",
+	"x-interesuet-dizayn-proekt-kvartiry",
+	"na-nash-vzglyadx-eta-gostinaya-vyzyvaet",
+	"nasha-uyutnaya-gostinaya-v-stile",
+	"stil--vintazh-x",
+	"studiya-house-box-napominaet",
+	"studiya-house-box-predlagaet-8",
+	"xxxx-v-chyom-raznitsa-mezhdu-remontom",
+	"xx-skandinavskiy-stil-",
+	"my-ochen--lyubim-klassicheskiy-1",
+	"kruglyy-obedennyy-stol-v-inter-ere",
+	"xxx-studiya-house-box-predostavit",
+	"al-bom-s-vizualizatsiyami-vybrannogo",
+	"mechtaete-o-krasivom-i-izyskannom",
+	"my-produmaem-vse-detali-vashego-1",
+	"xx-pochemu-zhe-stoit-sdelat--2",
+	"vybirayte-ponravivshiysya-stil-",
+	"svetlayax-myagkaya-gostinaya",
+	"interesuet-dizayn-proekt-kvartiry-3",
+	"studiya-house-box-predlagaet-7",
+	"ob-edinenie-kukhni-i-gostinoyx",
+	"moda-postoyanno-menyaetsyax-v-tom-chisle",
+	"dorogie-druz-ya-1",
+	"studiya-house-box-predlagaet-9",
+	"vannaya-komnata-v-stile",
+	"mechtaete-zhit--v-krasivoy-obstanovke",
+	"vo-vsekh-nashikh-dizaynakh-my-udelyaem-2",
+	"proekt-kukhni-v-stile",
+	"interesuet-dizayn-proekt-kvartiry",
+	"interesuet-dizayn-proekt-kvartiry-1",
+	"dorogie-druz-ya",
+	"my-ochen--lyubim-klassicheskiy",
+	"vo-vsekh-nashikh-dizaynakh-my-udelyaem-1",
+	"x-chto-vkhodit-v-dizayn-proekt-za-29-900-rubley",
+	"studiya-house-box-predlagaet-2",
+	"studiya-house-box-predlagaet-10",
+	"studiya-house-box-predlagaet-1",
+	"vybirayte-ponravivshiysya-stil--1",
+	"xx-pochemu-zhe-stoit-sdelat-",
+	"vo-vsekh-nashikh-dizaynakh-my-udelyaem",
+	"dizayn-inter-era---etox-prezhde-1",
+	"interesuet-dizayn-proekt-kvartiry-5",
+],
+	"заказать дизайн квартиры": [
+	"studiya-house-box-predlagaet",
+	"uyut-v-stolovoyxx-1",
+	"svoya-komnata---mechta-lyubogo",
+	"xzakony-sovremennogo-stilya-1",
+	"xchto-vkhodit-v-gotovoe-reshenie-2",
+	"nam-ochen--nravitsya-stil-",
+	"druz-ya-1",
+	"stil--loft-x-eto-sochetanie-starogo",
+	"dorogie-druz-ya-2",
+	"bytuet-mneniex-chto-detskuyu",
+	"xxnam-potrebuetsya-vsego",
+	"xxx-house-box-znaetx-chto-o-stil-noy",
+	"gde-nayti-materialyx-kotorye",
+	"spal-nya-v-stile-vintazh",
+	"skandinavskiy-stil--na-pike-populyarnosti",
+	"vannaya-komnata-x-osobennoe",
+	"x-pochemu-house-box",
+	"na-izobrazhenii---proekt-vannoy",
+	"uyutnaya-i-utonchennaya-gostinaya",
+	"studiya-house-box-predlagaet-3",
+	"dlya-polnotsennogo-sna-i-komfortnogo-otdykha-2",
+	"x-x",
+	"xxxx-gde-zhe-kupit--vsyu-neobkhodimuyu-mebel-",
+	"kak-my-rabotaem",
+	"interesuet-dizayn-proekt-kvartiry-2",
+	"x-chto-vkhodit-v-dizayn-proekt-za-29-900-rubley-1",
+	"seychas-v-trende-svetlye",
+	"interesuet-dizayn-proekt-kvartiry-4",
+	"xxglavnyy-personazh-na-kukhne",
+	"x-dlya-vashego-udobstva-kazhdyy",
+	"napomnim-vse-etapy-nashey",
+	"dizayn-proekt-ot-studii-house",
+	"druz-yax-khotim-napomnit--1",
+	"studiya-house-box-predlagaet-5",
+	"xx-pochemu-zhe-stoit-sdelat--1",
+	"x-interesuet-dizayn-proekt-kvartiry",
+	"na-nash-vzglyadx-eta-gostinaya-vyzyvaet",
+	"nasha-uyutnaya-gostinaya-v-stile",
+	"stil--vintazh-x",
+	"studiya-house-box-napominaet",
+	"studiya-house-box-predlagaet-8",
+	"xxxx-v-chyom-raznitsa-mezhdu-remontom",
+	"xx-skandinavskiy-stil-",
+	"my-ochen--lyubim-klassicheskiy-1",
+	"kruglyy-obedennyy-stol-v-inter-ere",
+	"xxx-studiya-house-box-predostavit",
+	"al-bom-s-vizualizatsiyami-vybrannogo",
+	"mechtaete-o-krasivom-i-izyskannom",
+	"my-produmaem-vse-detali-vashego-1",
+	"xx-pochemu-zhe-stoit-sdelat--2",
+	"vybirayte-ponravivshiysya-stil-",
+	"svetlayax-myagkaya-gostinaya",
+	"interesuet-dizayn-proekt-kvartiry-3",
+	"studiya-house-box-predlagaet-7",
+	"ob-edinenie-kukhni-i-gostinoyx",
+	"moda-postoyanno-menyaetsyax-v-tom-chisle",
+	"dorogie-druz-ya-1",
+	"studiya-house-box-predlagaet-9",
+	"vannaya-komnata-v-stile",
+	"mechtaete-zhit--v-krasivoy-obstanovke",
+	"vo-vsekh-nashikh-dizaynakh-my-udelyaem-2",
+	"proekt-kukhni-v-stile",
+	"interesuet-dizayn-proekt-kvartiry",
+	"interesuet-dizayn-proekt-kvartiry-1",
+	"dorogie-druz-ya",
+	"my-ochen--lyubim-klassicheskiy",
+	"vo-vsekh-nashikh-dizaynakh-my-udelyaem-1",
+	"x-chto-vkhodit-v-dizayn-proekt-za-29-900-rubley",
+	"studiya-house-box-predlagaet-2",
+	"studiya-house-box-predlagaet-10",
+	"studiya-house-box-predlagaet-1",
+	"vybirayte-ponravivshiysya-stil--1",
+	"xx-pochemu-zhe-stoit-sdelat-",
+	"vo-vsekh-nashikh-dizaynakh-my-udelyaem",
+	"dizayn-inter-era---etox-prezhde-1",
+	"interesuet-dizayn-proekt-kvartiry-5",
+],
+	"дизайн квартиры питер": [
+	"studiya-house-box-predlagaet",
+	"uyut-v-stolovoyxx-1",
+	"svoya-komnata---mechta-lyubogo",
+	"xzakony-sovremennogo-stilya-1",
+	"xchto-vkhodit-v-gotovoe-reshenie-2",
+	"nam-ochen--nravitsya-stil-",
+	"druz-ya-1",
+	"stil--loft-x-eto-sochetanie-starogo",
+	"dorogie-druz-ya-2",
+	"bytuet-mneniex-chto-detskuyu",
+	"xxnam-potrebuetsya-vsego",
+	"xxx-house-box-znaetx-chto-o-stil-noy",
+	"gde-nayti-materialyx-kotorye",
+	"spal-nya-v-stile-vintazh",
+	"skandinavskiy-stil--na-pike-populyarnosti",
+	"vannaya-komnata-x-osobennoe",
+	"x-pochemu-house-box",
+	"na-izobrazhenii---proekt-vannoy",
+	"uyutnaya-i-utonchennaya-gostinaya",
+	"studiya-house-box-predlagaet-3",
+	"dlya-polnotsennogo-sna-i-komfortnogo-otdykha-2",
+	"x-x",
+	"xxxx-gde-zhe-kupit--vsyu-neobkhodimuyu-mebel-",
+	"kak-my-rabotaem",
+	"x-chto-vkhodit-v-dizayn-proekt-za-29-900-rubley-1",
+	"seychas-v-trende-svetlye",
+	"interesuet-dizayn-proekt-kvartiry-4",
+	"xxglavnyy-personazh-na-kukhne",
+	"x-dlya-vashego-udobstva-kazhdyy",
+	"napomnim-vse-etapy-nashey",
+	"xxx-detskaya-komnata-x-eto-malen-kiy",
+	"dizayn-proekt-ot-studii-house",
+	"studiya-house-box-predlagaet-5",
+	"xx-pochemu-zhe-stoit-sdelat--1",
+	"x-interesuet-dizayn-proekt-kvartiry",
+	"na-nash-vzglyadx-eta-gostinaya-vyzyvaet",
+	"nasha-uyutnaya-gostinaya-v-stile",
+	"stil--vintazh-x",
+	"studiya-house-box-napominaet",
+	"studiya-house-box-predlagaet-8",
+	"xxxx-v-chyom-raznitsa-mezhdu-remontom",
+	"xx-skandinavskiy-stil-",
+	"my-ochen--lyubim-klassicheskiy-1",
+	"kruglyy-obedennyy-stol-v-inter-ere",
+	"xxx-studiya-house-box-predostavit",
+	"al-bom-s-vizualizatsiyami-vybrannogo",
+	"mechtaete-o-krasivom-i-izyskannom",
+	"my-produmaem-vse-detali-vashego-1",
+	"xx-pochemu-zhe-stoit-sdelat--2",
+	"vybirayte-ponravivshiysya-stil-",
+	"svetlayax-myagkaya-gostinaya",
+	"studiya-house-box-predlagaet-7",
+	"ob-edinenie-kukhni-i-gostinoyx",
+	"moda-postoyanno-menyaetsyax-v-tom-chisle",
+	"dorogie-druz-ya-1",
+	"dizayn-proekt-kvartiry-ot-studii",
+	"studiya-house-box-predlagaet-9",
+	"vannaya-komnata-v-stile",
+	"mechtaete-zhit--v-krasivoy-obstanovke",
+	"proekt-kukhni-v-stile",
+	"dorogie-druz-ya",
+	"my-ochen--lyubim-klassicheskiy",
+	"x-chto-vkhodit-v-dizayn-proekt-za-29-900-rubley",
+	"studiya-house-box-predlagaet-2",
+	"studiya-house-box-predlagaet-10",
+	"studiya-house-box-predlagaet-1",
+	"vybirayte-ponravivshiysya-stil--1",
+	"house-box---eto-stil-noe-dizaynerskoe",
+	"xx-pochemu-zhe-stoit-sdelat-",
+	"dizayn-inter-era---etox-prezhde-1",
+	"interesuet-dizayn-proekt-kvartiry-5",
+],
+	"дизайн квартиры фото": [
+	"studiya-house-box-predlagaet",
+	"uyut-v-stolovoyxx-1",
+	"svoya-komnata---mechta-lyubogo",
+	"xzakony-sovremennogo-stilya-1",
+	"xchto-vkhodit-v-gotovoe-reshenie-2",
+	"nam-ochen--nravitsya-stil-",
+	"druz-ya-1",
+	"stil--loft-x-eto-sochetanie-starogo",
+	"dorogie-druz-ya-2",
+	"bytuet-mneniex-chto-detskuyu",
+	"xxnam-potrebuetsya-vsego",
+	"xxx-house-box-znaetx-chto-o-stil-noy",
+	"gde-nayti-materialyx-kotorye",
+	"spal-nya-v-stile-vintazh",
+	"skandinavskiy-stil--na-pike-populyarnosti",
+	"vannaya-komnata-x-osobennoe",
+	"x-pochemu-house-box",
+	"na-izobrazhenii---proekt-vannoy",
+	"uyutnaya-i-utonchennaya-gostinaya",
+	"studiya-house-box-predlagaet-3",
+	"dlya-polnotsennogo-sna-i-komfortnogo-otdykha-2",
+	"x-x",
+	"xxxx-gde-zhe-kupit--vsyu-neobkhodimuyu-mebel-",
+	"kak-my-rabotaem",
+	"x-chto-vkhodit-v-dizayn-proekt-za-29-900-rubley-1",
+	"seychas-v-trende-svetlye",
+	"interesuet-dizayn-proekt-kvartiry-4",
+	"xxglavnyy-personazh-na-kukhne",
+	"x-dlya-vashego-udobstva-kazhdyy",
+	"napomnim-vse-etapy-nashey",
+	"xxx-detskaya-komnata-x-eto-malen-kiy",
+	"dizayn-proekt-ot-studii-house",
+	"studiya-house-box-predlagaet-5",
+	"xx-pochemu-zhe-stoit-sdelat--1",
+	"x-interesuet-dizayn-proekt-kvartiry",
+	"na-nash-vzglyadx-eta-gostinaya-vyzyvaet",
+	"nasha-uyutnaya-gostinaya-v-stile",
+	"stil--vintazh-x",
+	"studiya-house-box-napominaet",
+	"studiya-house-box-predlagaet-8",
+	"xxxx-v-chyom-raznitsa-mezhdu-remontom",
+	"xx-skandinavskiy-stil-",
+	"my-ochen--lyubim-klassicheskiy-1",
+	"kruglyy-obedennyy-stol-v-inter-ere",
+	"xxx-studiya-house-box-predostavit",
+	"al-bom-s-vizualizatsiyami-vybrannogo",
+	"mechtaete-o-krasivom-i-izyskannom",
+	"my-produmaem-vse-detali-vashego-1",
+	"xx-pochemu-zhe-stoit-sdelat--2",
+	"vybirayte-ponravivshiysya-stil-",
+	"svetlayax-myagkaya-gostinaya",
+	"studiya-house-box-predlagaet-7",
+	"ob-edinenie-kukhni-i-gostinoyx",
+	"moda-postoyanno-menyaetsyax-v-tom-chisle",
+	"dorogie-druz-ya-1",
+	"studiya-house-box-predlagaet-9",
+	"vannaya-komnata-v-stile",
+	"mechtaete-zhit--v-krasivoy-obstanovke",
+	"proekt-kukhni-v-stile",
+	"dorogie-druz-ya",
+	"my-ochen--lyubim-klassicheskiy",
+	"x-chto-vkhodit-v-dizayn-proekt-za-29-900-rubley",
+	"studiya-house-box-predlagaet-2",
+	"studiya-house-box-predlagaet-10",
+	"studiya-house-box-predlagaet-1",
+	"vybirayte-ponravivshiysya-stil--1",
+	"xx-pochemu-zhe-stoit-sdelat-",
+	"dizayn-inter-era---etox-prezhde-1",
+	"interesuet-dizayn-proekt-kvartiry-5",
+],
+	"дизайн проекты квартир": [
+	"studiya-house-box-predlagaet",
+	"uyut-v-stolovoyxx-1",
+	"svoya-komnata---mechta-lyubogo",
+	"xzakony-sovremennogo-stilya-1",
+	"xchto-vkhodit-v-gotovoe-reshenie-2",
+	"nam-ochen--nravitsya-stil-",
+	"druz-ya-1",
+	"stil--loft-x-eto-sochetanie-starogo",
+	"dorogie-druz-ya-2",
+	"bytuet-mneniex-chto-detskuyu",
+	"xxnam-potrebuetsya-vsego",
+	"xxx-house-box-znaetx-chto-o-stil-noy",
+	"gde-nayti-materialyx-kotorye",
+	"spal-nya-v-stile-vintazh",
+	"skandinavskiy-stil--na-pike-populyarnosti",
+	"vannaya-komnata-x-osobennoe",
+	"x-pochemu-house-box",
+	"na-izobrazhenii---proekt-vannoy",
+	"uyutnaya-i-utonchennaya-gostinaya",
+	"studiya-house-box-predlagaet-3",
+	"dlya-polnotsennogo-sna-i-komfortnogo-otdykha-2",
+	"x-x",
+	"xxxx-gde-zhe-kupit--vsyu-neobkhodimuyu-mebel-",
+	"kak-my-rabotaem",
+	"x-chto-vkhodit-v-dizayn-proekt-za-29-900-rubley-1",
+	"seychas-v-trende-svetlye",
+	"interesuet-dizayn-proekt-kvartiry-4",
+	"xxglavnyy-personazh-na-kukhne",
+	"x-dlya-vashego-udobstva-kazhdyy",
+	"napomnim-vse-etapy-nashey",
+	"xxx-detskaya-komnata-x-eto-malen-kiy",
+	"dizayn-proekt-ot-studii-house",
+	"studiya-house-box-predlagaet-5",
+	"xx-pochemu-zhe-stoit-sdelat--1",
+	"x-interesuet-dizayn-proekt-kvartiry",
+	"na-nash-vzglyadx-eta-gostinaya-vyzyvaet",
+	"nasha-uyutnaya-gostinaya-v-stile",
+	"stil--vintazh-x",
+	"studiya-house-box-napominaet",
+	"studiya-house-box-predlagaet-8",
+	"xxxx-v-chyom-raznitsa-mezhdu-remontom",
+	"xx-skandinavskiy-stil-",
+	"my-ochen--lyubim-klassicheskiy-1",
+	"kruglyy-obedennyy-stol-v-inter-ere",
+	"xxx-studiya-house-box-predostavit",
+	"al-bom-s-vizualizatsiyami-vybrannogo",
+	"mechtaete-o-krasivom-i-izyskannom",
+	"my-produmaem-vse-detali-vashego-1",
+	"xx-pochemu-zhe-stoit-sdelat--2",
+	"vybirayte-ponravivshiysya-stil-",
+	"svetlayax-myagkaya-gostinaya",
+	"studiya-house-box-predlagaet-7",
+	"ob-edinenie-kukhni-i-gostinoyx",
+	"moda-postoyanno-menyaetsyax-v-tom-chisle",
+	"dorogie-druz-ya-1",
+	"studiya-house-box-predlagaet-9",
+	"vannaya-komnata-v-stile",
+	"mechtaete-zhit--v-krasivoy-obstanovke",
+	"proekt-kukhni-v-stile",
+	"dorogie-druz-ya",
+	"my-ochen--lyubim-klassicheskiy",
+	"x-chto-vkhodit-v-dizayn-proekt-za-29-900-rubley",
+	"studiya-house-box-predlagaet-2",
+	"studiya-house-box-predlagaet-10",
+	"studiya-house-box-predlagaet-1",
+	"vybirayte-ponravivshiysya-stil--1",
+	"xx-pochemu-zhe-stoit-sdelat-",
+	"dizayn-inter-era---etox-prezhde-1",
+	"interesuet-dizayn-proekt-kvartiry-5",
+],
+	"дизайн проект": [
+	"izobrazhenie---pinterest",
+	"inter-er-vypolnen-v-stile",
+	"predstavlyaem-vam-nash-novyy-yarkiy",
+	"dlya-polnotsennogo-sna-i-komfortnogo-otdykha",
+	"eta-gostinaya-vypolnena-dizaynerami",
+	"belaya-kukhnya-x-klassika",
+	"vannaya-komnata-v-stile-1",
+	"delaem-roskosh--dostupnoyxx",
+	"dazhe-samyy-izyskannyy-inter-er-1",
+	"spal-nya-v-stile-vintazh-1",
+	"myagkaya-i-prostornaya-krovat-",
+	"studiya-house-box-podgotovit",
+	"svetlaya-spal-nyax-vypolnennaya",
+	"barnaya-stoyka-vmesto-1",
+	"nu-chtox-snova-vernemsya-v-loft",
+	"zachem-vam-house-box",
+	"esli-kazhetsyax-chto-zeleni-ne-mesto",
+	"v-spal-ne-my-ishchem-tishiny-i-pokoya",
+	"esli-u-vas-nebol-shaya-vannaya-komnata",
+	"komnata-dlya-devochki-podrostka-iz-individual-nogo",
+	"druz-yax-khotim-napomnit--2",
+	"proekt-kukhni-v-stile-1",
+	"stil-naya-i-funktsional-naya-kukhnya",
+	"bol-shaya-krovat--s-myagkim",
+	"spal-nya-x-eto-osobennaya-komnata",
+	"dlya-polnotsennogo-sna-i-komfortnogo-otdykha-1",
+	"dizayn-inter-era---etox-prezhde",
+	"funktsional-nost--i-ekologichnost--v-detskoy",
+	"pochemu-zhe-stoit-sdelat-",
+	"nam-potrebuetsya-10-dneyx-chtoby",
+	"roskoshnaya-vannaya-iz-proekta",
+	"mnogie-boyatsya-temnykh",
+	"dizayn-proekt-garmonichnoy-i-izyashchnoy",
+	"vy-zamechalix-chto-v-skandinavskikh-inter-erakh",
+	"vy-prosili-sdelat--svetlyy",
+	"gostinaya-v-stile-vintazh",
+	"studiya-house-box-predlagaet-11",
+	"v-standartnyy-dizayn-proekt-za-29-900-rubley",
+	"barnaya-stoyka-vmesto",
+	"magiya-dizayna-ili-vot-chto-znachit",
+	"dizayn-proekt-kvartiry-ot-studii",
+	"v-nashikh-inter-erakh-my-priderzhivaemsya-1",
+	"interesuet-dizayn-proekt-kvartiry-6",
+	"gde-nayti-materialyx-kotorye-1",
+	"izyashchnyy-milan-ocharovyvaet",
+	"odin-iz-samykh-populyarnykh-stiley",
+	"svetlayax-legkaya-i-vozdushnaya",
+	"pomnitex-kak-v-detstve-vse-my-mechtali",
+	"loft-x-eto-igra-kontrastov-x",
+	"ne-mozhete-reshit--kakoy",
+	"esli-u-vas-malen-kaya-vannaya-komnata",
+	"iznachal-no-stil--loft-zarodilsya",
+	"kazhdyy-znaetx-chto-milan",
+	"xx-dizayn-proekt-nebol-shoy-studii",
+	"soglasites-x-pogoda-za-oknom",
+	"dumaemx-vy-vse-uzhe-davno-zametili",
+	"kazhdyy-predmet-inter-era",
+	"xchto-vkhodit-v-gotovoe-reshenie-3",
+	"iznachal-no-stil--loft-zarodilsya-1",
+	"zachem-vam-house-box-1",
+	"my-schitaemx-chto-istinnaya-krasota",
+	"pochemu-house-box",
+	"my-produmaem-vse-detali-vashego",
+	"house-box---eto-stil-noe-dizaynerskoe",
+	"na-izobrazhenii-x-proekt-vannoy",
+	"druz-yax-khotim-napomnit-",
+	"vse-privyklix-chto-inter-er-spal-ni",
+	"kak-my-rabotaem-1",
+],
+	"заказать дизайн проект квартиры": [
+	"studiya-house-box-predlagaet",
+	"uyut-v-stolovoyxx-1",
+	"svoya-komnata---mechta-lyubogo",
+	"xzakony-sovremennogo-stilya-1",
+	"xchto-vkhodit-v-gotovoe-reshenie-2",
+	"nam-ochen--nravitsya-stil-",
+	"druz-ya-1",
+	"stil--loft-x-eto-sochetanie-starogo",
+	"dorogie-druz-ya-2",
+	"bytuet-mneniex-chto-detskuyu",
+	"xxnam-potrebuetsya-vsego",
+	"xxx-house-box-znaetx-chto-o-stil-noy",
+	"gde-nayti-materialyx-kotorye",
+	"spal-nya-v-stile-vintazh",
+	"skandinavskiy-stil--na-pike-populyarnosti",
+	"vannaya-komnata-x-osobennoe",
+	"x-pochemu-house-box",
+	"na-izobrazhenii---proekt-vannoy",
+	"uyutnaya-i-utonchennaya-gostinaya",
+	"studiya-house-box-predlagaet-3",
+	"dlya-polnotsennogo-sna-i-komfortnogo-otdykha-2",
+	"x-x",
+	"xxxx-gde-zhe-kupit--vsyu-neobkhodimuyu-mebel-",
+	"kak-my-rabotaem",
+	"x-chto-vkhodit-v-dizayn-proekt-za-29-900-rubley-1",
+	"seychas-v-trende-svetlye",
+	"interesuet-dizayn-proekt-kvartiry-4",
+	"xxglavnyy-personazh-na-kukhne",
+	"x-dlya-vashego-udobstva-kazhdyy",
+	"napomnim-vse-etapy-nashey",
+	"dizayn-proekt-ot-studii-house",
+	"studiya-house-box-predlagaet-5",
+	"xx-pochemu-zhe-stoit-sdelat--1",
+	"x-interesuet-dizayn-proekt-kvartiry",
+	"na-nash-vzglyadx-eta-gostinaya-vyzyvaet",
+	"nasha-uyutnaya-gostinaya-v-stile",
+	"stil--vintazh-x",
+	"studiya-house-box-napominaet",
+	"studiya-house-box-predlagaet-8",
+	"xxxx-v-chyom-raznitsa-mezhdu-remontom",
+	"xx-skandinavskiy-stil-",
+	"my-ochen--lyubim-klassicheskiy-1",
+	"kruglyy-obedennyy-stol-v-inter-ere",
+	"xxx-studiya-house-box-predostavit",
+	"al-bom-s-vizualizatsiyami-vybrannogo",
+	"mechtaete-o-krasivom-i-izyskannom",
+	"my-produmaem-vse-detali-vashego-1",
+	"xx-pochemu-zhe-stoit-sdelat--2",
+	"vybirayte-ponravivshiysya-stil-",
+	"svetlayax-myagkaya-gostinaya",
+	"studiya-house-box-predlagaet-7",
+	"ob-edinenie-kukhni-i-gostinoyx",
+	"moda-postoyanno-menyaetsyax-v-tom-chisle",
+	"dorogie-druz-ya-1",
+	"studiya-house-box-predlagaet-9",
+	"vannaya-komnata-v-stile",
+	"mechtaete-zhit--v-krasivoy-obstanovke",
+	"proekt-kukhni-v-stile",
+	"dorogie-druz-ya",
+	"my-ochen--lyubim-klassicheskiy",
+	"x-chto-vkhodit-v-dizayn-proekt-za-29-900-rubley",
+	"studiya-house-box-predlagaet-2",
+	"studiya-house-box-predlagaet-10",
+	"studiya-house-box-predlagaet-1",
+	"vybirayte-ponravivshiysya-stil--1",
+	"xx-pochemu-zhe-stoit-sdelat-",
+	"dizayn-inter-era---etox-prezhde-1",
+	"interesuet-dizayn-proekt-kvartiry-5",
+],
+	"дизайн квартиры недорого": [
+	"studiya-house-box-predlagaet",
+	"uyut-v-stolovoyxx-1",
+	"svoya-komnata---mechta-lyubogo",
+	"xzakony-sovremennogo-stilya-1",
+	"xchto-vkhodit-v-gotovoe-reshenie-2",
+	"nam-ochen--nravitsya-stil-",
+	"druz-ya-1",
+	"stil--loft-x-eto-sochetanie-starogo",
+	"dorogie-druz-ya-2",
+	"bytuet-mneniex-chto-detskuyu",
+	"xxnam-potrebuetsya-vsego",
+	"xxx-house-box-znaetx-chto-o-stil-noy",
+	"gde-nayti-materialyx-kotorye",
+	"spal-nya-v-stile-vintazh",
+	"skandinavskiy-stil--na-pike-populyarnosti",
+	"vannaya-komnata-x-osobennoe",
+	"x-pochemu-house-box",
+	"na-izobrazhenii---proekt-vannoy",
+	"uyutnaya-i-utonchennaya-gostinaya",
+	"studiya-house-box-predlagaet-3",
+	"dlya-polnotsennogo-sna-i-komfortnogo-otdykha-2",
+	"x-x",
+	"xxxx-gde-zhe-kupit--vsyu-neobkhodimuyu-mebel-",
+	"kak-my-rabotaem",
+	"x-chto-vkhodit-v-dizayn-proekt-za-29-900-rubley-1",
+	"seychas-v-trende-svetlye",
+	"interesuet-dizayn-proekt-kvartiry-4",
+	"xxglavnyy-personazh-na-kukhne",
+	"x-dlya-vashego-udobstva-kazhdyy",
+	"napomnim-vse-etapy-nashey",
+	"xxx-detskaya-komnata-x-eto-malen-kiy",
+	"dizayn-proekt-ot-studii-house",
+	"studiya-house-box-predlagaet-5",
+	"xx-pochemu-zhe-stoit-sdelat--1",
+	"x-interesuet-dizayn-proekt-kvartiry",
+	"na-nash-vzglyadx-eta-gostinaya-vyzyvaet",
+	"nasha-uyutnaya-gostinaya-v-stile",
+	"stil--vintazh-x",
+	"studiya-house-box-napominaet",
+	"studiya-house-box-predlagaet-8",
+	"xxxx-v-chyom-raznitsa-mezhdu-remontom",
+	"xx-skandinavskiy-stil-",
+	"my-ochen--lyubim-klassicheskiy-1",
+	"kruglyy-obedennyy-stol-v-inter-ere",
+	"xxx-studiya-house-box-predostavit",
+	"my-produmaem-vse-detali-vashego-1",
+	"xx-pochemu-zhe-stoit-sdelat--2",
+	"vybirayte-ponravivshiysya-stil-",
+	"svetlayax-myagkaya-gostinaya",
+	"studiya-house-box-predlagaet-7",
+	"ob-edinenie-kukhni-i-gostinoyx",
+	"dorogie-druz-ya-1",
+	"dizayn-proekt-kvartiry-ot-studii",
+	"studiya-house-box-predlagaet-9",
+	"vannaya-komnata-v-stile",
+	"mechtaete-zhit--v-krasivoy-obstanovke",
+	"proekt-kukhni-v-stile",
+	"dorogie-druz-ya",
+	"my-ochen--lyubim-klassicheskiy",
+	"x-chto-vkhodit-v-dizayn-proekt-za-29-900-rubley",
+	"studiya-house-box-predlagaet-2",
+	"studiya-house-box-predlagaet-1",
+	"house-box---eto-stil-noe-dizaynerskoe",
+	"xx-pochemu-zhe-stoit-sdelat-",
+	"dizayn-inter-era---etox-prezhde-1",
+	"interesuet-dizayn-proekt-kvartiry-5",
+],
+	"homes home weet": [
+	"inter-er-vypolnen-v-stile",
+	"x-studiya-house-box-predostavit",
+	"predstavlyaem-vam-nash-novyy-yarkiy",
+	"dlya-polnotsennogo-sna-i-komfortnogo-otdykha",
+	"eta-gostinaya-vypolnena-dizaynerami",
+	"vannaya-komnata-v-stile-1",
+	"spal-nya-v-stile-vintazh-1",
+	"myagkaya-i-prostornaya-krovat-",
+	"studiya-house-box-podgotovit",
+	"svetlaya-spal-nyax-vypolnennaya",
+	"nu-chtox-snova-vernemsya-v-loft",
+	"zachem-vam-house-box",
+	"v-spal-ne-my-ishchem-tishiny-i-pokoya",
+	"druz-yax-khotim-napomnit--2",
+	"proekt-kukhni-v-stile-1",
+	"stil-naya-i-funktsional-naya-kukhnya",
+	"bol-shaya-krovat--s-myagkim",
+	"spal-nya-x-eto-osobennaya-komnata",
+	"nash-kumir-stiv-dzhobs-schital",
+	"dlya-polnotsennogo-sna-i-komfortnogo-otdykha-1",
+	"dizayn-inter-era---etox-prezhde",
+	"funktsional-nost--i-ekologichnost--v-detskoy",
+	"nam-potrebuetsya-10-dneyx-chtoby",
+	"mnogie-boyatsya-temnykh",
+	"v-chem-zhe-sekret-prityagatel-nosti-etoy-kukhni",
+	"dizayn-proekt-garmonichnoy-i-izyashchnoy",
+	"vy-prosili-sdelat--svetlyy",
+	"gostinaya-v-stile-vintazh",
+	"studiya-house-box-predlagaet-11",
+	"v-standartnyy-dizayn-proekt-za-29-900-rubley",
+	"skandinavskiy-stil--za-korotkoe",
+	"magiya-dizayna-ili-vot-chto-znachit",
+	"v-nashikh-inter-erakh-my-priderzhivaemsya-1",
+	"interesuet-dizayn-proekt-kvartiry-6",
+	"gde-nayti-materialyx-kotorye-1",
+	"hashvdokhnovenie-iz-pinterest-xx-x",
+	"yarkiy-skandinavskiy-denmark",
+	"izyashchnyy-milan-ocharovyvaet",
+	"xne-ustanu-povtoryat-x-glavnoe",
+	"odin-iz-samykh-populyarnykh-stiley",
+	"svetlayax-legkaya-i-vozdushnaya",
+	"pomnitex-kak-v-detstve-vse-my-mechtali",
+	"ne-mozhete-reshit--kakoy",
+	"iznachal-no-stil--loft-zarodilsya",
+	"kazhdyy-znaetx-chto-milan",
+	"xx-dizayn-proekt-nebol-shoy-studii",
+	"zakazat--dizayn-proekt-ot-house",
+	"soglasites-x-pogoda-za-oknom",
+	"ekologichnost-x-chistotax-atmosfernost-",
+	"dumaemx-vy-vse-uzhe-davno-zametili",
+	"kazhdyy-predmet-inter-era",
+	"xchto-vkhodit-v-gotovoe-reshenie-3",
+	"iznachal-no-stil--loft-zarodilsya-1",
+	"zachem-vam-house-box-1",
+	"my-schitaemx-chto-istinnaya-krasota",
+	"dizayn-nuzhem-vsem-1",
+	"xchto-vkhodit-v-gotovoe-reshenie-1",
+	"druz-yax-napominaem-vse-etapy",
+	"pochemu-house-box",
+	"my-produmaem-vse-detali-vashego",
+	"dizayn-nuzhem-vsem",
+	"v-nashikh-inter-erakh-my-priderzhivaemsya",
+	"xchto-vkhodit-v-gotovoe-reshenie",
+	"druz-yax-khotim-napomnit-",
+	"vse-privyklix-chto-inter-er-spal-ni",
+	"kak-my-rabotaem-1",
+],
+	"заказать дизайн Москва": [
+	"studiya-house-box-predlagaet",
+	"uyut-v-stolovoyxx-1",
+	"svoya-komnata---mechta-lyubogo",
+	"xzakony-sovremennogo-stilya-1",
+	"xchto-vkhodit-v-gotovoe-reshenie-2",
+	"nam-ochen--nravitsya-stil-",
+	"druz-ya-1",
+	"stil--loft-x-eto-sochetanie-starogo",
+	"dorogie-druz-ya-2",
+	"bytuet-mneniex-chto-detskuyu",
+	"xxnam-potrebuetsya-vsego",
+	"xxx-house-box-znaetx-chto-o-stil-noy",
+	"gde-nayti-materialyx-kotorye",
+	"spal-nya-v-stile-vintazh",
+	"skandinavskiy-stil--na-pike-populyarnosti",
+	"vannaya-komnata-x-osobennoe",
+	"x-pochemu-house-box",
+	"na-izobrazhenii---proekt-vannoy",
+	"uyutnaya-i-utonchennaya-gostinaya",
+	"studiya-house-box-predlagaet-3",
+	"dlya-polnotsennogo-sna-i-komfortnogo-otdykha-2",
+	"x-x",
+	"xxxx-gde-zhe-kupit--vsyu-neobkhodimuyu-mebel-",
+	"kak-my-rabotaem",
+	"x-chto-vkhodit-v-dizayn-proekt-za-29-900-rubley-1",
+	"seychas-v-trende-svetlye",
+	"interesuet-dizayn-proekt-kvartiry-4",
+	"xxglavnyy-personazh-na-kukhne",
+	"x-dlya-vashego-udobstva-kazhdyy",
+	"napomnim-vse-etapy-nashey",
+	"xxx-detskaya-komnata-x-eto-malen-kiy",
+	"dizayn-proekt-ot-studii-house",
+	"studiya-house-box-predlagaet-5",
+	"xx-pochemu-zhe-stoit-sdelat--1",
+	"x-interesuet-dizayn-proekt-kvartiry",
+	"na-nash-vzglyadx-eta-gostinaya-vyzyvaet",
+	"nasha-uyutnaya-gostinaya-v-stile",
+	"stil--vintazh-x",
+	"studiya-house-box-napominaet",
+	"studiya-house-box-predlagaet-8",
+	"xxxx-v-chyom-raznitsa-mezhdu-remontom",
+	"xx-skandinavskiy-stil-",
+	"my-ochen--lyubim-klassicheskiy-1",
+	"kruglyy-obedennyy-stol-v-inter-ere",
+	"xxx-studiya-house-box-predostavit",
+	"my-produmaem-vse-detali-vashego-1",
+	"xx-pochemu-zhe-stoit-sdelat--2",
+	"vybirayte-ponravivshiysya-stil-",
+	"svetlayax-myagkaya-gostinaya",
+	"studiya-house-box-predlagaet-7",
+	"ob-edinenie-kukhni-i-gostinoyx",
+	"dorogie-druz-ya-1",
+	"studiya-house-box-predlagaet-9",
+	"vannaya-komnata-v-stile",
+	"mechtaete-zhit--v-krasivoy-obstanovke",
+	"proekt-kukhni-v-stile",
+	"dorogie-druz-ya",
+	"my-ochen--lyubim-klassicheskiy",
+	"x-chto-vkhodit-v-dizayn-proekt-za-29-900-rubley",
+	"studiya-house-box-predlagaet-2",
+	"studiya-house-box-predlagaet-1",
+	"xx-pochemu-zhe-stoit-sdelat-",
+	"dizayn-inter-era---etox-prezhde-1",
+	"interesuet-dizayn-proekt-kvartiry-5",
+],
+	"заказать дизайн проект спб": [
+	"studiya-house-box-predlagaet",
+	"uyut-v-stolovoyxx-1",
+	"svoya-komnata---mechta-lyubogo",
+	"xzakony-sovremennogo-stilya-1",
+	"xchto-vkhodit-v-gotovoe-reshenie-2",
+	"nam-ochen--nravitsya-stil-",
+	"druz-ya-1",
+	"stil--loft-x-eto-sochetanie-starogo",
+	"dorogie-druz-ya-2",
+	"bytuet-mneniex-chto-detskuyu",
+	"xxnam-potrebuetsya-vsego",
+	"xxx-house-box-znaetx-chto-o-stil-noy",
+	"gde-nayti-materialyx-kotorye",
+	"spal-nya-v-stile-vintazh",
+	"skandinavskiy-stil--na-pike-populyarnosti",
+	"vannaya-komnata-x-osobennoe",
+	"x-pochemu-house-box",
+	"na-izobrazhenii---proekt-vannoy",
+	"uyutnaya-i-utonchennaya-gostinaya",
+	"studiya-house-box-predlagaet-3",
+	"dlya-polnotsennogo-sna-i-komfortnogo-otdykha-2",
+	"x-x",
+	"xxxx-gde-zhe-kupit--vsyu-neobkhodimuyu-mebel-",
+	"kak-my-rabotaem",
+	"x-chto-vkhodit-v-dizayn-proekt-za-29-900-rubley-1",
+	"seychas-v-trende-svetlye",
+	"interesuet-dizayn-proekt-kvartiry-4",
+	"xxglavnyy-personazh-na-kukhne",
+	"x-dlya-vashego-udobstva-kazhdyy",
+	"napomnim-vse-etapy-nashey",
+	"xxx-detskaya-komnata-x-eto-malen-kiy",
+	"dizayn-proekt-ot-studii-house",
+	"studiya-house-box-predlagaet-5",
+	"xx-pochemu-zhe-stoit-sdelat--1",
+	"x-interesuet-dizayn-proekt-kvartiry",
+	"na-nash-vzglyadx-eta-gostinaya-vyzyvaet",
+	"nasha-uyutnaya-gostinaya-v-stile",
+	"stil--vintazh-x",
+	"studiya-house-box-napominaet",
+	"studiya-house-box-predlagaet-8",
+	"xxxx-v-chyom-raznitsa-mezhdu-remontom",
+	"xx-skandinavskiy-stil-",
+	"my-ochen--lyubim-klassicheskiy-1",
+	"kruglyy-obedennyy-stol-v-inter-ere",
+	"xxx-studiya-house-box-predostavit",
+	"my-produmaem-vse-detali-vashego-1",
+	"xx-pochemu-zhe-stoit-sdelat--2",
+	"vybirayte-ponravivshiysya-stil-",
+	"svetlayax-myagkaya-gostinaya",
+	"studiya-house-box-predlagaet-7",
+	"ob-edinenie-kukhni-i-gostinoyx",
+	"dorogie-druz-ya-1",
+	"studiya-house-box-predlagaet-9",
+	"vannaya-komnata-v-stile",
+	"mechtaete-zhit--v-krasivoy-obstanovke",
+	"proekt-kukhni-v-stile",
+	"dorogie-druz-ya",
+	"my-ochen--lyubim-klassicheskiy",
+	"x-chto-vkhodit-v-dizayn-proekt-za-29-900-rubley",
+	"studiya-house-box-predlagaet-2",
+	"studiya-house-box-predlagaet-1",
+	"xx-pochemu-zhe-stoit-sdelat-",
+	"dizayn-inter-era---etox-prezhde-1",
+	"interesuet-dizayn-proekt-kvartiry-5",
+],
+	"home design": [
+	"inter-er-vypolnen-v-stile",
+	"x-studiya-house-box-predostavit",
+	"predstavlyaem-vam-nash-novyy-yarkiy",
+	"dlya-polnotsennogo-sna-i-komfortnogo-otdykha",
+	"eta-gostinaya-vypolnena-dizaynerami",
+	"vannaya-komnata-v-stile-1",
+	"spal-nya-v-stile-vintazh-1",
+	"studiya-house-box-podgotovit",
+	"nu-chtox-snova-vernemsya-v-loft",
+	"zachem-vam-house-box",
+	"v-spal-ne-my-ishchem-tishiny-i-pokoya",
+	"druz-yax-khotim-napomnit--2",
+	"proekt-kukhni-v-stile-1",
+	"stil-naya-i-funktsional-naya-kukhnya",
+	"bol-shaya-krovat--s-myagkim",
+	"spal-nya-x-eto-osobennaya-komnata",
+	"nash-kumir-stiv-dzhobs-schital",
+	"dlya-polnotsennogo-sna-i-komfortnogo-otdykha-1",
+	"dizayn-inter-era---etox-prezhde",
+	"funktsional-nost--i-ekologichnost--v-detskoy",
+	"nam-potrebuetsya-10-dneyx-chtoby",
+	"roskoshnaya-vannaya-iz-proekta",
+	"mnogie-boyatsya-temnykh",
+	"v-chem-zhe-sekret-prityagatel-nosti-etoy-kukhni",
+	"dizayn-proekt-garmonichnoy-i-izyashchnoy",
+	"vy-prosili-sdelat--svetlyy",
+	"gostinaya-v-stile-vintazh",
+	"studiya-house-box-predlagaet-11",
+	"v-standartnyy-dizayn-proekt-za-29-900-rubley",
+	"skandinavskiy-stil--za-korotkoe",
+	"magiya-dizayna-ili-vot-chto-znachit",
+	"interesuet-dizayn-proekt-kvartiry-6",
+	"gde-nayti-materialyx-kotorye-1",
+	"hashvdokhnovenie-iz-pinterest-xx-x",
+	"yarkiy-skandinavskiy-denmark",
+	"izyashchnyy-milan-ocharovyvaet",
+	"odin-iz-samykh-populyarnykh-stiley",
+	"svetlayax-legkaya-i-vozdushnaya",
+	"pomnitex-kak-v-detstve-vse-my-mechtali",
+	"ne-mozhete-reshit--kakoy",
+	"iznachal-no-stil--loft-zarodilsya",
+	"kazhdyy-znaetx-chto-milan",
+	"xx-dizayn-proekt-nebol-shoy-studii",
+	"soglasites-x-pogoda-za-oknom",
+	"ekologichnost-x-chistotax-atmosfernost-",
+	"dumaemx-vy-vse-uzhe-davno-zametili",
+	"kazhdyy-predmet-inter-era",
+	"xchto-vkhodit-v-gotovoe-reshenie-3",
+	"iznachal-no-stil--loft-zarodilsya-1",
+	"zachem-vam-house-box-1",
+	"my-schitaemx-chto-istinnaya-krasota",
+	"dizayn-nuzhem-vsem-1",
+	"xchto-vkhodit-v-gotovoe-reshenie-1",
+	"druz-yax-napominaem-vse-etapy",
+	"pochemu-house-box",
+	"my-produmaem-vse-detali-vashego",
+	"dizayn-nuzhem-vsem",
+	"na-izobrazhenii-x-proekt-vannoy",
+	"xchto-vkhodit-v-gotovoe-reshenie",
+	"druz-yax-khotim-napomnit-",
+	"vse-privyklix-chto-inter-er-spal-ni",
+	"kak-my-rabotaem-1",
+],
+	"interior": [
+	"inter-er-vypolnen-v-stile",
+	"predstavlyaem-vam-nash-novyy-yarkiy",
+	"dlya-polnotsennogo-sna-i-komfortnogo-otdykha",
+	"eta-gostinaya-vypolnena-dizaynerami",
+	"vannaya-komnata-v-stile-1",
+	"spal-nya-v-stile-vintazh-1",
+	"studiya-house-box-podgotovit",
+	"nu-chtox-snova-vernemsya-v-loft",
+	"zachem-vam-house-box",
+	"v-spal-ne-my-ishchem-tishiny-i-pokoya",
+	"druz-yax-khotim-napomnit--2",
+	"kto-to-lyubit-temnye",
+	"proekt-kukhni-v-stile-1",
+	"stil-naya-i-funktsional-naya-kukhnya",
+	"bol-shaya-krovat--s-myagkim",
+	"spal-nya-x-eto-osobennaya-komnata",
+	"dlya-polnotsennogo-sna-i-komfortnogo-otdykha-1",
+	"dizayn-inter-era---etox-prezhde",
+	"funktsional-nost--i-ekologichnost--v-detskoy",
+	"vstraivaemaya-tekhnikax-modnye",
+	"nam-potrebuetsya-10-dneyx-chtoby",
+	"roskoshnaya-vannaya-iz-proekta",
+	"mnogie-boyatsya-temnykh",
+	"dizayn-proekt-garmonichnoy-i-izyashchnoy",
+	"vy-prosili-sdelat--svetlyy",
+	"gostinaya-v-stile-vintazh",
+	"studiya-house-box-predlagaet-11",
+	"v-standartnyy-dizayn-proekt-za-29-900-rubley",
+	"vy-priobreli-novuyu-kvartiru",
+	"magiya-dizayna-ili-vot-chto-znachit",
+	"dizayn-studiya-house-box-nakhoditsya",
+	"interesuet-dizayn-proekt-kvartiry-6",
+	"gde-nayti-materialyx-kotorye-1",
+	"izyashchnyy-milan-ocharovyvaet",
+	"odin-iz-samykh-populyarnykh-stiley",
+	"svetlayax-legkaya-i-vozdushnaya",
+	"pomnitex-kak-v-detstve-vse-my-mechtali",
+	"ne-mozhete-reshit--kakoy",
+	"iznachal-no-stil--loft-zarodilsya",
+	"kazhdyy-znaetx-chto-milan",
+	"elegantnyy-berlin-ideal-no",
+	"xx-dizayn-proekt-nebol-shoy-studii",
+	"zakazat--dizayn-proekt-ot-house",
+	"my-delaem-elegantnyy-dizayn",
+	"soglasites-x-pogoda-za-oknom",
+	"dumaemx-vy-vse-uzhe-davno-zametili",
+	"kazhdyy-predmet-inter-era",
+	"xchto-vkhodit-v-gotovoe-reshenie-3",
+	"iznachal-no-stil--loft-zarodilsya-1",
+	"zachem-vam-house-box-1",
+	"my-schitaemx-chto-istinnaya-krasota",
+	"dizayn-nuzhem-vsem-1",
+	"druz-yax-napominaem-vse-etapy",
+	"pochemu-house-box",
+	"my-produmaem-vse-detali-vashego",
+	"dizayn-nuzhem-vsem",
+	"na-izobrazhenii-x-proekt-vannoy",
+	"inter-er-etoy-kukhni-ispol-zuet",
+	"druz-yax-khotim-napomnit-",
+	"vse-privyklix-chto-inter-er-spal-ni",
+	"kak-my-rabotaem-1",
+],
+	"дизайнер интерьера": [
+	"elegantnaya-geneva-ideal-no",
+	"inter-er-vypolnen-v-stile",
+	"predstavlyaem-vam-nash-novyy-yarkiy",
+	"dlya-polnotsennogo-sna-i-komfortnogo-otdykha",
+	"eta-gostinaya-vypolnena-dizaynerami",
+	"vannaya-komnata-v-stile-1",
+	"minimalizm---eto-vostochnaya-mudrost-",
+	"spal-nya-v-stile-vintazh-1",
+	"myagkaya-i-prostornaya-krovat-",
+	"studiya-house-box-podgotovit",
+	"svetlaya-spal-nyax-vypolnennaya",
+	"nu-chtox-snova-vernemsya-v-loft",
+	"zachem-vam-house-box",
+	"v-spal-ne-my-ishchem-tishiny-i-pokoya",
+	"cherty-minimalizma-sravnimy",
+	"druz-yax-khotim-napomnit--2",
+	"proekty-ot-studii-house",
+	"proekt-kukhni-v-stile-1",
+	"stil-naya-i-funktsional-naya-kukhnya",
+	"bol-shaya-krovat--s-myagkim",
+	"spal-nya-x-eto-osobennaya-komnata",
+	"dlya-polnotsennogo-sna-i-komfortnogo-otdykha-1",
+	"dizayn-inter-era---etox-prezhde",
+	"funktsional-nost--i-ekologichnost--v-detskoy",
+	"nam-potrebuetsya-10-dneyx-chtoby",
+	"mnogie-boyatsya-temnykh",
+	"dizayn-proekt-garmonichnoy-i-izyashchnoy",
+	"vy-prosili-sdelat--svetlyy",
+	"gostinaya-v-stile-vintazh",
+	"studiya-house-box-predlagaet-11",
+	"v-standartnyy-dizayn-proekt-za-29-900-rubley",
+	"maksimal-naya-prostota-ravnyaetsya",
+	"magiya-dizayna-ili-vot-chto-znachit",
+	"dizayn-proekt-kvartiry-ot-studii",
+	"v-nashikh-inter-erakh-my-priderzhivaemsya-1",
+	"interesuet-dizayn-proekt-kvartiry-6",
+	"gde-nayti-materialyx-kotorye-1",
+	"izyashchnyy-milan-ocharovyvaet",
+	"odin-iz-samykh-populyarnykh-stiley",
+	"svetlayax-legkaya-i-vozdushnaya",
+	"pomnitex-kak-v-detstve-vse-my-mechtali",
+	"ne-mozhete-reshit--kakoy",
+	"obtekaemye-formyx-obilie",
+	"iznachal-no-stil--loft-zarodilsya",
+	"kazhdyy-znaetx-chto-milan",
+	"xx-dizayn-proekt-nebol-shoy-studii",
+	"soglasites-x-pogoda-za-oknom",
+	"dumaemx-vy-vse-uzhe-davno-zametili",
+	"kazhdyy-predmet-inter-era",
+	"xchto-vkhodit-v-gotovoe-reshenie-3",
+	"iznachal-no-stil--loft-zarodilsya-1",
+	"zachem-vam-house-box-1",
+	"my-schitaemx-chto-istinnaya-krasota",
+	"pochemu-house-box",
+	"my-produmaem-vse-detali-vashego",
+	"house-box---eto-stil-noe-dizaynerskoe",
+	"a-u-nas-poyavilsya-novyy-stil-",
+	"druz-yax-khotim-napomnit-",
+	"vse-privyklix-chto-inter-er-spal-ni",
+	"kak-my-rabotaem-1",
+],
+	"дизайн интерьера": [
+	"novyy-stil-",
+	"teplaya-i-uyutnaya-spal-nya",
+	"elegantnaya-geneva-ideal-no",
+	"elegantnaya-sderzhannost--x-tak-mozhno",
+	"inter-er-vypolnen-v-stile",
+	"predstavlyaem-vam-nash-novyy-yarkiy",
+	"dlya-polnotsennogo-sna-i-komfortnogo-otdykha",
+	"belaya-kukhnya-x-klassika",
+	"minimalizm---eto-vostochnaya-mudrost-",
+	"v-spal-ne-my-ishchem-tishiny-i-pokoya",
+	"cherty-minimalizma-sravnimy",
+	"klassika-aktual-na-vo-vse-vremena",
+	"druz-yax-khotim-napomnit--2",
+	"proekty-ot-studii-house",
+	"spal-nya-x-eto-osobennaya-komnata",
+	"dlya-polnotsennogo-sna-i-komfortnogo-otdykha-1",
+	"minimalizm-lyubit-geometricheskie-1",
+	"dizayn-inter-era---etox-prezhde",
+	"funktsional-nost--i-ekologichnost--v-detskoy",
+	"pochemu-zhe-stoit-sdelat-",
+	"mnogie-boyatsya-temnykh",
+	"angliyskaya-klassika-aktual-na",
+	"dizayn-proekt-garmonichnoy-i-izyashchnoy",
+	"vy-zamechalix-chto-v-skandinavskikh-inter-erakh",
+	"vy-prosili-sdelat--svetlyy",
+	"studiya-house-box-predlagaet-12",
+	"v-standartnyy-dizayn-proekt-za-29-900-rubley",
+	"maksimal-naya-prostota-ravnyaetsya",
+	"magiya-dizayna-ili-vot-chto-znachit",
+	"dizayn-proekt-kvartiry-ot-studii",
+	"v-nashey-kollektsii-poyavilos-",
+	"izyashchnyy-milan-ocharovyvaet",
+	"xne-ustanu-povtoryat-x-glavnoe",
+	"odin-iz-samykh-populyarnykh-stiley",
+	"svetlayax-legkaya-i-vozdushnaya",
+	"pomnitex-kak-v-detstve-vse-my-mechtali",
+	"druz-ya",
+	"nezhnost--i-vozdushnost--po-skandinavski",
+	"obtekaemye-formyx-obilie",
+	"iznachal-no-stil--loft-zarodilsya",
+	"kazhdyy-znaetx-chto-milan",
+	"xx-dizayn-proekt-nebol-shoy-studii",
+	"soglasites-x-pogoda-za-oknom",
+	"spal-nyax-vypolnennaya-v-angliyskom",
+	"dumaemx-vy-vse-uzhe-davno-zametili",
+	"ne-zrya-angliyskiy-stil--schitaetsya",
+	"xx-v-chyom-raznitsa-mezhdu-remontom",
+	"kazhdyy-predmet-inter-era",
+	"v-proekte-angliyskaya-klassika",
+	"angliyskiy-klassicheskiy-stil-",
+	"studiya-house-box-predlagaet-14",
+	"minimalizm-lyubit-geometricheskie",
+	"house-box---eto-stil-noe-dizaynerskoe",
+	"eta-gostinaya-vypolnena-v-stile",
+	"v-nashikh-inter-erakh-my-priderzhivaemsya",
+	"a-u-nas-poyavilsya-novyy-stil-",
+	"druz-yax-khotim-napomnit-",
+	"vse-privyklix-chto-inter-er-spal-ni",
+	"studiya-house-box-predlagaet-13",
+],
 };
+
+function cleanupItems() {
+	$(".items-item").each(function() {
+		$(this).find("input").prop("checked", false);
+	});
+}
+
+function refreshStories() {
+	$(".stories__slide").each(function() {
+		var checkbox = $(this).find("input");
+
+		if ($(this).prop("title") != currentTitle) {
+			checkbox.prop("checked", false);
+		} else if (!$(this).is(':checked')) {
+			checkbox.prop("checked", true);
+		}
+	});
+}
+
+function refreshChoosen() {
+	if (currentTitle == ''  || tags[currentTitle] == null) {
+		$("#choosen").text(0);
+	} else {
+		$("#choosen").text(tags[currentTitle].length);
+	}
+}
+
+var storyClick = function () {
+	var title = $(this).closest(".stories__slide").prop("title");
+	if ($(this).is(':checked')) {
+		currentTitle = title;
+
+		refreshStories();
+
+		// Set all choosen blocks.
+		if (tags[currentTitle] != null) {
+			$(".items-item").each(function() {
+				var checkbox = $(this).find("input");
+				checkbox.prop("checked", $.inArray(checkbox.prop("id"), tags[currentTitle]) !== -1);
+			});
+		} else {
+			cleanupStories();
+		}
+	} else {
+		currentTitle = '';
+
+		cleanupItems();
+	}
+	$(".search__input").val(currentTitle);
+	refreshChoosen();
+}
+
+function setStoryBackground() {
+	$(".stories__slide").each(function() {
+		if ($(this).prop("title") == currentTitle) {
+			var divPic = $(this).find('.stories__slide-pic');
+
+			var img = getStoryBackground();
+			divPic.css("background-image", "url(" + img + ")");
+		}
+	});
+}
+
+function getStoryBackground() {
+	if (currentTitle == null) {
+		return null;
+	}
+
+	var tag = tags[currentTitle][0];
+
+	var item = $(".items-item").filter(function() {
+		return $(this).find("input").prop("id") == tag;
+	}).first();
+
+	return item.find("img").prop('src');
+}
 
 $(document).ready(function() {
 	$("#total").text($(".items-item").length);
 
     $(".stories__slide").each(function() {
-		$(this).find("input").click(function() {
-			var title = $(this).closest(".stories__slide").prop("title");
-
-			if ($(this).is(':checked')) {
-				currentTitle = title;
-
-				// Only one story in choosen
-				$(".stories__slide").each(function() {
-					if ($(this).prop("title") != currentTitle) {
-						$(this).find("input").prop("checked", false);
-					}
-				});
-
-				// Set all choosen blocks.
-				if (tags[currentTitle] != null) {
-					$(".items-item").each(function() {
-						var checkbox = $(this).find("input");
-						checkbox.prop("checked", $.inArray(checkbox.prop("id"), tags[currentTitle]) !== -1);
-					});
-					$("#choosen").text(tags[currentTitle].length);
-				} else {
-					$(".items-item").each(function() {
-						$(this).find("input").prop("checked", false);
-					});
-					$("#choosen").text(0);
-				}
-			} else {
-				currentTitle = "";
-
-				// Clear all choosen blocks.
-				$(".items-item").each(function() {
-					$(this).find("input").prop("checked", false);
-				});
-				$("#choosen").text(0);
-			}
-			$(".search__input").val(currentTitle);
-		});
+		$(this).find("input").click(storyClick);
 	});
 
     $(".items-item").each(function() {
@@ -2547,21 +5125,24 @@ $(document).ready(function() {
 					tags[currentTitle] = $(tags[currentTitle]).not([ id ]).get();
 				}
 
+				if (tags[currentTitle].length == 1) {
+					setStoryBackground();
+				}
+
 				$("#choosen").text(tags[currentTitle].length);
 			} else {
 				$(this).prop("checked", false);
 			}
 		});
-
 	});
 
-	$(".search__btn").click(function() {
+	$("#btn_save").click(function(){
 		var newTitle = $(".search__input").val();
 
 		if (currentTitle != '' && newTitle != '') {
 			tags[newTitle] = tags[currentTitle];
 
-			var story = $(".stories__slide").filter(function() {
+			var story = $(".stories__slide").filter(function(){
 				return $(this).prop("title") == currentTitle;
 			}).first();
 			story.prop("title", newTitle);
@@ -2570,20 +5151,26 @@ $(document).ready(function() {
 
 			currentTitle = newTitle;
 		} else if (currentTitle != '' && newTitle == '') {
-			tags[newTitle] = [];
+			tags[currentTitle] = [];
 
 			var story = $(".stories__slide").filter(function() {
 				return $(this).prop("title") == currentTitle;
 			}).first();
 			
 			story.remove();
+
+			currentTitle = '';
+			cleanupItems();
+
 		} else if (currentTitle == '' && newTitle != '') {
 			var stories = $(".stories__slide").filter(function() {
 				return $(this).prop("title") == newTitle;
 			});
 
 			if (stories.length == 0) {
-				$(".swiper-wrapper").append(`
+				currentTitle = newTitle;
+
+				$(".swiper-wrapper").prepend(`
 							<div class="swiper-slide">
 								<div class="stories__slide" title="` + newTitle + `">
 									<label class="stories__slide__check">
@@ -2594,8 +5181,32 @@ $(document).ready(function() {
 								</div>
 							</div>
 `);
+				var added = $(".swiper-slide").first();
+				added.width(added.height());
+				added.find("input").click(storyClick);
+
+				refreshStories();
 			}
 		}
+	});
+
+	$("#btn_delete").click(function(){
+		if (currentTitle == '') {
+			return;
+		}
+
+		tags[currentTitle] = [];
+
+		var story = $(".stories__slide").filter(function() {
+			return $(this).prop("title") == currentTitle;
+		}).first();
+			
+		story.remove();
+
+		currentTitle = '';
+		cleanupItems();
+
+		$(".search__input").val('');
 	});
 });
 	</script>
