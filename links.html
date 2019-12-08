@@ -263,6 +263,14 @@
 								</div>
 							</div>
 							<div class="swiper-slide">
+								<div class="stories__slide" title="дизайн интерьера">
+									<a href="./tags/./dizayn-inter-era.html">
+										<div class="stories__slide-pic" style="background-image: url(./img/og/dizayn-inter-era.png);"></div>
+										<div class="stories__slide-txt" style="">дизайн интерьера</div>
+									</a>
+								</div>
+							</div>
+							<div class="swiper-slide">
 								<div class="stories__slide" title="homes home weet">
 									<a href="./tags/./homes-home-weet.html">
 										<div class="stories__slide-pic" style="background-image: url(./img/og/homes-home-weet.png);"></div>
@@ -283,14 +291,6 @@
 									<a href="./tags/./zakazat--dizayn-proekt-spb.html">
 										<div class="stories__slide-pic" style="background-image: url(./img/og/zakazat--dizayn-proekt-spb.png);"></div>
 										<div class="stories__slide-txt" style="">заказать дизайн проект спб</div>
-									</a>
-								</div>
-							</div>
-							<div class="swiper-slide">
-								<div class="stories__slide" title="дизайн интерьера">
-									<a href="./tags/./dizayn-inter-era.html">
-										<div class="stories__slide-pic" style="background-image: url(./img/og/dizayn-inter-era.png);"></div>
-										<div class="stories__slide-txt" style="">дизайн интерьера</div>
 									</a>
 								</div>
 							</div>
@@ -349,7 +349,8 @@
 
 
 
-						<div class="links-page-blc">
+						<div class="links-page-blc" style="
+">
 							<div class="links-page-blc__txt">
 								<p>ДИЗАЙН ПРОЕКТ за 10 дней по фиксированной цене, независимо от метража</p>
 							</div>
@@ -466,6 +467,17 @@ $(document).ready(function(){
                 contentType: 'application/json',
 		data : form_data
 	}).done(function(response){
+	    var email = response.email;
+		if (email) {
+	        $("#leadSent").text("Ваш запрос отправлен на " + email);
+		} else {
+	        $("#leadSent").text("Ваш запрос отправлен");
+		}
+
+		var input = form.find('input');
+		input.attr('readonly', true);
+        input.attr("disabled", true);
+		form.find('button').attr("disabled", true);
 	}).fail(function(){
 	});
 
