@@ -67,6 +67,9 @@
 						</a>
 						<div class="header__title">HOUSE BOX</div>
 					</div>
+					<div id="settingsContainer" class="header__right" style="display:none">
+						<button onclick="window.open('http://itsinsta.site/page.html?project=housebox.design');" class="btn stories-popup__buy">Настроить</button>
+					</div>
 				</div>
 			</div>
 		</header>	
@@ -167,6 +170,14 @@
 								</div>
 							</div>
 							<div class="swiper-slide">
+								<div class="stories__slide" title="home design">
+									<a href="./tags/./home-design.html">
+										<div class="stories__slide-pic" style="background-image: url(./img/og/home-design.png);"></div>
+										<div class="stories__slide-txt" style="">home design</div>
+									</a>
+								</div>
+							</div>
+							<div class="swiper-slide">
 								<div class="stories__slide" title="дизайн проект спб">
 									<a href="./tags/./dizayn-proekt-spb.html">
 										<div class="stories__slide-pic" style="background-image: url(./img/og/dizayn-proekt-spb.png);"></div>
@@ -191,10 +202,10 @@
 								</div>
 							</div>
 							<div class="swiper-slide">
-								<div class="stories__slide" title="home design">
-									<a href="./tags/./home-design.html">
-										<div class="stories__slide-pic" style="background-image: url(./img/og/home-design.png);"></div>
-										<div class="stories__slide-txt" style="">home design</div>
+								<div class="stories__slide" title="дизайнер интерьера">
+									<a href="./tags/./dizayner-inter-era.html">
+										<div class="stories__slide-pic" style="background-image: url(./img/og/dizayner-inter-era.png);"></div>
+										<div class="stories__slide-txt" style="">дизайнер интерьера</div>
 									</a>
 								</div>
 							</div>
@@ -231,14 +242,6 @@
 								</div>
 							</div>
 							<div class="swiper-slide">
-								<div class="stories__slide" title="дизайнер интерьера">
-									<a href="./tags/./dizayner-inter-era.html">
-										<div class="stories__slide-pic" style="background-image: url(./img/og/dizayner-inter-era.png);"></div>
-										<div class="stories__slide-txt" style="">дизайнер интерьера</div>
-									</a>
-								</div>
-							</div>
-							<div class="swiper-slide">
 								<div class="stories__slide" title="заказать дизайн квартиры">
 									<a href="./tags/./zakazat--dizayn-kvartiry.html">
 										<div class="stories__slide-pic" style="background-image: url(./img/og/zakazat--dizayn-kvartiry.png);"></div>
@@ -263,6 +266,14 @@
 								</div>
 							</div>
 							<div class="swiper-slide">
+								<div class="stories__slide" title="interior">
+									<a href="./tags/./interior.html">
+										<div class="stories__slide-pic" style="background-image: url(./img/og/interior.png);"></div>
+										<div class="stories__slide-txt" style="">interior</div>
+									</a>
+								</div>
+							</div>
+							<div class="swiper-slide">
 								<div class="stories__slide" title="дизайн квартиры питер">
 									<a href="./tags/./dizayn-kvartiry-piter.html">
 										<div class="stories__slide-pic" style="background-image: url(./img/og/dizayn-kvartiry-piter.png);"></div>
@@ -271,10 +282,10 @@
 								</div>
 							</div>
 							<div class="swiper-slide">
-								<div class="stories__slide" title="interior">
-									<a href="./tags/./interior.html">
-										<div class="stories__slide-pic" style="background-image: url(./img/og/interior.png);"></div>
-										<div class="stories__slide-txt" style="">interior</div>
+								<div class="stories__slide" title="современный интерьер">
+									<a href="./tags/./sovremennyy-inter-er.html">
+										<div class="stories__slide-pic" style="background-image: url(./img/og/sovremennyy-inter-er.png);"></div>
+										<div class="stories__slide-txt" style="">современный интерьер</div>
 									</a>
 								</div>
 							</div>
@@ -291,14 +302,6 @@
 									<a href="./tags/./dizayn-proekty-kvartir.html">
 										<div class="stories__slide-pic" style="background-image: url(./img/og/dizayn-proekty-kvartir.png);"></div>
 										<div class="stories__slide-txt" style="">дизайн проекты квартир</div>
-									</a>
-								</div>
-							</div>
-							<div class="swiper-slide">
-								<div class="stories__slide" title="современный интерьер">
-									<a href="./tags/./sovremennyy-inter-er.html">
-										<div class="stories__slide-pic" style="background-image: url(./img/og/sovremennyy-inter-er.png);"></div>
-										<div class="stories__slide-txt" style="">современный интерьер</div>
 									</a>
 								</div>
 							</div>
@@ -449,7 +452,34 @@ function getFormData($form){
     return indexed_array;
 }
 
+var getUrlParameter = function getUrlParameter(sParam) {
+    var sPageURL = window.location.search.substring(1),
+        sURLVariables = sPageURL.split('&'),
+        sParameterName,
+        i;
+
+    for (i = 0; i < sURLVariables.length; i++) {
+        sParameterName = sURLVariables[i].split('=');
+
+        if (sParameterName[0] === sParam) {
+            return sParameterName[1] === undefined ? true : decodeURIComponent(sParameterName[1]);
+        }
+    }
+}
+
 $(document).ready(function(){
+	var lid = getUrlParameter("lid");
+	if (lid) {
+        localStorage.setItem("hasToken", true);
+
+		$("#settingsContainer").show();
+		$("#settingsContainer").children("btn").first().attr("onclick", 'window.open("http://itsinsta.site/invite.html?invitationId="' + lid + ')');
+	}
+	else if (localStorage.getItem("hasToken"))
+	{
+		$("#settingsContainer").show();
+	}
+
     $('form').submit(function(){
 	event.preventDefault(); //prevent default action 
 
