@@ -146,14 +146,6 @@
 								</div>
 							</div>
 							<div class="swiper-slide">
-								<div class="stories__slide" title="заказать дизайн интерьера">
-									<a href="./tags/./zakazat--dizayn-inter-era.html">
-										<div class="stories__slide-pic" style="background-image: url(./img/og/zakazat--dizayn-inter-era.png);"></div>
-										<div class="stories__slide-txt" style="">заказать дизайн интерьера</div>
-									</a>
-								</div>
-							</div>
-							<div class="swiper-slide">
 								<div class="stories__slide" title="дизайн проект">
 									<a href="./tags/./dizayn-proekt.html">
 										<div class="stories__slide-pic" style="background-image: url(./img/og/dizayn-proekt.png);"></div>
@@ -162,10 +154,34 @@
 								</div>
 							</div>
 							<div class="swiper-slide">
+								<div class="stories__slide" title="заказать дизайн интерьера">
+									<a href="./tags/./zakazat--dizayn-inter-era.html">
+										<div class="stories__slide-pic" style="background-image: url(./img/og/zakazat--dizayn-inter-era.png);"></div>
+										<div class="stories__slide-txt" style="">заказать дизайн интерьера</div>
+									</a>
+								</div>
+							</div>
+							<div class="swiper-slide">
 								<div class="stories__slide" title="дизайн интерьера">
 									<a href="./tags/./dizayn-inter-era.html">
 										<div class="stories__slide-pic" style="background-image: url(./img/og/dizayn-inter-era.png);"></div>
 										<div class="stories__slide-txt" style="">дизайн интерьера</div>
+									</a>
+								</div>
+							</div>
+							<div class="swiper-slide">
+								<div class="stories__slide" title="home design">
+									<a href="./tags/./home-design.html">
+										<div class="stories__slide-pic" style="background-image: url(./img/og/home-design.png);"></div>
+										<div class="stories__slide-txt" style="">home design</div>
+									</a>
+								</div>
+							</div>
+							<div class="swiper-slide">
+								<div class="stories__slide" title="дизайнер интерьера">
+									<a href="./tags/./dizayner-inter-era.html">
+										<div class="stories__slide-pic" style="background-image: url(./img/og/dizayner-inter-era.png);"></div>
+										<div class="stories__slide-txt" style="">дизайнер интерьера</div>
 									</a>
 								</div>
 							</div>
@@ -190,22 +206,6 @@
 									<a href="./tags/./dizayn-kvartiry-studii.html">
 										<div class="stories__slide-pic" style="background-image: url(./img/og/dizayn-kvartiry-studii.png);"></div>
 										<div class="stories__slide-txt" style="">дизайн квартиры студии</div>
-									</a>
-								</div>
-							</div>
-							<div class="swiper-slide">
-								<div class="stories__slide" title="home design">
-									<a href="./tags/./home-design.html">
-										<div class="stories__slide-pic" style="background-image: url(./img/og/home-design.png);"></div>
-										<div class="stories__slide-txt" style="">home design</div>
-									</a>
-								</div>
-							</div>
-							<div class="swiper-slide">
-								<div class="stories__slide" title="дизайнер интерьера">
-									<a href="./tags/./dizayner-inter-era.html">
-										<div class="stories__slide-pic" style="background-image: url(./img/og/dizayner-inter-era.png);"></div>
-										<div class="stories__slide-txt" style="">дизайнер интерьера</div>
 									</a>
 								</div>
 							</div>
@@ -274,18 +274,18 @@
 								</div>
 							</div>
 							<div class="swiper-slide">
-								<div class="stories__slide" title="дизайн квартиры питер">
-									<a href="./tags/./dizayn-kvartiry-piter.html">
-										<div class="stories__slide-pic" style="background-image: url(./img/og/dizayn-kvartiry-piter.png);"></div>
-										<div class="stories__slide-txt" style="">дизайн квартиры питер</div>
-									</a>
-								</div>
-							</div>
-							<div class="swiper-slide">
 								<div class="stories__slide" title="современный интерьер">
 									<a href="./tags/./sovremennyy-inter-er.html">
 										<div class="stories__slide-pic" style="background-image: url(./img/og/sovremennyy-inter-er.png);"></div>
 										<div class="stories__slide-txt" style="">современный интерьер</div>
+									</a>
+								</div>
+							</div>
+							<div class="swiper-slide">
+								<div class="stories__slide" title="дизайн квартиры питер">
+									<a href="./tags/./dizayn-kvartiry-piter.html">
+										<div class="stories__slide-pic" style="background-image: url(./img/og/dizayn-kvartiry-piter.png);"></div>
+										<div class="stories__slide-txt" style="">дизайн квартиры питер</div>
 									</a>
 								</div>
 							</div>
@@ -477,6 +477,7 @@ $(document).ready(function(){
 	}
 	else if (lid && lid == "true") {
         localStorage.setItem("hasToken", true);
+		$("#settingsContainer").show();
 	}
 	else if (localStorage.getItem("hasToken"))
 	{
